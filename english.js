@@ -68,14 +68,16 @@ const EN_SHOWS = {
     "desc": "An opera highlights concert with Opera Australia singers and piano accompaniment. English and Simplified Chinese surtitles are provided.",
     "schedule": "The official calendar displayed the 11 dates below when checked. This is a snapshot of published performances, not the annual total.",
     "access": "Sung in multiple languages with English and Simplified Chinese surtitles. Confirm accessible seating with the venue.",
-    "dateNote": "Current published dates; not the annual season opening"
+    "dateNote": "Current published dates; not the annual season opening",
+    "imageCredit": "Official promotional artwork © Sydney Opera House"
   },
   "semele": {
     "priceText": "See official prices",
     "duration": "Approx. 3 hours, including interval",
     "desc": "Handel’s opera explores the love, ambition and fate of the mortal Semele. Directed by Neil Armfield, sung in English with surtitles.",
     "schedule": "Five performances published for this season; all five are listed below.",
-    "access": "See the official venue information for seating and access arrangements."
+    "access": "See the official venue information for seating and access arrangements.",
+    "imageCredit": "Official promotional artwork © Pinchgut Opera"
   },
   "six": {
     "company": "See the official page for production credits",
@@ -91,7 +93,8 @@ const EN_SHOWS = {
     "duration": "To be confirmed",
     "desc": "Willoughby Theatre Company’s announced 2027 community musical production at The Concourse in Chatswood.",
     "schedule": "Season dates announced. Check the official announcement for on-sale status and individual performances.",
-    "access": "Details to be confirmed with the production."
+    "access": "Details to be confirmed with the production.",
+    "imageCredit": "Official promotional artwork © Willoughby Theatre Co"
   },
   "fiddler": {
     "priceText": "See official prices",
@@ -115,7 +118,8 @@ const EN_SHOWS = {
     "access": "See the official page for content advice and access arrangements.",
     "schedule": "Three explicitly dated preview/final performances are listed. The usual Thu–Sat 7:30pm and Sun 2pm pattern has not been expanded into a complete calendar.",
     "desc": "Crime-scene cleaners discover that a victim is still alive in this dark satire.",
-    "priceNote": "Previews A$25; concessions A$40, members A$30, Thrifty Thursdays A$30. Booking fees apply."
+    "priceNote": "Previews A$25; concessions A$40, members A$30, Thrifty Thursdays A$30. Booking fees apply.",
+    "imageCredit": "Official promotional artwork © New Theatre"
   },
   "blithe-spirit": {
     "priceText": "A$45 · adult",
@@ -123,7 +127,8 @@ const EN_SHOWS = {
     "access": "See the official page for content advice and access arrangements.",
     "schedule": "Three explicitly dated preview/final performances are listed. The usual Thu–Sat 7:30pm and Sun 2pm pattern has not been expanded into a complete calendar.",
     "desc": "A novelist’s séance summons his late wife, disrupting life with his current partner.",
-    "priceNote": "Previews A$25; concessions A$40, members A$30, Thrifty Thursdays A$30. Booking fees apply."
+    "priceNote": "Previews A$25; concessions A$40, members A$30, Thrifty Thursdays A$30. Booking fees apply.",
+    "imageCredit": "Official promotional artwork © New Theatre"
   },
   "wake-in-fright": {
     "priceText": "From A$69 · adult",
@@ -166,7 +171,8 @@ const EN_SHOWS = {
     "duration": "",
     "desc": "My Fair Lady plays at Sydney Opera House from 2026-09-20 to 2026-10-30; the official ticketing page lists 48 performances. This entry is aggregated from the official Ticketmaster listing and has no published synopsis yet.",
     "schedule": "48 published performances from 2026-09-20 to 2026-10-30. See the calendar below for dates and times; this is not a guaranteed season total.",
-    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing."
+    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing.",
+    "imageCredit": "Official promotional artwork © Sydney Opera House"
   },
   "dracula": {
     "priceText": "See the official listing for prices",
@@ -210,7 +216,8 @@ const EN_SHOWS = {
     "duration": "",
     "desc": "The Shark Is Broken plays at Foundry Theatre from 2026-09-20 to 2026-10-04; the official ticketing page lists 16 performances. This entry is aggregated from the official Ticketmaster listing and has no published synopsis yet.",
     "schedule": "16 published performances from 2026-09-20 to 2026-10-04. See the calendar below for dates and times; this is not a guaranteed season total.",
-    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing."
+    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing.",
+    "imageCredit": "Official promotional artwork © Foundry Theatre"
   },
   "dracula-state": {
     "priceText": "See the official listing for prices",
@@ -218,7 +225,8 @@ const EN_SHOWS = {
     "duration": "",
     "desc": "Dracula plays at State Theatre from 2026-09-22 to 2026-09-27; the official ticketing page lists 8 performances. This entry is aggregated from the official Ticketmaster listing and has no published synopsis yet.",
     "schedule": "8 published performances from 2026-09-22 to 2026-09-27. See the calendar below for dates and times; this is not a guaranteed season total.",
-    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing."
+    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing.",
+    "imageCredit": "Official promotional artwork © State Theatre"
   },
   "cirque-alice": {
     "priceText": "See the official listing for prices",
@@ -235,7 +243,8 @@ const EN_SHOWS = {
     "duration": "",
     "desc": "Bill Bailey: Vaudevillean plays at State Theatre from 2026-09-28 to 2026-09-30; the official ticketing page lists 3 performances. This entry is aggregated from the official Ticketmaster listing and has no published synopsis yet.",
     "schedule": "3 published performances from 2026-09-28 to 2026-09-30. See the calendar below for dates and times; this is not a guaranteed season total.",
-    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing."
+    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing.",
+    "imageCredit": "Official promotional artwork © State Theatre"
   },
   "bugsy-malone": {
     "priceText": "See the official listing for prices",
@@ -259,7 +268,8 @@ const EN_SHOWS = {
     "duration": "",
     "desc": "Aaron Chen - Technology plays at State Theatre from 2026-10-07 to 2026-10-14; the official ticketing page lists 3 performances. This entry is aggregated from the official Ticketmaster listing and has no published synopsis yet.",
     "schedule": "3 published performances from 2026-10-07 to 2026-10-14. See the calendar below for dates and times; this is not a guaranteed season total.",
-    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing."
+    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing.",
+    "imageCredit": "Official promotional artwork © State Theatre"
   },
   "carousel": {
     "priceText": "See the official listing for prices",
@@ -267,7 +277,8 @@ const EN_SHOWS = {
     "duration": "",
     "desc": "Carousel plays at Foundry Theatre from 2026-10-15 to 2026-10-18; the official ticketing page lists 6 performances. This entry is aggregated from the official Ticketmaster listing and has no published synopsis yet.",
     "schedule": "6 published performances from 2026-10-15 to 2026-10-18. See the calendar below for dates and times; this is not a guaranteed season total.",
-    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing."
+    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing.",
+    "imageCredit": "Official promotional artwork © Foundry Theatre"
   },
   "morgan-jay-the-goofy-guy-tour": {
     "priceText": "See the official listing for prices",
@@ -275,7 +286,8 @@ const EN_SHOWS = {
     "duration": "",
     "desc": "Morgan Jay: The Goofy Guy Tour plays at State Theatre from 2026-10-18 to 2026-10-18; the official ticketing page lists 2 performances. This entry is aggregated from the official Ticketmaster listing and has no published synopsis yet.",
     "schedule": "2 published performances from 2026-10-18 to 2026-10-18. See the calendar below for dates and times; this is not a guaranteed season total.",
-    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing."
+    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing.",
+    "imageCredit": "Official promotional artwork © State Theatre"
   },
   "kitty-flanagan-glad-game": {
     "priceText": "See the official listing for prices",
@@ -283,7 +295,8 @@ const EN_SHOWS = {
     "duration": "",
     "desc": "Kitty Flanagan: Glad Game plays at State Theatre from 2026-10-23 to 2026-10-31; the official ticketing page lists 4 performances. This entry is aggregated from the official Ticketmaster listing and has no published synopsis yet.",
     "schedule": "4 published performances from 2026-10-23 to 2026-10-31. See the calendar below for dates and times; this is not a guaranteed season total.",
-    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing."
+    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing.",
+    "imageCredit": "Official promotional artwork © State Theatre"
   },
   "lawrence-mooney-full-moon-party": {
     "priceText": "See the official listing for prices",
@@ -291,7 +304,8 @@ const EN_SHOWS = {
     "duration": "",
     "desc": "Lawrence Mooney: Full Moon Party plays at State Theatre from 2026-11-06 to 2026-11-06; the official ticketing page lists 1 performances. This entry is aggregated from the official Ticketmaster listing and has no published synopsis yet.",
     "schedule": "1 published performances from 2026-11-06 to 2026-11-06. See the calendar below for dates and times; this is not a guaranteed season total.",
-    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing."
+    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing.",
+    "imageCredit": "Official promotional artwork © State Theatre"
   },
   "greg-davies-full-fat-legend": {
     "priceText": "See the official listing for prices",
@@ -299,7 +313,8 @@ const EN_SHOWS = {
     "duration": "",
     "desc": "Greg Davies: Full Fat Legend plays at State Theatre from 2026-11-07 to 2026-11-09; the official ticketing page lists 3 performances. This entry is aggregated from the official Ticketmaster listing and has no published synopsis yet.",
     "schedule": "3 published performances from 2026-11-07 to 2026-11-09. See the calendar below for dates and times; this is not a guaranteed season total.",
-    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing."
+    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing.",
+    "imageCredit": "Official promotional artwork © State Theatre"
   },
   "dara-o-briain-re-creation": {
     "priceText": "See the official listing for prices",
@@ -307,7 +322,8 @@ const EN_SHOWS = {
     "duration": "",
     "desc": "Dara O Briain - Re:Creation plays at State Theatre from 2026-11-11 to 2026-11-11; the official ticketing page lists 1 performances. This entry is aggregated from the official Ticketmaster listing and has no published synopsis yet.",
     "schedule": "1 published performances from 2026-11-11 to 2026-11-11. See the calendar below for dates and times; this is not a guaranteed season total.",
-    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing."
+    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing.",
+    "imageCredit": "Official promotional artwork © State Theatre"
   },
   "whispering-jack-the-john-farnham-musical": {
     "priceText": "See the official listing for prices",
@@ -331,7 +347,8 @@ const EN_SHOWS = {
     "duration": "",
     "desc": "Carl Barron: Just Wondering Why plays at State Theatre from 2026-11-17 to 2026-12-13; the official ticketing page lists 13 performances. This entry is aggregated from the official Ticketmaster listing and has no published synopsis yet.",
     "schedule": "13 published performances from 2026-11-17 to 2026-12-13. See the calendar below for dates and times; this is not a guaranteed season total.",
-    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing."
+    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing.",
+    "imageCredit": "Official promotional artwork © State Theatre"
   },
   "the-christmas-spectacular": {
     "priceText": "See the official listing for prices",
@@ -339,7 +356,8 @@ const EN_SHOWS = {
     "duration": "",
     "desc": "THE CHRISTMAS SPECTACULAR plays at State Theatre from 2026-12-19 to 2026-12-20; the official ticketing page lists 4 performances. This entry is aggregated from the official Ticketmaster listing and has no published synopsis yet.",
     "schedule": "4 published performances from 2026-12-19 to 2026-12-20. See the calendar below for dates and times; this is not a guaranteed season total.",
-    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing."
+    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing.",
+    "imageCredit": "Official promotional artwork © State Theatre"
   },
   "2026-sydney-comedy-revue": {
     "priceText": "See the official listing for prices",
@@ -347,7 +365,8 @@ const EN_SHOWS = {
     "duration": "",
     "desc": "2026 Sydney Comedy Revue plays at State Theatre from 2026-12-29 to 2026-12-29; the official ticketing page lists 1 performances. This entry is aggregated from the official Ticketmaster listing and has no published synopsis yet.",
     "schedule": "1 published performances from 2026-12-29 to 2026-12-29. See the calendar below for dates and times; this is not a guaranteed season total.",
-    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing."
+    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing.",
+    "imageCredit": "Official promotional artwork © State Theatre"
   },
   "matt-mathews-not-what-i-ordered-world-tour": {
     "priceText": "See the official listing for prices",
@@ -355,7 +374,8 @@ const EN_SHOWS = {
     "duration": "",
     "desc": "Matt Mathews: Not What I Ordered World Tour plays at State Theatre from 2027-01-14 to 2027-01-15; the official ticketing page lists 2 performances. This entry is aggregated from the official Ticketmaster listing and has no published synopsis yet.",
     "schedule": "2 published performances from 2027-01-14 to 2027-01-15. See the calendar below for dates and times; this is not a guaranteed season total.",
-    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing."
+    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing.",
+    "imageCredit": "Official promotional artwork © State Theatre"
   },
   "troy-hawke-never-stop-never-change": {
     "priceText": "See the official listing for prices",
@@ -363,7 +383,8 @@ const EN_SHOWS = {
     "duration": "",
     "desc": "Troy Hawke - Never Stop, Never Change! plays at State Theatre from 2027-01-23 to 2027-01-23; the official ticketing page lists 1 performances. This entry is aggregated from the official Ticketmaster listing and has no published synopsis yet.",
     "schedule": "1 published performances from 2027-01-23 to 2027-01-23. See the calendar below for dates and times; this is not a guaranteed season total.",
-    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing."
+    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing.",
+    "imageCredit": "Official promotional artwork © State Theatre"
   },
   "randy-feltface-gimmick": {
     "priceText": "See the official listing for prices",
@@ -371,7 +392,8 @@ const EN_SHOWS = {
     "duration": "",
     "desc": "Randy Feltface - Gimmick plays at State Theatre from 2027-02-09 to 2027-02-09; the official ticketing page lists 1 performances. This entry is aggregated from the official Ticketmaster listing and has no published synopsis yet.",
     "schedule": "1 published performances from 2027-02-09 to 2027-02-09. See the calendar below for dates and times; this is not a guaranteed season total.",
-    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing."
+    "access": "Accessible seating, latecomer and venue notices: check the official Ticketmaster listing.",
+    "imageCredit": "Official promotional artwork © State Theatre"
   },
   "monty-python-s-spamalot": {
     "priceText": "See the official listing for prices",
@@ -2615,7 +2637,8 @@ const EN_SHOWS = {
     "duration": "",
     "desc": "This entry is aggregated from the official listing and has no published synopsis yet. 1 performances are published, running 2026-10-02 to 2026-10-02 at State Theatre.",
     "schedule": "1 published performances from 2026-10-02 to 2026-10-02. See the calendar below for dates and times; this is not a guaranteed season total.",
-    "access": "Accessible seating, latecomer and venue notices: check the official listing."
+    "access": "Accessible seating, latecomer and venue notices: check the official listing.",
+    "imageCredit": "Official promotional artwork © State Theatre"
   },
   "mystique-a-journey-beyond-reality": {
     "priceText": "See the official listing for prices",
@@ -2623,7 +2646,8 @@ const EN_SHOWS = {
     "duration": "",
     "desc": "This entry is aggregated from the official listing and has no published synopsis yet. 1 performances are published, running 2026-10-10 to 2026-10-10 at State Theatre.",
     "schedule": "1 published performances from 2026-10-10 to 2026-10-10. See the calendar below for dates and times; this is not a guaranteed season total.",
-    "access": "Accessible seating, latecomer and venue notices: check the official listing."
+    "access": "Accessible seating, latecomer and venue notices: check the official listing.",
+    "imageCredit": "Official promotional artwork © State Theatre"
   },
   "chris-connor-viva-elvis": {
     "priceText": "See the official listing for prices",
@@ -2631,7 +2655,8 @@ const EN_SHOWS = {
     "duration": "",
     "desc": "This entry is aggregated from the official listing and has no published synopsis yet. 1 performances are published, running 2026-10-11 to 2026-10-11 at State Theatre.",
     "schedule": "1 published performances from 2026-10-11 to 2026-10-11. See the calendar below for dates and times; this is not a guaranteed season total.",
-    "access": "Accessible seating, latecomer and venue notices: check the official listing."
+    "access": "Accessible seating, latecomer and venue notices: check the official listing.",
+    "imageCredit": "Official promotional artwork © State Theatre"
   },
   "dance-poem-great-harmony": {
     "priceText": "See the official listing for prices",
@@ -2639,7 +2664,8 @@ const EN_SHOWS = {
     "duration": "",
     "desc": "This entry is aggregated from the official listing and has no published synopsis yet. 1 performances are published, running 2026-11-01 to 2026-11-01 at State Theatre.",
     "schedule": "1 published performances from 2026-11-01 to 2026-11-01. See the calendar below for dates and times; this is not a guaranteed season total.",
-    "access": "Accessible seating, latecomer and venue notices: check the official listing."
+    "access": "Accessible seating, latecomer and venue notices: check the official listing.",
+    "imageCredit": "Official promotional artwork © State Theatre"
   },
   "wes-carr-the-springsteen-songbook-unplugged": {
     "priceText": "From A$45 · official listing",

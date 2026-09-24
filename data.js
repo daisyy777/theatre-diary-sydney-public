@@ -901,7 +901,10 @@ const SHOWS = [
         ""
       ]
     ],
-    "sessionsComplete": false
+    "sessionsComplete": false,
+    "image": "https://www.sydneyoperahouse.com/sites/default/files/styles/360x414/public/collaborodam_assets/greatoperahits-3-1.jpg?itok=IqoQFkOM",
+    "imageSource": "https://www.sydneyoperahouse.com/opera-australia/2026-season/great-opera-hits-2026",
+    "imageCredit": "官方宣传图 © Sydney Opera House"
   },
   {
     "id": "semele",
@@ -948,7 +951,10 @@ const SHOWS = [
         ""
       ]
     ],
-    "sessionsComplete": true
+    "sessionsComplete": true,
+    "image": "https://cdn.sanity.io/images/7ox9xefw/production/f00eabc99ddfdc0412ea51d7c69080c715e1773e-600x500.jpg?rect=0,93,600,314&w=1200&h=627&fit=crop&auto=format",
+    "imageSource": "https://www.pinchgutopera.com.au/shows/semele-2026",
+    "imageCredit": "官方宣传图 © Pinchgut Opera"
   },
   {
     "id": "six",
@@ -993,7 +999,10 @@ const SHOWS = [
     "schedule": "已公布演期；开票状态与逐场时间请查官方公告。",
     "access": "待具体演出信息公布。",
     "sessions": [],
-    "sessionsComplete": false
+    "sessionsComplete": false,
+    "image": "https://willoughbytheatreco.com.au/wp-content/uploads/2026/08/Email-Banners-44-scaled.png",
+    "imageSource": "https://willoughbytheatreco.com.au/show/billy-elliot/",
+    "imageCredit": "官方宣传图 © Willoughby Theatre Co"
   },
   {
     "id": "fiddler",
@@ -1089,7 +1098,10 @@ const SHOWS = [
       "https://newtheatre.org.au/next-to-godliness/"
     ],
     "desc": "犯罪现场清洁工发现受害人仍然活着，一场工作变成黑色讽刺闹剧。",
-    "priceNote": "预演 A$25；优惠票 A$40，会员 A$30，周四优惠 A$30；另计手续费。"
+    "priceNote": "预演 A$25；优惠票 A$40，会员 A$30，周四优惠 A$30；另计手续费。",
+    "image": "https://newtheatre.org.au/wp-content/uploads/2025/11/Next-To-Godliness-scaled.png",
+    "imageSource": "https://newtheatre.org.au/next-to-godliness/",
+    "imageCredit": "官方宣传图 © New Theatre"
   },
   {
     "id": "blithe-spirit",
@@ -1131,7 +1143,10 @@ const SHOWS = [
       "https://newtheatre.org.au/blithe-spirit/"
     ],
     "desc": "作家为搜集素材举行降灵会，却招来了亡妻的鬼魂。",
-    "priceNote": "预演 A$25；优惠票 A$40，会员 A$30，周四优惠 A$30；另计手续费。"
+    "priceNote": "预演 A$25；优惠票 A$40，会员 A$30，周四优惠 A$30；另计手续费。",
+    "image": "https://newtheatre.org.au/wp-content/uploads/2025/11/Blithe-Spirit-scaled.png",
+    "imageSource": "https://newtheatre.org.au/blithe-spirit/",
+    "imageCredit": "官方宣传图 © New Theatre"
   },
   {
     "id": "wake-in-fright",
@@ -1812,7 +1827,10 @@ const SHOWS = [
     "schedule": "已公布 48 场（2026-09-20 至 2026-10-30）。具体日期与时间见下方日历；不保证为全季总数。",
     "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
     "verifiedAt": "2026-09-20",
-    "space": "Joan Sutherland Theatre"
+    "space": "Joan Sutherland Theatre",
+    "image": "https://www.sydneyoperahouse.com/sites/default/files/styles/360x414/public/collaborodam_assets/MFL2026_2560x854.jpg?itok=_a-VtflC",
+    "imageSource": "https://www.sydneyoperahouse.com/opera-australia/2026-season/my-fair-lady",
+    "imageCredit": "官方宣传图 © Sydney Opera House"
   },
   {
     "id": "dracula",
@@ -3075,7 +3093,10 @@ const SHOWS = [
     "sessionsComplete": false,
     "schedule": "已公布 16 场（2026-09-20 至 2026-10-04）。具体日期与时间见下方日历；不保证为全季总数。",
     "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
-    "verifiedAt": "2026-09-20"
+    "verifiedAt": "2026-09-20",
+    "image": "https://foundation-prod.imgix.net/shows/headers/website-thumbnail-2048-x-1364.jpg",
+    "imageSource": "https://www.foundrytheatre.com.au/the-shark-is-broken",
+    "imageCredit": "官方宣传图 © Foundry Theatre"
   },
   {
     "id": "dracula-state",
@@ -3139,7 +3160,10 @@ const SHOWS = [
     "sessionsComplete": false,
     "schedule": "已公布 8 场（2026-09-22 至 2026-09-27）。具体日期与时间见下方日历；不保证为全季总数。",
     "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
-    "verifiedAt": "2026-09-20"
+    "verifiedAt": "2026-09-20",
+    "image": "https://cdn.statetheatre.com.au/wp-content/uploads/2025/04/29010254/750x750-2.jpg",
+    "imageSource": "https://www.statetheatre.com.au/show-calendar/dracula/",
+    "imageCredit": "官方宣传图 © State Theatre"
   },
   {
     "id": "cirque-alice",
@@ -3309,7 +3333,10 @@ const SHOWS = [
     "sessionsComplete": false,
     "schedule": "已公布 3 场（2026-09-28 至 2026-09-30）。具体日期与时间见下方日历；不保证为全季总数。",
     "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
-    "verifiedAt": "2026-09-20"
+    "verifiedAt": "2026-09-20",
+    "image": "https://cdn.statetheatre.com.au/wp-content/uploads/2021/05/08123300/BB-750x750-2.jpg",
+    "imageSource": "https://www.statetheatre.com.au/show-calendar/bill-bailey/",
+    "imageCredit": "官方宣传图 © State Theatre"
   },
   {
     "id": "bugsy-malone",
@@ -3451,7 +3478,10 @@ const SHOWS = [
     "sessionsComplete": false,
     "schedule": "已公布 3 场（2026-10-07 至 2026-10-14）。具体日期与时间见下方日历；不保证为全季总数。",
     "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
-    "verifiedAt": "2026-09-20"
+    "verifiedAt": "2026-09-20",
+    "image": "https://cdn.statetheatre.com.au/wp-content/uploads/2023/11/31110543/aaron_clean_750x750.jpg",
+    "imageSource": "https://www.statetheatre.com.au/show-calendar/aaron-chen/",
+    "imageCredit": "官方宣传图 © State Theatre"
   },
   {
     "id": "carousel",
@@ -3505,7 +3535,10 @@ const SHOWS = [
     "sessionsComplete": false,
     "schedule": "已公布 6 场（2026-10-15 至 2026-10-18）。具体日期与时间见下方日历；不保证为全季总数。",
     "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
-    "verifiedAt": "2026-09-20"
+    "verifiedAt": "2026-09-20",
+    "image": "https://foundation-prod.imgix.net/shows/headers/carousel-2048x1364-foundry-01-thumbnail.jpg",
+    "imageSource": "https://www.foundrytheatre.com.au/carousel",
+    "imageCredit": "官方宣传图 © Foundry Theatre"
   },
   {
     "id": "morgan-jay-the-goofy-guy-tour",
@@ -3539,7 +3572,10 @@ const SHOWS = [
     "sessionsComplete": false,
     "schedule": "已公布 2 场（2026-10-18 至 2026-10-18）。具体日期与时间见下方日历；不保证为全季总数。",
     "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
-    "verifiedAt": "2026-09-20"
+    "verifiedAt": "2026-09-20",
+    "image": "https://cdn.statetheatre.com.au/wp-content/uploads/2025/12/13211824/MJ-SYD-750x750-1.jpg",
+    "imageSource": "https://www.statetheatre.com.au/show-calendar/morgan-jay/",
+    "imageCredit": "官方宣传图 © State Theatre"
   },
   {
     "id": "kitty-flanagan-glad-game",
@@ -3583,7 +3619,10 @@ const SHOWS = [
     "sessionsComplete": false,
     "schedule": "已公布 4 场（2026-10-23 至 2026-10-31）。具体日期与时间见下方日历；不保证为全季总数。",
     "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
-    "verifiedAt": "2026-09-20"
+    "verifiedAt": "2026-09-20",
+    "image": "https://cdn.statetheatre.com.au/wp-content/uploads/2026/03/13082557/KittyFlanagan_GladGame_750x750.jpg",
+    "imageSource": "https://www.statetheatre.com.au/show-calendar/kitty-flanagan/",
+    "imageCredit": "官方宣传图 © State Theatre"
   },
   {
     "id": "lawrence-mooney-full-moon-party",
@@ -3612,7 +3651,10 @@ const SHOWS = [
     "sessionsComplete": false,
     "schedule": "已公布 1 场（2026-11-06 至 2026-11-06）。具体日期与时间见下方日历；不保证为全季总数。",
     "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
-    "verifiedAt": "2026-09-20"
+    "verifiedAt": "2026-09-20",
+    "image": "https://cdn.statetheatre.com.au/wp-content/uploads/2026/05/17224232/LawrenceMooney_FullMoonParty_750x750.jpg",
+    "imageSource": "https://www.statetheatre.com.au/show-calendar/lawrence-mooney/",
+    "imageCredit": "官方宣传图 © State Theatre"
   },
   {
     "id": "greg-davies-full-fat-legend",
@@ -3651,7 +3693,10 @@ const SHOWS = [
     "sessionsComplete": false,
     "schedule": "已公布 3 场（2026-11-07 至 2026-11-09）。具体日期与时间见下方日历；不保证为全季总数。",
     "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
-    "verifiedAt": "2026-09-20"
+    "verifiedAt": "2026-09-20",
+    "image": "https://cdn.statetheatre.com.au/wp-content/uploads/2026/02/25104948/GregDavies25-StateTheatre-750x750-TF.jpg",
+    "imageSource": "https://www.statetheatre.com.au/show-calendar/greg-davies/",
+    "imageCredit": "官方宣传图 © State Theatre"
   },
   {
     "id": "dara-o-briain-re-creation",
@@ -3680,7 +3725,10 @@ const SHOWS = [
     "sessionsComplete": false,
     "schedule": "已公布 1 场（2026-11-11 至 2026-11-11）。具体日期与时间见下方日历；不保证为全季总数。",
     "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
-    "verifiedAt": "2026-09-20"
+    "verifiedAt": "2026-09-20",
+    "image": "https://cdn.statetheatre.com.au/wp-content/uploads/2023/08/06134615/DaraOBriain2026-StateTheatre-750x750-TF.jpg",
+    "imageSource": "https://www.statetheatre.com.au/show-calendar/dara-o-briain/",
+    "imageCredit": "官方宣传图 © State Theatre"
   },
   {
     "id": "whispering-jack-the-john-farnham-musical",
@@ -4202,7 +4250,10 @@ const SHOWS = [
     "sessionsComplete": false,
     "schedule": "已公布 13 场（2026-11-17 至 2026-12-13）。具体日期与时间见下方日历；不保证为全季总数。",
     "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
-    "verifiedAt": "2026-09-20"
+    "verifiedAt": "2026-09-20",
+    "image": "https://cdn.statetheatre.com.au/wp-content/uploads/2025/10/16133112/CarlBarron_JustWonderingWhy_750x750.jpg",
+    "imageSource": "https://www.statetheatre.com.au/show-calendar/carl-barron/",
+    "imageCredit": "官方宣传图 © State Theatre"
   },
   {
     "id": "the-christmas-spectacular",
@@ -4246,7 +4297,10 @@ const SHOWS = [
     "sessionsComplete": false,
     "schedule": "已公布 4 场（2026-12-19 至 2026-12-20）。具体日期与时间见下方日历；不保证为全季总数。",
     "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
-    "verifiedAt": "2026-09-20"
+    "verifiedAt": "2026-09-20",
+    "image": "https://cdn.statetheatre.com.au/wp-content/uploads/2024/08/29114509/State_tile_750x750px.jpg",
+    "imageSource": "https://www.statetheatre.com.au/show-calendar/christmas-spectacular/",
+    "imageCredit": "官方宣传图 © State Theatre"
   },
   {
     "id": "2026-sydney-comedy-revue",
@@ -4275,7 +4329,10 @@ const SHOWS = [
     "sessionsComplete": false,
     "schedule": "已公布 1 场（2026-12-29 至 2026-12-29）。具体日期与时间见下方日历；不保证为全季总数。",
     "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
-    "verifiedAt": "2026-09-20"
+    "verifiedAt": "2026-09-20",
+    "image": "https://cdn.statetheatre.com.au/wp-content/uploads/2026/07/28221958/ST_DIG_750x750_V1-copy.jpg",
+    "imageSource": "https://www.statetheatre.com.au/show-calendar/sydney-comedy-revue/",
+    "imageCredit": "官方宣传图 © State Theatre"
   },
   {
     "id": "matt-mathews-not-what-i-ordered-world-tour",
@@ -4309,7 +4366,10 @@ const SHOWS = [
     "sessionsComplete": false,
     "schedule": "已公布 2 场（2027-01-14 至 2027-01-15）。具体日期与时间见下方日历；不保证为全季总数。",
     "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
-    "verifiedAt": "2026-09-20"
+    "verifiedAt": "2026-09-20",
+    "image": "https://cdn.statetheatre.com.au/wp-content/uploads/2026/05/17231941/MATTMATHEWS-750x750-Clean.jpg",
+    "imageSource": "https://www.statetheatre.com.au/show-calendar/matt-mathews/",
+    "imageCredit": "官方宣传图 © State Theatre"
   },
   {
     "id": "troy-hawke-never-stop-never-change",
@@ -4338,7 +4398,10 @@ const SHOWS = [
     "sessionsComplete": false,
     "schedule": "已公布 1 场（2027-01-23 至 2027-01-23）。具体日期与时间见下方日历；不保证为全季总数。",
     "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
-    "verifiedAt": "2026-09-20"
+    "verifiedAt": "2026-09-20",
+    "image": "https://cdn.statetheatre.com.au/wp-content/uploads/2026/05/28115604/TH-SYD-750x750-1.jpg",
+    "imageSource": "https://www.statetheatre.com.au/show-calendar/troy-hawke/",
+    "imageCredit": "官方宣传图 © State Theatre"
   },
   {
     "id": "randy-feltface-gimmick",
@@ -4367,7 +4430,10 @@ const SHOWS = [
     "sessionsComplete": false,
     "schedule": "已公布 1 场（2027-02-09 至 2027-02-09）。具体日期与时间见下方日历；不保证为全季总数。",
     "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
-    "verifiedAt": "2026-09-20"
+    "verifiedAt": "2026-09-20",
+    "image": "https://cdn.statetheatre.com.au/wp-content/uploads/2026/08/30153457/RandyFeltface_750x750_image.jpg",
+    "imageSource": "https://www.statetheatre.com.au/show-calendar/randy-feltface/",
+    "imageCredit": "官方宣传图 © State Theatre"
   },
   {
     "id": "monty-python-s-spamalot",
@@ -14119,7 +14185,10 @@ const SHOWS = [
     "sessionsComplete": false,
     "schedule": "已公布 1 场（2026-10-02 至 2026-10-02）。具体日期与时间见下方日历；不保证为全季总数。",
     "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
-    "verifiedAt": "2026-09-20"
+    "verifiedAt": "2026-09-20",
+    "image": "https://cdn.statetheatre.com.au/wp-content/uploads/2026/07/06153154/CheekLive2026_750x750_TF.jpg",
+    "imageSource": "https://www.statetheatre.com.au/show-calendar/hannah-ferguson/",
+    "imageCredit": "官方宣传图 © State Theatre"
   },
   {
     "id": "mystique-a-journey-beyond-reality",
@@ -14148,7 +14217,10 @@ const SHOWS = [
     "sessionsComplete": false,
     "schedule": "已公布 1 场（2026-10-10 至 2026-10-10）。具体日期与时间见下方日历；不保证为全季总数。",
     "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
-    "verifiedAt": "2026-09-20"
+    "verifiedAt": "2026-09-20",
+    "image": "https://cdn.statetheatre.com.au/wp-content/uploads/2025/04/23154705/MYST_750x750_State.jpg",
+    "imageSource": "https://www.statetheatre.com.au/show-calendar/mystique/",
+    "imageCredit": "官方宣传图 © State Theatre"
   },
   {
     "id": "chris-connor-viva-elvis",
@@ -14177,7 +14249,10 @@ const SHOWS = [
     "sessionsComplete": false,
     "schedule": "已公布 1 场（2026-10-11 至 2026-10-11）。具体日期与时间见下方日历；不保证为全季总数。",
     "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
-    "verifiedAt": "2026-09-20"
+    "verifiedAt": "2026-09-20",
+    "image": "https://cdn.statetheatre.com.au/wp-content/uploads/2026/05/03162118/ChrisC26-750x750-1.jpg",
+    "imageSource": "https://www.statetheatre.com.au/show-calendar/viva-elvis/",
+    "imageCredit": "官方宣传图 © State Theatre"
   },
   {
     "id": "dance-poem-great-harmony",
@@ -14206,7 +14281,10 @@ const SHOWS = [
     "sessionsComplete": false,
     "schedule": "已公布 1 场（2026-11-01 至 2026-11-01）。具体日期与时间见下方日历；不保证为全季总数。",
     "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
-    "verifiedAt": "2026-09-20"
+    "verifiedAt": "2026-09-20",
+    "image": "https://cdn.statetheatre.com.au/wp-content/uploads/2026/09/10222640/Website-image-1.jpg",
+    "imageSource": "https://www.statetheatre.com.au/show-calendar/golden-harmony/",
+    "imageCredit": "官方宣传图 © State Theatre"
   },
   {
     "id": "wes-carr-the-springsteen-songbook-unplugged",
