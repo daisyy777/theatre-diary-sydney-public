@@ -1,4 +1,4 @@
-const SNAPSHOT = "2026-09-20";
+const SNAPSHOT = "2026-09-25";
 const VENUES = [
   {
     "id": "lyric",
@@ -589,6 +589,166 @@ const VENUES = [
     "url": "https://vinechurch.com.au/venuehire/",
     "programme": "https://vinechurch.com.au/venuehire/",
     "note": "Surry Hills 的教堂，礼堂可租作演出与活动场地。"
+  },
+  {
+    "id": "bryanbrown",
+    "name": "Bryan Brown Theatre",
+    "area": "Bankstown",
+    "region": "西区",
+    "address": "80 Rickard Road, Bankstown NSW 2200",
+    "url": "https://bryanbrowntheatre.cbcity.nsw.gov.au/contact-us",
+    "programme": "https://bryanbrowntheatre.cbcity.nsw.gov.au/contact-us",
+    "note": "社区制作演出场馆；具体节目与入场信息请查官方页面。"
+  },
+  {
+    "id": "rockdaletownhall",
+    "name": "Rockdale Town Hall",
+    "area": "Rockdale",
+    "region": "南区",
+    "address": "448 Princes Highway, Rockdale NSW 2216",
+    "url": "https://www.rockdalemusicalsociety.com/",
+    "programme": "https://www.rockdalemusicalsociety.com/",
+    "note": "社区制作演出场馆；具体节目与入场信息请查官方页面。"
+  },
+  {
+    "id": "smithauditorium",
+    "name": "Smith Auditorium (Shore)",
+    "area": "North Sydney",
+    "region": "北岸",
+    "address": "Shore School, Blue Street, North Sydney NSW 2060",
+    "url": "https://www.gsosydney.com.au/booking.html",
+    "programme": "https://www.gsosydney.com.au/booking.html",
+    "note": "社区制作演出场馆；具体节目与入场信息请查官方页面。"
+  },
+  {
+    "id": "petershamtownhall",
+    "name": "Petersham Town Hall",
+    "area": "Petersham",
+    "region": "内西区",
+    "address": "107 Crystal Street, Petersham NSW 2049",
+    "url": "https://www.innerwesttheatre.com.au/productions/catch-me-if-you-can-2026",
+    "programme": "https://www.innerwesttheatre.com.au/productions/catch-me-if-you-can-2026",
+    "note": "社区制作演出场馆；具体节目与入场信息请查官方页面。"
+  },
+  {
+    "id": "pioneer",
+    "name": "Pioneer Theatre",
+    "area": "Castle Hill",
+    "region": "西区",
+    "address": "Level 1, 12–14 Pennant Street, Castle Hill NSW 2154",
+    "url": "https://www.pioneertheatre.com.au/contact",
+    "programme": "https://www.pioneertheatre.com.au/contact",
+    "note": "社区制作演出场馆；具体节目与入场信息请查官方页面。"
+  },
+  {
+    "id": "pavilioncastlehill",
+    "name": "Pavilion Theatre",
+    "area": "Castle Hill",
+    "region": "西区",
+    "address": "Castle Hill Showground, Doran Drive, Castle Hill NSW 2154",
+    "url": "https://paviliontheatre.org.au/the-audience/",
+    "programme": "https://paviliontheatre.org.au/the-audience/",
+    "note": "社区制作演出场馆；具体节目与入场信息请查官方页面。"
+  },
+  {
+    "id": "genesian",
+    "name": "Genesian Theatre",
+    "area": "Rozelle",
+    "region": "内西区",
+    "address": "2B Gordon Street, Rozelle NSW 2039",
+    "url": "https://genesiantheatre.com.au/events/yerma/",
+    "programme": "https://genesiantheatre.com.au/events/yerma/",
+    "note": "社区制作演出场馆；具体节目与入场信息请查官方页面。"
+  },
+  {
+    "id": "clubryde",
+    "name": "Hunters Hill Theatre at Club Ryde",
+    "area": "Ryde",
+    "region": "北岸",
+    "address": "Level 2, Club Ryde Ex, 728 Victoria Road, Ryde NSW 2112",
+    "url": "https://www.huntershilltheatre.com.au/contact-us",
+    "programme": "https://www.huntershilltheatre.com.au/contact-us",
+    "note": "社区制作演出场馆；具体节目与入场信息请查官方页面。"
+  },
+  {
+    "id": "latviantheatre",
+    "name": "Latvian Theatre",
+    "area": "Strathfield",
+    "region": "内西区",
+    "address": "32 Parnell Street, Strathfield NSW 2135",
+    "url": "https://strathfieldmusicalsociety.com.au",
+    "programme": "https://strathfieldmusicalsociety.com.au",
+    "note": "社区制作演出场馆；具体节目与入场信息请查官方页面。"
+  },
+  {
+    "id": "northnarrabeen",
+    "name": "North Narrabeen Community Centre",
+    "area": "North Narrabeen",
+    "region": "北岸",
+    "address": "2–10 Woorarra Avenue, North Narrabeen NSW 2101",
+    "url": "https://elanoraplayers.com.au/",
+    "programme": "https://elanoraplayers.com.au/",
+    "note": "社区制作演出场馆；具体节目与入场信息请查官方页面。"
+  },
+  {
+    "id": "thecube",
+    "name": "The CUBE",
+    "area": "Campbelltown",
+    "region": "西区",
+    "address": "20–22 Camden Road, Campbelltown NSW 2560",
+    "url": "https://www.ctgi.org.au/take-a-bow",
+    "programme": "https://www.ctgi.org.au/take-a-bow",
+    "note": "社区制作演出场馆；具体节目与入场信息请查官方页面。"
+  },
+  {
+    "id": "guild",
+    "name": "The Guild Theatre",
+    "area": "Rockdale",
+    "region": "南区",
+    "address": "87 Railway Street, Rockdale NSW 2216",
+    "url": "https://www.guildtheatre.com.au/",
+    "programme": "https://www.guildtheatre.com.au/",
+    "note": "社区制作演出场馆；具体节目与入场信息请查官方页面。"
+  },
+  {
+    "id": "chester",
+    "name": "Theatre on Chester",
+    "area": "Epping",
+    "region": "北岸",
+    "address": "Corner Chester and Oxford Streets, Epping NSW 2121",
+    "url": "https://www.theatreonchester.com.au/",
+    "programme": "https://www.theatreonchester.com.au/",
+    "note": "社区制作演出场馆；具体节目与入场信息请查官方页面。"
+  },
+  {
+    "id": "engadine",
+    "name": "Engadine Community Centre",
+    "area": "Engadine",
+    "region": "南区",
+    "address": "1034–1036 Old Princes Highway, Engadine NSW 2233",
+    "url": "https://www.engadinemusicalsociety.com.au/venues.html",
+    "programme": "https://www.engadinemusicalsociety.com.au/venues.html",
+    "note": "社区制作演出场馆；具体节目与入场信息请查官方页面。"
+  },
+  {
+    "id": "beecroft",
+    "name": "Beecroft Community Centre",
+    "area": "Beecroft",
+    "region": "北岸",
+    "address": "109–111 Beecroft Road, Beecroft NSW 2119",
+    "url": "https://communitytheatre.com.au/whats-on/rapunzel/",
+    "programme": "https://communitytheatre.com.au/whats-on/rapunzel/",
+    "note": "社区剧场；请查官方节目与入场指引。"
+  },
+  {
+    "id": "artscronulla",
+    "name": "Arts Theatre Cronulla",
+    "area": "Cronulla",
+    "region": "南区",
+    "address": "6 Surf Road, Cronulla NSW 2230",
+    "url": "https://www.artstheatrecronulla.com.au/",
+    "programme": "https://www.artstheatrecronulla.com.au/",
+    "note": "社区剧场；请查官方节目与入场指引。"
   }
 ];
 const SHOWS = [
@@ -738,7 +898,10 @@ const SHOWS = [
         ""
       ]
     ],
-    "sessionsComplete": false
+    "sessionsComplete": false,
+    "image": "https://www.ensemble.com.au/wp-content/uploads/2025/08/THE-ELEVATOR-new-image.jpg",
+    "imageSource": "https://www.ensemble.com.au/shows/the-elevator/",
+    "imageCredit": "官方宣传图 © Ensemble Theatre"
   },
   {
     "id": "current",
@@ -1029,7 +1192,10 @@ const SHOWS = [
       "https://theatreroyalsydney.com/news/john-waters-joins-the-cast-of-fiddler-on-the-roof/"
     ],
     "desc": "Tevye 与家人在变化的时代面对传统、爱情与离别。",
-    "dateNote": "完整演期由剧院 2026 年 7 月公告补核；未采用详情页中旧的无障碍日期。"
+    "dateNote": "完整演期由剧院 2026 年 7 月公告补核；未采用详情页中旧的无障碍日期。",
+    "image": "https://theatreroyalsydney.com/wp-content/uploads/2026/03/Fiddler-on-the-Roof-UK-Production-Sydney-2.jpg",
+    "imageSource": "https://theatreroyalsydney.com/shows/fiddler-on-the-roof/",
+    "imageCredit": "官方宣传图 © Theatre Royal Sydney"
   },
   {
     "id": "private-lives",
@@ -1056,7 +1222,10 @@ const SHOWS = [
       "https://privatelivesplay.com.au/tickets/sydney/"
     ],
     "desc": "一对离婚夫妻与各自的新伴侣度蜜月时重逢，旧日感情再度引发混乱。",
-    "dateNote": "剧院列出 2 月 6 日至 3 月 14 日；制作方悉尼页面补核年份为 2027。"
+    "dateNote": "剧院列出 2 月 6 日至 3 月 14 日；制作方悉尼页面补核年份为 2027。",
+    "image": "https://theatreroyalsydney.com/wp-content/uploads/2026/06/Private-Lives-Theatre-Royal-Sydney-February-2027-1.jpg",
+    "imageSource": "https://theatreroyalsydney.com/shows/private-lives/",
+    "imageCredit": "官方宣传图 © Theatre Royal Sydney"
   },
   {
     "id": "next-to-godliness",
@@ -20339,6 +20508,813 @@ const SHOWS = [
     "verifiedAt": "2026-09-20",
     "image": "https://foundation-prod.imgix.net/shows/headers/2048-x-1364.png",
     "imageCredit": "官方宣传图 © Sydney Lyric"
+  },
+  {
+    "id": "gypsy",
+    "title": "Gypsy",
+    "genre": "音乐剧",
+    "scale": "社区剧团",
+    "venue": "bryanbrown",
+    "company": "Bankstown Theatre Company",
+    "start": "2026-11-06",
+    "end": "2026-11-15",
+    "price": null,
+    "priceText": "票价见官方售票页",
+    "priceNote": "票价请以官方售票页为准，本站未作估算。",
+    "duration": "",
+    "desc": "Bankstown Theatre Company 在 Bryan Brown Theatre 上演的社区制作。演期为 2026-11-06 至 2026-11-15；详情请查看官方页面。",
+    "source": "https://www.bankstowntheatrecompany.com/auditions.html",
+    "booking": "https://AUBANKSTOWNTC.sales.ticketsearch.com/sales/salesevent/166939",
+    "bookingLabel": "官方场次与购票",
+    "sessions": [
+      [
+        "2026-11-06",
+        "19:30",
+        ""
+      ],
+      [
+        "2026-11-07",
+        "13:30",
+        ""
+      ],
+      [
+        "2026-11-07",
+        "19:30",
+        ""
+      ],
+      [
+        "2026-11-08",
+        "13:30",
+        ""
+      ],
+      [
+        "2026-11-13",
+        "19:30",
+        ""
+      ],
+      [
+        "2026-11-14",
+        "13:30",
+        ""
+      ],
+      [
+        "2026-11-14",
+        "19:30",
+        ""
+      ],
+      [
+        "2026-11-15",
+        "13:30",
+        ""
+      ]
+    ],
+    "sessionsComplete": true,
+    "schedule": "已公布 8 场（2026-11-06 至 2026-11-15）。具体日期与时间见下方日历；不保证为全季总数。",
+    "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
+    "verifiedAt": "2026-09-25",
+    "image": "https://www.bankstowntheatrecompany.com/uploads/1/3/2/1/13211956/btc-website-news-square-gypsy-1_orig.png",
+    "imageCredit": "图片来源：Bankstown Theatre Company",
+    "evidenceUrls": [
+      "https://www.bankstowntheatrecompany.com/auditions.html"
+    ]
+  },
+  {
+    "id": "grease",
+    "title": "Grease",
+    "genre": "音乐剧",
+    "scale": "社区剧团",
+    "venue": "rockdaletownhall",
+    "company": "Rockdale Musical Society",
+    "start": "2026-11-06",
+    "end": "2026-11-14",
+    "price": null,
+    "priceText": "票价见官方售票页",
+    "priceNote": "票价请以官方售票页为准，本站未作估算。",
+    "duration": "",
+    "desc": "Rockdale Musical Society 在 Rockdale Town Hall 上演的社区制作。演期为 2026-11-06 至 2026-11-14；详情请查看官方页面。",
+    "source": "https://www.rockdalemusicalsociety.com/",
+    "booking": "https://www.trybooking.com/events/landing/1586096",
+    "bookingLabel": "官方场次与购票",
+    "sessions": [
+      [
+        "2026-11-06",
+        "19:30",
+        ""
+      ],
+      [
+        "2026-11-07",
+        "13:30",
+        ""
+      ],
+      [
+        "2026-11-07",
+        "19:30",
+        ""
+      ],
+      [
+        "2026-11-08",
+        "13:30",
+        ""
+      ],
+      [
+        "2026-11-12",
+        "19:30",
+        ""
+      ],
+      [
+        "2026-11-13",
+        "19:30",
+        ""
+      ],
+      [
+        "2026-11-14",
+        "13:30",
+        ""
+      ],
+      [
+        "2026-11-14",
+        "19:30",
+        ""
+      ]
+    ],
+    "sessionsComplete": true,
+    "schedule": "已公布 8 场（2026-11-06 至 2026-11-14）。具体日期与时间见下方日历；不保证为全季总数。",
+    "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
+    "verifiedAt": "2026-09-25",
+    "evidenceUrls": [
+      "https://www.rockdalemusicalsociety.com/"
+    ]
+  },
+  {
+    "id": "trial-by-jury-the-savoyards",
+    "title": "Trial by Jury & The Savoyards",
+    "genre": "歌剧",
+    "scale": "社区剧团",
+    "venue": "smithauditorium",
+    "company": "Gilbert & Sullivan Opera Sydney",
+    "start": "2026-10-09",
+    "end": "2026-10-11",
+    "price": null,
+    "priceText": "票价见官方售票页",
+    "priceNote": "票价请以官方售票页为准，本站未作估算。",
+    "duration": "",
+    "desc": "Gilbert & Sullivan Opera Sydney 在 Smith Auditorium (Shore) 上演的社区制作。演期为 2026-10-09 至 2026-10-11；详情请查看官方页面。",
+    "source": "https://www.gsosydney.com.au/booking.html",
+    "booking": "https://www.trybooking.com/events/landing/1545591",
+    "bookingLabel": "官方场次与购票",
+    "sessions": [
+      [
+        "2026-10-09",
+        "19:30",
+        ""
+      ],
+      [
+        "2026-10-10",
+        "13:30",
+        ""
+      ],
+      [
+        "2026-10-10",
+        "19:30",
+        ""
+      ],
+      [
+        "2026-10-11",
+        "13:30",
+        ""
+      ]
+    ],
+    "sessionsComplete": true,
+    "schedule": "已公布 4 场（2026-10-09 至 2026-10-11）。具体日期与时间见下方日历；不保证为全季总数。",
+    "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
+    "verifiedAt": "2026-09-25",
+    "evidenceUrls": [
+      "https://www.gsosydney.com.au/booking.html"
+    ]
+  },
+  {
+    "id": "catch-me-if-you-can",
+    "title": "Catch Me If You Can",
+    "genre": "音乐剧",
+    "scale": "社区剧团",
+    "venue": "petershamtownhall",
+    "company": "Inner West Theatre Company",
+    "start": "2026-10-16",
+    "end": "2026-10-24",
+    "price": null,
+    "priceText": "票价见官方售票页",
+    "priceNote": "票价请以官方售票页为准，本站未作估算。",
+    "duration": "",
+    "desc": "Inner West Theatre Company 在 Petersham Town Hall 上演的社区制作。演期为 2026-10-16 至 2026-10-24；详情请查看官方页面。",
+    "source": "https://www.innerwesttheatre.com.au/productions/catch-me-if-you-can-2026",
+    "booking": "https://www.trybooking.com/DOECJ",
+    "bookingLabel": "官方场次与购票",
+    "sessions": [
+      [
+        "2026-10-17",
+        "14:00",
+        ""
+      ],
+      [
+        "2026-10-17",
+        "19:30",
+        ""
+      ]
+    ],
+    "sessionsComplete": false,
+    "schedule": "已公布 2 场（2026-10-16 至 2026-10-24）。具体日期与时间见下方日历；不保证为全季总数。",
+    "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
+    "verifiedAt": "2026-09-25",
+    "image": "https://images.squarespace-cdn.com/content/v1/64a0f4ce1048530c118e7e15/af9971e9-0492-4b46-9fc3-6185720a0b48/iwtc-cmify-logo",
+    "imageCredit": "图片来源：Inner West Theatre Company",
+    "evidenceUrls": [
+      "https://www.innerwesttheatre.com.au/productions/catch-me-if-you-can-2026"
+    ]
+  },
+  {
+    "id": "reefer-madness",
+    "title": "Reefer Madness",
+    "genre": "音乐剧",
+    "scale": "社区剧团",
+    "venue": "pioneer",
+    "company": "Hornsby Musical Society",
+    "start": "2026-11-13",
+    "end": "2026-11-22",
+    "price": null,
+    "priceText": "票价见官方售票页",
+    "priceNote": "票价请以官方售票页为准，本站未作估算。",
+    "duration": "",
+    "desc": "Hornsby Musical Society 在 Pioneer Theatre 上演的社区制作。演期为 2026-11-13 至 2026-11-22；详情请查看官方页面。",
+    "source": "https://hornsbymusicalsociety.com.au/reefer-madness-2026/",
+    "booking": "https://hornsbymusicalsociety.com.au/reefer-madness-2026/",
+    "bookingLabel": "官方场次与购票",
+    "sessions": [],
+    "sessionsComplete": false,
+    "schedule": "官方已公布演期 2026-11-13 至 2026-11-22；逐场时间尚未核实，请查看官方购票页面。",
+    "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
+    "verifiedAt": "2026-09-25",
+    "image": "https://hornsbymusicalsociety.com.au/wp-content/uploads/2025/06/509358891_1315301680600951_3404021008410223181_n.jpg",
+    "imageCredit": "图片来源：Hornsby Musical Society",
+    "evidenceUrls": [
+      "https://hornsbymusicalsociety.com.au/reefer-madness-2026/"
+    ]
+  },
+  {
+    "id": "the-audience",
+    "title": "The Audience",
+    "genre": "话剧",
+    "scale": "社区剧团",
+    "venue": "pavilioncastlehill",
+    "company": "Castle Hill Players",
+    "start": "2026-11-13",
+    "end": "2026-12-05",
+    "price": null,
+    "priceText": "票价见官方售票页",
+    "priceNote": "票价请以官方售票页为准，本站未作估算。",
+    "duration": "",
+    "desc": "Castle Hill Players 在 Pavilion Theatre 上演的社区制作。演期为 2026-11-13 至 2026-12-05；详情请查看官方页面。",
+    "source": "https://paviliontheatre.org.au/the-audience/",
+    "booking": "https://CHP1.sales.ticketsearch.com/sales/salesevent/155595",
+    "bookingLabel": "官方场次与购票",
+    "sessions": [],
+    "sessionsComplete": false,
+    "schedule": "官方已公布演期 2026-11-13 至 2026-12-05；逐场时间尚未核实，请查看官方购票页面。",
+    "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
+    "verifiedAt": "2026-09-25",
+    "image": "https://paviliontheatre.org.au/wp-content/uploads/2025/08/Audience-Square-Showpage-1024x1024.jpg",
+    "imageCredit": "图片来源：Castle Hill Players",
+    "evidenceUrls": [
+      "https://paviliontheatre.org.au/the-audience/"
+    ]
+  },
+  {
+    "id": "yerma",
+    "title": "Yerma",
+    "genre": "话剧",
+    "scale": "社区剧团",
+    "venue": "genesian",
+    "company": "Genesian Theatre Company",
+    "start": "2026-10-23",
+    "end": "2026-11-14",
+    "price": null,
+    "priceText": "票价见官方售票页",
+    "priceNote": "票价请以官方售票页为准，本站未作估算。",
+    "duration": "",
+    "desc": "Genesian Theatre Company 在 Genesian Theatre 上演的社区制作。演期为 2026-10-23 至 2026-11-14；详情请查看官方页面。",
+    "source": "https://genesiantheatre.com.au/events/yerma/",
+    "booking": "https://genesian.sales.ticketsearch.com/sales/salesevent/156448",
+    "bookingLabel": "官方场次与购票",
+    "sessions": [],
+    "sessionsComplete": false,
+    "schedule": "官方已公布演期 2026-10-23 至 2026-11-14；逐场时间尚未核实，请查看官方购票页面。",
+    "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
+    "verifiedAt": "2026-09-25",
+    "image": "https://genesiantheatre.com.au/wp-content/uploads/8-scaled.png",
+    "imageCredit": "图片来源：Genesian Theatre Company",
+    "evidenceUrls": [
+      "https://genesiantheatre.com.au/events/yerma/"
+    ]
+  },
+  {
+    "id": "don-t-dress-for-dinner",
+    "title": "Don't Dress for Dinner",
+    "genre": "话剧",
+    "scale": "社区剧团",
+    "venue": "clubryde",
+    "company": "Hunters Hill Theatre",
+    "start": "2026-11-13",
+    "end": "2026-12-06",
+    "price": null,
+    "priceText": "票价见官方售票页",
+    "priceNote": "票价请以官方售票页为准，本站未作估算。",
+    "duration": "",
+    "desc": "Hunters Hill Theatre 在 Hunters Hill Theatre at Club Ryde 上演的社区制作。演期为 2026-11-13 至 2026-12-06；详情请查看官方页面。",
+    "source": "https://www.huntershilltheatre.com.au/",
+    "booking": "https://huntershill.sales.ticketsearch.com/sales/salesevent/155537",
+    "bookingLabel": "官方场次与购票",
+    "sessions": [],
+    "sessionsComplete": false,
+    "schedule": "官方已公布演期 2026-11-13 至 2026-12-06；逐场时间尚未核实，请查看官方购票页面。",
+    "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
+    "verifiedAt": "2026-09-25",
+    "image": "https://www.huntershilltheatre.com.au/uploads/1/3/1/4/131416027/don-t-dress-for-dinner-a6-postcard-vs4_orig.jpg",
+    "imageCredit": "图片来源：Hunters Hill Theatre",
+    "evidenceUrls": [
+      "https://www.huntershilltheatre.com.au/"
+    ]
+  },
+  {
+    "id": "come-from-away",
+    "title": "Come From Away",
+    "genre": "音乐剧",
+    "scale": "社区剧团",
+    "venue": "latviantheatre",
+    "company": "Strathfield Musical Society",
+    "start": "2026-10-23",
+    "end": "2026-10-31",
+    "price": null,
+    "priceText": "票价见官方售票页",
+    "priceNote": "票价请以官方售票页为准，本站未作估算。",
+    "duration": "",
+    "desc": "Strathfield Musical Society 在 Latvian Theatre 上演的社区制作。演期为 2026-10-23 至 2026-10-31；详情请查看官方页面。",
+    "source": "https://strathfieldmusicalsociety.com.au",
+    "booking": "https://strathfieldmusicalsociety.com.au/bookings/",
+    "bookingLabel": "官方场次与购票",
+    "sessions": [],
+    "sessionsComplete": false,
+    "schedule": "官方已公布演期 2026-10-23 至 2026-10-31；逐场时间尚未核实，请查看官方购票页面。",
+    "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
+    "verifiedAt": "2026-09-25",
+    "image": "https://strathfieldmusicalsociety.com.au/sms/wp-content/uploads/2026/06/come-from-away-70.webp",
+    "imageCredit": "图片来源：Strathfield Musical Society",
+    "evidenceUrls": [
+      "https://strathfieldmusicalsociety.com.au"
+    ]
+  },
+  {
+    "id": "a-christmas-carol-a-ghost-story-of-christmas",
+    "title": "A Christmas Carol – A Ghost Story of Christmas",
+    "genre": "话剧",
+    "scale": "社区剧团",
+    "venue": "zenith",
+    "company": "Pymble Players",
+    "start": "2026-11-13",
+    "end": "2026-11-22",
+    "price": null,
+    "priceText": "票价见官方售票页",
+    "priceNote": "票价请以官方售票页为准，本站未作估算。",
+    "duration": "",
+    "desc": "Pymble Players 在 Zenith Theatre 上演的社区制作。演期为 2026-11-13 至 2026-11-22；详情请查看官方页面。",
+    "source": "https://pymbleplayers.com.au/a-christmas-carol",
+    "booking": "https://pymbleplayers.com.au/tickets",
+    "bookingLabel": "官方场次与购票",
+    "sessions": [
+      [
+        "2026-11-13",
+        "19:30",
+        ""
+      ],
+      [
+        "2026-11-14",
+        "16:00",
+        ""
+      ],
+      [
+        "2026-11-15",
+        "16:00",
+        ""
+      ],
+      [
+        "2026-11-19",
+        "19:30",
+        ""
+      ],
+      [
+        "2026-11-20",
+        "19:30",
+        ""
+      ],
+      [
+        "2026-11-21",
+        "14:30",
+        ""
+      ],
+      [
+        "2026-11-21",
+        "19:30",
+        ""
+      ],
+      [
+        "2026-11-22",
+        "16:00",
+        ""
+      ]
+    ],
+    "sessionsComplete": true,
+    "schedule": "已公布 8 场（2026-11-13 至 2026-11-22）。具体日期与时间见下方日历；不保证为全季总数。",
+    "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
+    "verifiedAt": "2026-09-25",
+    "image": "https://images.squarespace-cdn.com/content/v1/5de5cc60fbd78f1f1810f88a/859909ed-7cff-4430-b07b-a1f6bc9c93dd/A4+Poster+-+A+Christmas+Carol.jpg",
+    "imageCredit": "图片来源：Pymble Players",
+    "evidenceUrls": [
+      "https://pymbleplayers.com.au/a-christmas-carol"
+    ]
+  },
+  {
+    "id": "rhinestone-rex-miss-monica",
+    "title": "Rhinestone Rex & Miss Monica",
+    "genre": "话剧",
+    "scale": "社区剧团",
+    "venue": "northnarrabeen",
+    "company": "Elanora Players",
+    "start": "2026-10-02",
+    "end": "2026-10-10",
+    "price": null,
+    "priceText": "票价见官方售票页",
+    "priceNote": "票价请以官方售票页为准，本站未作估算。",
+    "duration": "",
+    "desc": "Elanora Players 在 North Narrabeen Community Centre 上演的社区制作。演期为 2026-10-02 至 2026-10-10；详情请查看官方页面。",
+    "source": "https://elanoraplayers.com.au/",
+    "booking": "https://www.ticketebo.com.au/elanora-players-inc",
+    "bookingLabel": "官方场次与购票",
+    "sessions": [
+      [
+        "2026-10-02",
+        "19:30",
+        ""
+      ],
+      [
+        "2026-10-03",
+        "15:00",
+        ""
+      ],
+      [
+        "2026-10-03",
+        "19:30",
+        ""
+      ],
+      [
+        "2026-10-04",
+        "11:00",
+        ""
+      ],
+      [
+        "2026-10-04",
+        "15:00",
+        ""
+      ],
+      [
+        "2026-10-09",
+        "19:30",
+        ""
+      ],
+      [
+        "2026-10-10",
+        "15:00",
+        ""
+      ]
+    ],
+    "sessionsComplete": true,
+    "schedule": "已公布 7 场（2026-10-02 至 2026-10-10）。具体日期与时间见下方日历；不保证为全季总数。",
+    "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
+    "verifiedAt": "2026-09-25",
+    "evidenceUrls": [
+      "https://elanoraplayers.com.au/"
+    ]
+  },
+  {
+    "id": "take-a-bow-70th-anniversary-concert",
+    "title": "Take A Bow – 70th Anniversary Concert",
+    "genre": "卡巴莱",
+    "scale": "社区剧团",
+    "venue": "thecube",
+    "company": "Campbelltown Theatre Group",
+    "start": "2026-11-01",
+    "end": "2026-11-01",
+    "price": null,
+    "priceText": "票价见官方售票页",
+    "priceNote": "票价请以官方售票页为准，本站未作估算。",
+    "duration": "",
+    "desc": "Campbelltown Theatre Group 在 The CUBE 上演的社区制作。演期为 2026-11-01 至 2026-11-01；详情请查看官方页面。",
+    "source": "https://www.ctgi.org.au/take-a-bow",
+    "booking": "https://cathclub.sales.ticketsearch.com/sales/salesevent/169004",
+    "bookingLabel": "官方场次与购票",
+    "sessions": [
+      [
+        "2026-11-01",
+        "14:00",
+        ""
+      ]
+    ],
+    "sessionsComplete": true,
+    "schedule": "已公布 1 场（2026-11-01 至 2026-11-01）。具体日期与时间见下方日历；不保证为全季总数。",
+    "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
+    "verifiedAt": "2026-09-25",
+    "image": "https://static.wixstatic.com/media/94d264_ff74cbc801fb4f7eaa65dd1598347456~mv2.png/v1/fill/w_400,h_266,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/70th%20Anniversary_hero.png",
+    "imageCredit": "图片来源：Campbelltown Theatre Group",
+    "evidenceUrls": [
+      "https://www.ctgi.org.au/take-a-bow"
+    ]
+  },
+  {
+    "id": "steel-magnolias",
+    "title": "Steel Magnolias",
+    "genre": "话剧",
+    "scale": "社区剧团",
+    "venue": "guild",
+    "company": "The Guild Theatre",
+    "start": "2026-11-06",
+    "end": "2026-11-28",
+    "price": null,
+    "priceText": "票价见官方售票页",
+    "priceNote": "票价请以官方售票页为准，本站未作估算。",
+    "duration": "",
+    "desc": "The Guild Theatre 在 The Guild Theatre 上演的社区制作。演期为 2026-11-06 至 2026-11-28；详情请查看官方页面。",
+    "source": "https://www.guildtheatre.com.au/2026-season/steel-magnolias/",
+    "booking": "https://www.guildtheatre.com.au/2026-season/steel-magnolias/",
+    "bookingLabel": "官方场次与购票",
+    "sessions": [],
+    "sessionsComplete": false,
+    "schedule": "官方已公布演期 2026-11-06 至 2026-11-28；逐场时间尚未核实，请查看官方购票页面。",
+    "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
+    "verifiedAt": "2026-09-25",
+    "image": "https://www.guildtheatre.com.au/site/wp-content/uploads/2025/12/Magnolias.jpg",
+    "imageCredit": "图片来源：The Guild Theatre",
+    "evidenceUrls": [
+      "https://www.guildtheatre.com.au/2026-season/steel-magnolias/"
+    ]
+  },
+  {
+    "id": "arsenic-and-old-lace",
+    "title": "Arsenic and Old Lace",
+    "genre": "话剧",
+    "scale": "社区剧团",
+    "venue": "chester",
+    "company": "Theatre on Chester",
+    "start": "2026-11-06",
+    "end": "2026-11-28",
+    "price": null,
+    "priceText": "票价见官方售票页",
+    "priceNote": "票价请以官方售票页为准，本站未作估算。",
+    "duration": "",
+    "desc": "Theatre on Chester 在 Theatre on Chester 上演的社区制作。演期为 2026-11-06 至 2026-11-28；详情请查看官方页面。",
+    "source": "https://www.theatreonchester.com.au/post/arsenic-and-old-lace",
+    "booking": "https://www.ticketor.com/theatreonchester/arsenic",
+    "bookingLabel": "官方场次与购票",
+    "sessions": [],
+    "sessionsComplete": false,
+    "schedule": "官方已公布演期 2026-11-06 至 2026-11-28；逐场时间尚未核实，请查看官方购票页面。",
+    "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
+    "verifiedAt": "2026-09-25",
+    "image": "https://static.wixstatic.com/media/12ee53_03c10ffca3b146a1bd5c0afd4045ed2e~mv2.jpg/v1/fill/w_305,h_305,fp_0.50_0.50,q_90,enc_avif,quality_auto/12ee53_03c10ffca3b146a1bd5c0afd4045ed2e~mv2.webp",
+    "imageCredit": "图片来源：Theatre on Chester",
+    "evidenceUrls": [
+      "https://www.theatreonchester.com.au/post/arsenic-and-old-lace"
+    ]
+  },
+  {
+    "id": "the-wizard-of-oz",
+    "title": "The Wizard of Oz",
+    "genre": "音乐剧",
+    "scale": "社区剧团",
+    "venue": "engadine",
+    "company": "Engadine Musical Society",
+    "start": "2026-10-16",
+    "end": "2026-10-25",
+    "price": null,
+    "priceText": "票价见官方售票页",
+    "priceNote": "票价请以官方售票页为准，本站未作估算。",
+    "duration": "",
+    "desc": "Engadine Musical Society 在 Engadine Community Centre 上演的社区制作。演期为 2026-10-16 至 2026-10-25；详情请查看官方页面。",
+    "source": "https://www.engadinemusicalsociety.com.au/2026-the-wizard-of-oz.html",
+    "booking": "https://www.engadinemusicalsociety.com.au/2026-the-wizard-of-oz.html",
+    "bookingLabel": "官方场次与购票",
+    "sessions": [
+      [
+        "2026-10-16",
+        "19:30",
+        ""
+      ],
+      [
+        "2026-10-17",
+        "13:30",
+        ""
+      ],
+      [
+        "2026-10-17",
+        "19:30",
+        ""
+      ],
+      [
+        "2026-10-18",
+        "13:30",
+        ""
+      ],
+      [
+        "2026-10-20",
+        "19:30",
+        ""
+      ],
+      [
+        "2026-10-23",
+        "19:30",
+        ""
+      ],
+      [
+        "2026-10-24",
+        "13:30",
+        ""
+      ],
+      [
+        "2026-10-24",
+        "19:30",
+        ""
+      ],
+      [
+        "2026-10-25",
+        "13:30",
+        ""
+      ]
+    ],
+    "sessionsComplete": true,
+    "schedule": "已公布 9 场（2026-10-16 至 2026-10-25）。具体日期与时间见下方日历；不保证为全季总数。",
+    "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
+    "verifiedAt": "2026-09-25",
+    "evidenceUrls": [
+      "https://www.engadinemusicalsociety.com.au/2026-the-wizard-of-oz.html"
+    ]
+  },
+  {
+    "id": "faust",
+    "title": "Faust",
+    "genre": "歌剧",
+    "scale": "社区剧团",
+    "venue": "rockdaletownhall",
+    "company": "Rockdale Opera Company",
+    "start": "2026-12-05",
+    "end": "2026-12-13",
+    "price": null,
+    "priceText": "票价见官方售票页",
+    "priceNote": "票价请以官方售票页为准，本站未作估算。",
+    "duration": "",
+    "desc": "Rockdale Opera Company 在 Rockdale Town Hall 上演的社区制作。演期为 2026-12-05 至 2026-12-13；详情请查看官方页面。",
+    "source": "https://www.rockdaleopera.com.au/",
+    "booking": "https://www.rockdaleopera.com.au/",
+    "bookingLabel": "官方场次与购票",
+    "sessions": [
+      [
+        "2026-12-05",
+        "19:30",
+        ""
+      ],
+      [
+        "2026-12-06",
+        "14:00",
+        ""
+      ],
+      [
+        "2026-12-12",
+        "19:30",
+        ""
+      ],
+      [
+        "2026-12-13",
+        "14:00",
+        ""
+      ]
+    ],
+    "sessionsComplete": true,
+    "schedule": "已公布 4 场（2026-12-05 至 2026-12-13）。具体日期与时间见下方日历；不保证为全季总数。",
+    "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
+    "verifiedAt": "2026-09-25",
+    "evidenceUrls": [
+      "https://www.rockdaleopera.com.au/"
+    ]
+  },
+  {
+    "id": "rapunzel",
+    "title": "Rapunzel",
+    "genre": "亲子剧",
+    "scale": "社区剧团",
+    "venue": "beecroft",
+    "company": "Beacon Musical Society",
+    "start": "2026-11-14",
+    "end": "2026-11-28",
+    "price": null,
+    "priceText": "票价见官方售票页",
+    "priceNote": "票价请以官方售票页为准，本站未作估算。",
+    "duration": "",
+    "desc": "Beacon Musical Society 在 Beecroft Community Centre 上演的社区制作。演期为 2026-11-14 至 2026-11-28；详情请查看官方页面。",
+    "source": "https://beams.org.au/",
+    "booking": "https://beams.org.au/",
+    "bookingLabel": "查看官方演出公告",
+    "sessions": [],
+    "sessionsComplete": false,
+    "schedule": "官方已公布演期 2026-11-14 至 2026-11-28，但尚未开票。逐场日历待开票后补充。",
+    "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
+    "verifiedAt": "2026-09-25",
+    "status": "announced",
+    "onSaleFrom": null,
+    "evidenceUrls": [
+      "https://beams.org.au/",
+      "https://communitytheatre.com.au/whats-on/rapunzel/"
+    ]
+  },
+  {
+    "id": "xanadu-jr",
+    "title": "Xanadu JR.",
+    "genre": "音乐剧",
+    "scale": "社区剧团",
+    "venue": "potterylane",
+    "company": "Lane Cove Theatre Company",
+    "start": "2026-11-13",
+    "end": "2026-11-29",
+    "price": null,
+    "priceText": "票价见官方售票页",
+    "priceNote": "票价请以官方售票页为准，本站未作估算。",
+    "duration": "",
+    "desc": "Lane Cove Theatre Company 在 Pottery Lane Performance Space 上演的社区制作。演期为 2026-11-13 至 2026-11-29；详情请查看官方页面。",
+    "source": "https://lanecovetheatrecompany.com.au/",
+    "booking": "https://www.trybooking.com/au/event/1508649",
+    "bookingLabel": "官方场次与购票",
+    "sessions": [],
+    "sessionsComplete": false,
+    "schedule": "官方已公布演期 2026-11-13 至 2026-11-29；逐场时间尚未核实，请查看官方购票页面。",
+    "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
+    "verifiedAt": "2026-09-25",
+    "evidenceUrls": [
+      "https://lanecovetheatrecompany.com.au/",
+      "https://www.trybooking.com/au/event/1508649"
+    ]
+  },
+  {
+    "id": "hay-fever",
+    "title": "Hay Fever",
+    "genre": "话剧",
+    "scale": "社区剧团",
+    "venue": "artscronulla",
+    "company": "Arts Theatre Cronulla",
+    "start": "2026-10-23",
+    "end": "2026-11-28",
+    "price": null,
+    "priceText": "票价见官方售票页",
+    "priceNote": "票价请以官方售票页为准，本站未作估算。",
+    "duration": "",
+    "desc": "Arts Theatre Cronulla 在 Arts Theatre Cronulla 上演的社区制作。演期为 2026-10-23 至 2026-11-28；详情请查看官方页面。",
+    "source": "https://www.artstheatrecronulla.com.au/2026season",
+    "booking": "https://www.artstheatrecronulla.com.au/bookings",
+    "bookingLabel": "查看官方演出公告",
+    "sessions": [
+      [
+        "2026-10-25",
+        "14:00",
+        ""
+      ],
+      [
+        "2026-11-01",
+        "14:00",
+        ""
+      ],
+      [
+        "2026-11-15",
+        "14:00",
+        ""
+      ],
+      [
+        "2026-11-22",
+        "14:00",
+        ""
+      ]
+    ],
+    "sessionsComplete": false,
+    "schedule": "官方已公布演期 2026-10-23 至 2026-11-28，但尚未开票（2026-10-10 起公开发售）。 已核实 4 场时间，见下方日历。",
+    "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
+    "verifiedAt": "2026-09-25",
+    "status": "announced",
+    "onSaleFrom": "2026-10-10",
+    "evidenceUrls": [
+      "https://www.artstheatrecronulla.com.au/2026season"
+    ]
   }
 ];
 const SOURCES = [
@@ -20570,7 +21546,7 @@ const SOURCES = [
     "name": "Genesian Theatre",
     "url": "https://genesiantheatre.com.au/",
     "group": "独立与社区",
-    "note": "已核实现址为 Rozelle，避免旧版地址。",
+    "note": "已核实部分社区制作的演期、场馆与官方入口；有明确时间才录入场次，尚未开启全量自动更新。",
     "status": "已采样",
     "checkedAt": "2026-09-20"
   },
@@ -20586,8 +21562,8 @@ const SOURCES = [
     "name": "Inner West Theatre Company",
     "url": "https://www.innerwesttheatre.com.au/",
     "group": "独立与社区",
-    "note": "社区目录列出；逐个制作页待核实。",
-    "status": "目录线索",
+    "note": "已核实部分社区制作的演期、场馆与官方入口；有明确时间才录入场次，尚未开启全量自动更新。",
+    "status": "已采样",
     "checkedAt": "2026-09-20"
   },
   {
@@ -20602,8 +21578,8 @@ const SOURCES = [
     "name": "Hornsby Musical Society",
     "url": "https://hornsbymusicalsociety.com.au/",
     "group": "独立与社区",
-    "note": "社区目录列出；演出地逐项核对。",
-    "status": "目录线索",
+    "note": "已核实部分社区制作的演期、场馆与官方入口；有明确时间才录入场次，尚未开启全量自动更新。",
+    "status": "已采样",
     "checkedAt": "2026-09-20"
   },
   {
@@ -20650,8 +21626,8 @@ const SOURCES = [
     "name": "Engadine Musical Society",
     "url": "https://www.engadinemusicalsociety.com.au/",
     "group": "独立与社区",
-    "note": "社区目录列出；覆盖南区。",
-    "status": "目录线索",
+    "note": "已核实部分社区制作的演期、场馆与官方入口；有明确时间才录入场次，尚未开启全量自动更新。",
+    "status": "已采样",
     "checkedAt": "2026-09-20"
   },
   {
@@ -20666,16 +21642,16 @@ const SOURCES = [
     "name": "Rockdale Musical Society",
     "url": "https://www.rockdalemusicalsociety.com/",
     "group": "独立与社区",
-    "note": "社区目录列出；另发现 TryBooking 历史演出实例。",
-    "status": "目录线索",
+    "note": "已核实部分社区制作的演期、场馆与官方入口；有明确时间才录入场次，尚未开启全量自动更新。",
+    "status": "已采样",
     "checkedAt": "2026-09-20"
   },
   {
     "name": "Rockdale Opera Company",
     "url": "https://www.rockdaleopera.com.au/",
     "group": "独立与社区",
-    "note": "社区目录列出；与同区 Musical Society 区分。",
-    "status": "目录线索",
+    "note": "已核实部分社区制作的演期、场馆与官方入口；有明确时间才录入场次，尚未开启全量自动更新。",
+    "status": "已采样",
     "checkedAt": "2026-09-20"
   },
   {
@@ -20690,8 +21666,8 @@ const SOURCES = [
     "name": "Bankstown Theatre Company",
     "url": "https://www.bankstowntheatrecompany.com/",
     "group": "独立与社区",
-    "note": "社区目录列出；覆盖西南区。",
-    "status": "目录线索",
+    "note": "已核实部分社区制作的演期、场馆与官方入口；有明确时间才录入场次，尚未开启全量自动更新。",
+    "status": "已采样",
     "checkedAt": "2026-09-20"
   },
   {
@@ -20706,8 +21682,8 @@ const SOURCES = [
     "name": "Campbelltown Theatre Group",
     "url": "https://www.ctgi.org.au/",
     "group": "独立与社区",
-    "note": "社区目录列出；话剧与音乐剧候选来源。",
-    "status": "目录线索",
+    "note": "已核实部分社区制作的演期、场馆与官方入口；有明确时间才录入场次，尚未开启全量自动更新。",
+    "status": "已采样",
     "checkedAt": "2026-09-20"
   },
   {
@@ -20730,8 +21706,8 @@ const SOURCES = [
     "name": "The Theatre on Chester",
     "url": "https://www.theatreonchester.com.au/",
     "group": "独立与社区",
-    "note": "ACT 目录列出的话剧来源。",
-    "status": "目录线索",
+    "note": "已核实部分社区制作的演期、场馆与官方入口；有明确时间才录入场次，尚未开启全量自动更新。",
+    "status": "已采样",
     "checkedAt": "2026-09-20"
   },
   {
@@ -20760,11 +21736,11 @@ const SOURCES = [
   },
   {
     "name": "TryBooking",
-    "url": "https://www.trybooking.com/au/event/1509355",
+    "url": "https://www.trybooking.com/au/event/1586096",
     "group": "票务平台",
-    "note": "链接为已结束的 Rockdale 实例，只用于证明来源渠道。",
-    "status": "已发现",
-    "checkedAt": "2026-09-20"
+    "note": "社区制作购票渠道；已做两条公开活动页试点，逐场时间仍须回主办方官网核对。",
+    "status": "两条影子样本已核验",
+    "checkedAt": "2026-09-24"
   },
   {
     "name": "Humanitix",
@@ -20784,11 +21760,11 @@ const SOURCES = [
   },
   {
     "name": "Association of Community Theatre",
-    "url": "https://communitytheatre.com.au/member_region/sydney-metropolitan/",
+    "url": "https://communitytheatre.com.au/whats-on/",
     "group": "目录与艺术节",
-    "note": "会员目录和 What’s On，是建立社区剧团名录的起点。",
+    "note": "已读取悉尼名录可见分页：37 条记录、36 个不同名称；15 条节目详情。仅作线索，须经剧团官网核实。",
     "status": "已采样",
-    "checkedAt": "2026-09-20"
+    "checkedAt": "2026-09-24"
   },
   {
     "name": "Sydney Community Musical Theatre",
@@ -20853,5 +21829,75 @@ const SOURCES = [
     "status": "已发现",
     "note": "New Theatre 官方节目页直接链接的售票系统；未核实实时库存。",
     "checkedAt": "2026-09-20"
+  },
+  {
+    "name": "Gilbert & Sullivan Opera Sydney",
+    "url": "https://www.gsosydney.com.au/booking.html",
+    "group": "独立与社区",
+    "status": "已采样",
+    "note": "已核实部分社区制作的演期、场馆与官方入口；有明确时间才录入场次，尚未开启全量自动更新。"
+  },
+  {
+    "name": "Castle Hill Players",
+    "url": "https://paviliontheatre.org.au/the-audience/",
+    "group": "独立与社区",
+    "status": "已采样",
+    "note": "已核实部分社区制作的演期、场馆与官方入口；有明确时间才录入场次，尚未开启全量自动更新。"
+  },
+  {
+    "name": "Hunters Hill Theatre",
+    "url": "https://www.huntershilltheatre.com.au/",
+    "group": "独立与社区",
+    "status": "已采样",
+    "note": "已核实部分社区制作的演期、场馆与官方入口；有明确时间才录入场次，尚未开启全量自动更新。"
+  },
+  {
+    "name": "Strathfield Musical Society",
+    "url": "https://strathfieldmusicalsociety.com.au",
+    "group": "独立与社区",
+    "status": "已采样",
+    "note": "已核实部分社区制作的演期、场馆与官方入口；有明确时间才录入场次，尚未开启全量自动更新。"
+  },
+  {
+    "name": "Pymble Players",
+    "url": "https://pymbleplayers.com.au/a-christmas-carol",
+    "group": "独立与社区",
+    "status": "已采样",
+    "note": "已核实部分社区制作的演期、场馆与官方入口；有明确时间才录入场次，尚未开启全量自动更新。"
+  },
+  {
+    "name": "Elanora Players",
+    "url": "https://elanoraplayers.com.au/",
+    "group": "独立与社区",
+    "status": "已采样",
+    "note": "已核实部分社区制作的演期、场馆与官方入口；有明确时间才录入场次，尚未开启全量自动更新。"
+  },
+  {
+    "name": "The Guild Theatre",
+    "url": "https://www.guildtheatre.com.au/2026-season/steel-magnolias/",
+    "group": "独立与社区",
+    "status": "已采样",
+    "note": "已核实部分社区制作的演期、场馆与官方入口；有明确时间才录入场次，尚未开启全量自动更新。"
+  },
+  {
+    "name": "Beacon Musical Society",
+    "url": "https://beams.org.au/",
+    "group": "独立与社区",
+    "status": "已采样",
+    "note": "已核实部分社区制作的演期、场馆与官方入口；有明确时间才录入场次，尚未开启全量自动更新。"
+  },
+  {
+    "name": "Lane Cove Theatre Company",
+    "url": "https://lanecovetheatrecompany.com.au/",
+    "group": "独立与社区",
+    "status": "已采样",
+    "note": "已核实部分社区制作的演期、场馆与官方入口；有明确时间才录入场次，尚未开启全量自动更新。"
+  },
+  {
+    "name": "Arts Theatre Cronulla",
+    "url": "https://www.artstheatrecronulla.com.au/2026season",
+    "group": "独立与社区",
+    "status": "已采样",
+    "note": "已核实部分社区制作的演期、场馆与官方入口；有明确时间才录入场次，尚未开启全量自动更新。"
   }
 ];

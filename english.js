@@ -32,7 +32,8 @@ const EN_SHOWS = {
     "duration": "90 minutes, no interval",
     "desc": "A CEO returning from parental leave gets stuck in an office lift. An Australian dark comedy about greenwashing, workplace pressure and tangled lies.",
     "schedule": "Four published performances are sampled below. This is not the complete season calendar.",
-    "access": "Recommended 14+. Wheelchair access and hearing loop listed; audio description on selected dates."
+    "access": "Recommended 14+. Wheelchair access and hearing loop listed; audio description on selected dates.",
+    "imageCredit": "Official promotional artwork © Ensemble Theatre"
   },
   "current": {
     "priceText": "A$95 · adult",
@@ -102,7 +103,8 @@ const EN_SHOWS = {
     "access": "See the official page for content advice and access arrangements.",
     "schedule": "Season dates checked; individual performances have not yet been entered.",
     "desc": "Tevye and his family face changing traditions, love and separation in this musical.",
-    "dateNote": "Season confirmed by the venue’s July 2026 announcement. Stale access-performance dates were excluded."
+    "dateNote": "Season confirmed by the venue’s July 2026 announcement. Stale access-performance dates were excluded.",
+    "imageCredit": "Official promotional artwork © Theatre Royal Sydney"
   },
   "private-lives": {
     "priceText": "See official prices",
@@ -110,7 +112,8 @@ const EN_SHOWS = {
     "access": "See the official page for content advice and access arrangements.",
     "schedule": "Season dates checked; individual performances have not yet been entered.",
     "desc": "A divorced couple meet again while honeymooning with their new partners in Noël Coward’s comedy.",
-    "dateNote": "The venue lists 6 February–14 March; the production’s Sydney page confirms the year as 2027."
+    "dateNote": "The venue lists 6 February–14 March; the production’s Sydney page confirms the year as 2027.",
+    "imageCredit": "Official promotional artwork © Theatre Royal Sydney"
   },
   "next-to-godliness": {
     "priceText": "A$45 · adult",
@@ -4029,6 +4032,169 @@ const EN_SHOWS = {
     "schedule": "1 published performances from 2026-10-31 to 2026-10-31. See the calendar below for dates and times; this is not a guaranteed season total.",
     "access": "Accessible seating, latecomer and venue notices: check the official listing.",
     "imageCredit": "Official promotional artwork © Sydney Lyric"
+  },
+  "gypsy": {
+    "priceText": "See the official listing for prices",
+    "priceNote": "Check official booking for current prices; no estimate is shown.",
+    "duration": "",
+    "desc": "A community production by Bankstown Theatre Company, running from 2026-11-06 to 2026-11-15. See the official listing for production details.",
+    "schedule": "8 published performances from 2026-11-06 to 2026-11-15. See the calendar below for dates and times; this is not a guaranteed season total.",
+    "access": "Accessible seating, latecomer and venue notices: check the official listing.",
+    "imageCredit": "Artwork: Bankstown Theatre Company"
+  },
+  "grease": {
+    "priceText": "See the official listing for prices",
+    "priceNote": "Check official booking for current prices; no estimate is shown.",
+    "duration": "",
+    "desc": "A community production by Rockdale Musical Society, running from 2026-11-06 to 2026-11-14. See the official listing for production details.",
+    "schedule": "8 published performances from 2026-11-06 to 2026-11-14. See the calendar below for dates and times; this is not a guaranteed season total.",
+    "access": "Accessible seating, latecomer and venue notices: check the official listing."
+  },
+  "trial-by-jury-the-savoyards": {
+    "priceText": "See the official listing for prices",
+    "priceNote": "Check official booking for current prices; no estimate is shown.",
+    "duration": "",
+    "desc": "A community production by Gilbert & Sullivan Opera Sydney, running from 2026-10-09 to 2026-10-11. See the official listing for production details.",
+    "schedule": "4 published performances from 2026-10-09 to 2026-10-11. See the calendar below for dates and times; this is not a guaranteed season total.",
+    "access": "Accessible seating, latecomer and venue notices: check the official listing."
+  },
+  "catch-me-if-you-can": {
+    "priceText": "See the official listing for prices",
+    "priceNote": "Check official booking for current prices; no estimate is shown.",
+    "duration": "",
+    "desc": "A community production by Inner West Theatre Company, running from 2026-10-16 to 2026-10-24. See the official listing for production details.",
+    "schedule": "2 published performances from 2026-10-16 to 2026-10-24. See the calendar below for dates and times; this is not a guaranteed season total.",
+    "access": "Accessible seating, latecomer and venue notices: check the official listing.",
+    "imageCredit": "Artwork: Inner West Theatre Company"
+  },
+  "reefer-madness": {
+    "priceText": "See the official listing for prices",
+    "priceNote": "Check official booking for current prices; no estimate is shown.",
+    "duration": "",
+    "desc": "A community production by Hornsby Musical Society, running from 2026-11-13 to 2026-11-22. See the official listing for production details.",
+    "schedule": "Season: 2026-11-13 to 2026-11-22. Individual performance times have not been verified; check official booking.",
+    "access": "Accessible seating, latecomer and venue notices: check the official listing.",
+    "imageCredit": "Artwork: Hornsby Musical Society"
+  },
+  "the-audience": {
+    "priceText": "See the official listing for prices",
+    "priceNote": "Check official booking for current prices; no estimate is shown.",
+    "duration": "",
+    "desc": "A community production by Castle Hill Players, running from 2026-11-13 to 2026-12-05. See the official listing for production details.",
+    "schedule": "Season: 2026-11-13 to 2026-12-05. Individual performance times have not been verified; check official booking.",
+    "access": "Accessible seating, latecomer and venue notices: check the official listing.",
+    "imageCredit": "Artwork: Castle Hill Players"
+  },
+  "yerma": {
+    "priceText": "See the official listing for prices",
+    "priceNote": "Check official booking for current prices; no estimate is shown.",
+    "duration": "",
+    "desc": "A community production by Genesian Theatre Company, running from 2026-10-23 to 2026-11-14. See the official listing for production details.",
+    "schedule": "Season: 2026-10-23 to 2026-11-14. Individual performance times have not been verified; check official booking.",
+    "access": "Accessible seating, latecomer and venue notices: check the official listing.",
+    "imageCredit": "Artwork: Genesian Theatre Company"
+  },
+  "don-t-dress-for-dinner": {
+    "priceText": "See the official listing for prices",
+    "priceNote": "Check official booking for current prices; no estimate is shown.",
+    "duration": "",
+    "desc": "A community production by Hunters Hill Theatre, running from 2026-11-13 to 2026-12-06. See the official listing for production details.",
+    "schedule": "Season: 2026-11-13 to 2026-12-06. Individual performance times have not been verified; check official booking.",
+    "access": "Accessible seating, latecomer and venue notices: check the official listing.",
+    "imageCredit": "Artwork: Hunters Hill Theatre"
+  },
+  "come-from-away": {
+    "priceText": "See the official listing for prices",
+    "priceNote": "Check official booking for current prices; no estimate is shown.",
+    "duration": "",
+    "desc": "A community production by Strathfield Musical Society, running from 2026-10-23 to 2026-10-31. See the official listing for production details.",
+    "schedule": "Season: 2026-10-23 to 2026-10-31. Individual performance times have not been verified; check official booking.",
+    "access": "Accessible seating, latecomer and venue notices: check the official listing.",
+    "imageCredit": "Artwork: Strathfield Musical Society"
+  },
+  "a-christmas-carol-a-ghost-story-of-christmas": {
+    "priceText": "See the official listing for prices",
+    "priceNote": "Check official booking for current prices; no estimate is shown.",
+    "duration": "",
+    "desc": "A community production by Pymble Players, running from 2026-11-13 to 2026-11-22. See the official listing for production details.",
+    "schedule": "8 published performances from 2026-11-13 to 2026-11-22. See the calendar below for dates and times; this is not a guaranteed season total.",
+    "access": "Accessible seating, latecomer and venue notices: check the official listing.",
+    "imageCredit": "Artwork: Pymble Players"
+  },
+  "rhinestone-rex-miss-monica": {
+    "priceText": "See the official listing for prices",
+    "priceNote": "Check official booking for current prices; no estimate is shown.",
+    "duration": "",
+    "desc": "A community production by Elanora Players, running from 2026-10-02 to 2026-10-10. See the official listing for production details.",
+    "schedule": "7 published performances from 2026-10-02 to 2026-10-10. See the calendar below for dates and times; this is not a guaranteed season total.",
+    "access": "Accessible seating, latecomer and venue notices: check the official listing."
+  },
+  "take-a-bow-70th-anniversary-concert": {
+    "priceText": "See the official listing for prices",
+    "priceNote": "Check official booking for current prices; no estimate is shown.",
+    "duration": "",
+    "desc": "A community production by Campbelltown Theatre Group, running from 2026-11-01 to 2026-11-01. See the official listing for production details.",
+    "schedule": "1 published performances from 2026-11-01 to 2026-11-01. See the calendar below for dates and times; this is not a guaranteed season total.",
+    "access": "Accessible seating, latecomer and venue notices: check the official listing.",
+    "imageCredit": "Artwork: Campbelltown Theatre Group"
+  },
+  "steel-magnolias": {
+    "priceText": "See the official listing for prices",
+    "priceNote": "Check official booking for current prices; no estimate is shown.",
+    "duration": "",
+    "desc": "A community production by The Guild Theatre, running from 2026-11-06 to 2026-11-28. See the official listing for production details.",
+    "schedule": "Season: 2026-11-06 to 2026-11-28. Individual performance times have not been verified; check official booking.",
+    "access": "Accessible seating, latecomer and venue notices: check the official listing.",
+    "imageCredit": "Artwork: The Guild Theatre"
+  },
+  "arsenic-and-old-lace": {
+    "priceText": "See the official listing for prices",
+    "priceNote": "Check official booking for current prices; no estimate is shown.",
+    "duration": "",
+    "desc": "A community production by Theatre on Chester, running from 2026-11-06 to 2026-11-28. See the official listing for production details.",
+    "schedule": "Season: 2026-11-06 to 2026-11-28. Individual performance times have not been verified; check official booking.",
+    "access": "Accessible seating, latecomer and venue notices: check the official listing.",
+    "imageCredit": "Artwork: Theatre on Chester"
+  },
+  "the-wizard-of-oz": {
+    "priceText": "See the official listing for prices",
+    "priceNote": "Check official booking for current prices; no estimate is shown.",
+    "duration": "",
+    "desc": "A community production by Engadine Musical Society, running from 2026-10-16 to 2026-10-25. See the official listing for production details.",
+    "schedule": "9 published performances from 2026-10-16 to 2026-10-25. See the calendar below for dates and times; this is not a guaranteed season total.",
+    "access": "Accessible seating, latecomer and venue notices: check the official listing."
+  },
+  "faust": {
+    "priceText": "See the official listing for prices",
+    "priceNote": "Check official booking for current prices; no estimate is shown.",
+    "duration": "",
+    "desc": "A community production by Rockdale Opera Company, running from 2026-12-05 to 2026-12-13. See the official listing for production details.",
+    "schedule": "4 published performances from 2026-12-05 to 2026-12-13. See the calendar below for dates and times; this is not a guaranteed season total.",
+    "access": "Accessible seating, latecomer and venue notices: check the official listing."
+  },
+  "rapunzel": {
+    "priceText": "See the official listing for prices",
+    "priceNote": "Check official booking for current prices; no estimate is shown.",
+    "duration": "",
+    "desc": "A community production by Beacon Musical Society, running from 2026-11-14 to 2026-11-28. See the official listing for production details.",
+    "schedule": "The season is announced for 2026-11-14 to 2026-11-28 but tickets are not on sale yet. The performance calendar is added once booking opens.",
+    "access": "Accessible seating, latecomer and venue notices: check the official listing."
+  },
+  "xanadu-jr": {
+    "priceText": "See the official listing for prices",
+    "priceNote": "Check official booking for current prices; no estimate is shown.",
+    "duration": "",
+    "desc": "A community production by Lane Cove Theatre Company, running from 2026-11-13 to 2026-11-29. See the official listing for production details.",
+    "schedule": "Season: 2026-11-13 to 2026-11-29. Individual performance times have not been verified; check official booking.",
+    "access": "Accessible seating, latecomer and venue notices: check the official listing."
+  },
+  "hay-fever": {
+    "priceText": "See the official listing for prices",
+    "priceNote": "Check official booking for current prices; no estimate is shown.",
+    "duration": "",
+    "desc": "A community production by Arts Theatre Cronulla, running from 2026-10-23 to 2026-11-28. See the official listing for production details.",
+    "schedule": "The season is announced for 2026-10-23 to 2026-11-28 but tickets are not on sale yet (public on sale 2026-10-10). 4 published performance times are listed below.",
+    "access": "Accessible seating, latecomer and venue notices: check the official listing."
   }
 };
 const EN_VENUES = {
@@ -4090,7 +4256,23 @@ const EN_VENUES = {
   "campbellstchurch": "A Balmain church used mainly for organ and classical concert performances.",
   "machinehall": "A century-old former substation converted into an event and performance precinct.",
   "churchststudios": "A 60-seat live music room that runs at weekends only and has no bar.",
-  "vinechurch": "A Surry Hills church whose hall is hired out for performances and events."
+  "vinechurch": "A Surry Hills church whose hall is hired out for performances and events.",
+  "bryanbrown": "Hosts community productions. Check the official listing for programme and visitor information.",
+  "rockdaletownhall": "Hosts community productions. Check the official listing for programme and visitor information.",
+  "smithauditorium": "Hosts community productions. Check the official listing for programme and visitor information.",
+  "petershamtownhall": "Hosts community productions. Check the official listing for programme and visitor information.",
+  "pioneer": "Hosts community productions. Check the official listing for programme and visitor information.",
+  "pavilioncastlehill": "Hosts community productions. Check the official listing for programme and visitor information.",
+  "genesian": "Hosts community productions. Check the official listing for programme and visitor information.",
+  "clubryde": "Hosts community productions. Check the official listing for programme and visitor information.",
+  "latviantheatre": "Hosts community productions. Check the official listing for programme and visitor information.",
+  "northnarrabeen": "Hosts community productions. Check the official listing for programme and visitor information.",
+  "thecube": "Hosts community productions. Check the official listing for programme and visitor information.",
+  "guild": "Hosts community productions. Check the official listing for programme and visitor information.",
+  "chester": "Hosts community productions. Check the official listing for programme and visitor information.",
+  "engadine": "Hosts community productions. Check the official listing for programme and visitor information.",
+  "beecroft": "Community theatre; check the official programme and visitor information.",
+  "artscronulla": "Community theatre; check the official programme and visitor information."
 };
 const EN_SOURCE_NOTES = [
   "Four productions listed. The Rink booking calendar confirms seven performances ending 4 October.",
@@ -4121,34 +4303,34 @@ const EN_SOURCE_NOTES = [
   "Use the current venue programme rather than relying on historical operators.",
   "Two productions, adult prices, explicit sample dates and official ticketing links checked.",
   "Inner West independent performance and Fringe programming.",
-  "The current Rozelle address was checked to avoid stale venue data.",
+  "Selected community productions checked against official listings. Only explicit performance times are listed; full automatic updates are not enabled.",
   "Community musicals; the announced 2027 Billy Elliot is sampled here.",
-  "Listed by the community directory; production pages still need checking.",
+  "Selected community productions checked against official listings. Only explicit performance times are listed; full automatic updates are not enabled.",
   "Community directory lead for northern Sydney.",
-  "Community directory lead; check the venue for each production.",
+  "Selected community productions checked against official listings. Only explicit performance times are listed; full automatic updates are not enabled.",
   "Found in both community directories; programme not yet imported.",
   "Community directory lead; programme still to be checked.",
   "Include public performances; exclude training-only activities.",
   "Community directory lead for the north-west.",
   "Community directory lead for the Hills district.",
-  "Community directory lead for southern Sydney.",
+  "Selected community productions checked against official listings. Only explicit performance times are listed; full automatic updates are not enabled.",
   "Community directory lead; verify each official booking channel.",
-  "Directory lead; a past TryBooking production also demonstrates this channel.",
-  "Directory lead; distinct from Rockdale Musical Society.",
+  "Selected community productions checked against official listings. Only explicit performance times are listed; full automatic updates are not enabled.",
+  "Selected community productions checked against official listings. Only explicit performance times are listed; full automatic updates are not enabled.",
   "Directory lead; create records from individual production pages.",
-  "Community directory lead for south-western Sydney.",
+  "Selected community productions checked against official listings. Only explicit performance times are listed; full automatic updates are not enabled.",
   "Community directory lead on the Greater Sydney fringe.",
-  "Community directory lead for plays and musicals.",
+  "Selected community productions checked against official listings. Only explicit performance times are listed; full automatic updates are not enabled.",
   "Community directory lead; programme not yet imported.",
   "Community directory lead for western Sydney.",
-  "Play-producing group discovered through the ACT directory.",
+  "Selected community productions checked against official listings. Only explicit performance times are listed; full automatic updates are not enabled.",
   "Ticketing and performance dates; not a complete city programme.",
   "Authorised ticketing links; retain the official production page.",
   "Reference for discovery, Rush and Lottery information.",
   "Linked Rockdale event has ended; used only as an example of this channel.",
   "Long-tail ticketing channel; verify the organiser of each event.",
   "Long-tail discovery; exclude classes, workshops and unrelated activities.",
-  "Member directory and What’s On: a starting point for community coverage.",
+  "Visible Sydney directory pages checked: 37 entries, 36 distinct names and 15 event details. Discovery leads require verification with the producer.",
   "Regional community musical directory; verify productions on official sites.",
   "Independent, small-scale and temporary-venue performance discovery.",
   "Cross-artform festival; keep the festival year explicit.",
@@ -4156,7 +4338,17 @@ const EN_SOURCE_NOTES = [
   "Official company and Legally Blonde entry found. Detail/ticket-page retrieval failed; season not yet imported.",
   "Confirms the Sydney season year and authorised ticketing.",
   "Confirms Sydney opens 2 January 2027. No official closing date confirmed; held for review.",
-  "Ticketing system linked by New Theatre’s official show pages; live inventory not verified."
+  "Ticketing system linked by New Theatre’s official show pages; live inventory not verified.",
+  "Selected community productions checked against official listings. Only explicit performance times are listed; full automatic updates are not enabled.",
+  "Selected community productions checked against official listings. Only explicit performance times are listed; full automatic updates are not enabled.",
+  "Selected community productions checked against official listings. Only explicit performance times are listed; full automatic updates are not enabled.",
+  "Selected community productions checked against official listings. Only explicit performance times are listed; full automatic updates are not enabled.",
+  "Selected community productions checked against official listings. Only explicit performance times are listed; full automatic updates are not enabled.",
+  "Selected community productions checked against official listings. Only explicit performance times are listed; full automatic updates are not enabled.",
+  "Selected community productions checked against official listings. Only explicit performance times are listed; full automatic updates are not enabled.",
+  "Selected community productions checked against official listings. Only explicit performance times are listed; full automatic updates are not enabled.",
+  "Selected community productions checked against official listings. Only explicit performance times are listed; full automatic updates are not enabled.",
+  "Selected community productions checked against official listings. Only explicit performance times are listed; full automatic updates are not enabled."
 ];
 const EN_LABELS = {
   "全部": "All",
