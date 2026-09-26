@@ -4387,3 +4387,103 @@ const EN_LABELS = {
   "其他": "Other",
   "悉尼艺穗节 2026": "Sydney Fringe 2026"
 };
+
+// Reviewed story/theme summaries only. Operational descriptions are never a fallback.
+const SHOW_SYNOPSES = {
+  "how-to-succeed": {
+    "en": "A window cleaner uses a career guide to work his way up the corporate ladder in this musical satire about office ambition.",
+    "zh": "一名擦窗工利用一本职场指南步步晋升。这部讽刺音乐剧以办公室野心与人际关系为题。"
+  },
+  "tigers": {
+    "en": "A cheerleading sleepover becomes a murder mystery. A pop-rock musical about teenage secrets, friendship and survival.",
+    "zh": "一场啦啦队睡衣派对，突然变成充满秘密的悬疑之夜。流行摇滚音乐剧里的青春、友情与谋杀谜题。"
+  },
+  "room": {
+    "en": "An adaptation of E. M. Forster’s novel. A visit to Florence changes Lucy’s ideas about love and the life she might choose.",
+    "zh": "改编自 E. M. Forster 的小说。一次佛罗伦萨之旅，改变了 Lucy 对爱情与人生选择的想象。"
+  },
+  "elevator": {
+    "en": "A CEO returning from parental leave gets stuck in an office lift. An Australian dark comedy about greenwashing, workplace pressure and tangled lies.",
+    "zh": "一名刚休完产假的 CEO 被困在办公室电梯里。一部关于企业环保形象、职场压力与谎言的澳洲黑色喜剧。"
+  },
+  "current": {
+    "en": "Four choreographers bring different perspectives together in one contemporary dance programme, exploring movement, rhythm and individual expression.",
+    "zh": "四位编舞者的作品在同一晚相遇，以身体、节奏与不同创作语言探索当代舞。"
+  },
+  "silver": {
+    "en": "A new musical reimagining Treasure Island. A pirate queen and a young traveller set out on a voyage of ambition, identity and choice.",
+    "zh": "以《金银岛》为起点的新音乐剧。一位海盗女王和年轻旅伴，踏上关于野心、身份与选择的航程。"
+  },
+  "six": {
+    "en": "Henry VIII’s six wives take the stage to tell their own stories in the form of a pop concert.",
+    "zh": "亨利八世的六位王后走上舞台，以流行音乐演唱会的形式重新讲述自己的故事。"
+  },
+  "fiddler": {
+    "en": "Tevye and his family face changing traditions, love and separation in this musical.",
+    "zh": "Tevye 与家人在变化的时代面对传统、爱情与离别。"
+  },
+  "private-lives": {
+    "en": "A divorced couple meet again while honeymooning with their new partners in Noël Coward’s comedy.",
+    "zh": "一对离婚夫妻与各自的新伴侣度蜜月时重逢，旧日感情再度引发混乱。"
+  },
+  "next-to-godliness": {
+    "en": "Crime-scene cleaners discover that a victim is still alive in this dark satire.",
+    "zh": "犯罪现场清洁工发现受害人仍然活着，一场工作变成黑色讽刺闹剧。"
+  },
+  "blithe-spirit": {
+    "en": "A novelist’s séance summons his late wife, disrupting life with his current partner.",
+    "zh": "作家为搜集素材举行降灵会，却招来了亡妻的鬼魂。"
+  },
+  "wake-in-fright": {
+    "en": "Zahra Newman performs a solo adaptation about a teacher stranded in an outback town.",
+    "zh": "Zahra Newman 独角演出，讲述一名教师受困于澳洲内陆小镇的经历。"
+  },
+  "coconut-children": {
+    "en": "Two teenagers navigate family, friendship and growing up in Cabramatta in 1998.",
+    "zh": "1998 年的 Cabramatta，两名年轻人在家庭、友情与成长之间寻找方向。"
+  },
+  "stocktake": {
+    "en": "A retail stocktake turns sinister in this workplace horror comedy.",
+    "zh": "零售店员工的盘点工作逐渐显露不寻常的一面，一部职场恐怖喜剧。"
+  },
+  "six-mel": {
+    "en": "A pop-concert retelling of the six queens of Henry VIII.",
+    "zh": "以流行演唱会形式重述亨利八世六位王后的故事。"
+  },
+  "noah-skape-mel": {
+    "en": "A solo punk-rock operetta about identity and belonging.",
+    "zh": "关于身份与归属的单人朋克摇滚音乐戏剧。"
+  },
+  "squizzy-mel": {
+    "en": "A theatrical hip-hop story told through a fictional world tour.",
+    "zh": "以虚构世界巡演讲述故事的嘻哈音乐戏剧。"
+  },
+  "na-iba-mel": {
+    "en": "A physical theatre response to Medea.",
+    "zh": "以形体戏剧重新审视《美狄亚》。"
+  },
+  "melancholia-mel": {
+    "en": "Tap and contemporary dance exploring grief and hope.",
+    "zh": "通过踢踏舞与当代舞探索悲伤与希望。"
+  },
+  "showmance-mel": {
+    "en": "A student-run musical about backstage relationships in community theatre.",
+    "zh": "学生剧团制作的音乐剧，讲述社区剧场后台的情感关系。"
+  },
+  "eliza-mtc": {
+    "en": "Tom Holloway’s psychological thriller about the origins of AI.",
+    "zh": "Tom Holloway 关于人工智能起源的心理惊悚话剧。"
+  },
+  "stereophonic-mtc": {
+    "en": "David Adjmi’s play about a band recording an album, with songs by Will Butler.",
+    "zh": "David Adjmi 关于乐队录制专辑的话剧，歌曲由 Will Butler 创作。"
+  },
+  "rink": {
+    "en": "A mother and daughter confront their past as a roller rink faces demolition.",
+    "zh": "一座溜冰场即将被拆除，一对母女在这里重新面对彼此与过去。"
+  },
+  "semele": {
+    "en": "The mortal Semele becomes entangled in love and ambition among the gods, with devastating consequences.",
+    "zh": "凡人 Semele 卷入众神之间的爱情与野心，为自己的愿望付出代价。"
+  }
+};
