@@ -4485,5 +4485,491 @@ const SHOW_SYNOPSES = {
   "semele": {
     "en": "The mortal Semele becomes entangled in love and ambition among the gods, with devastating consequences.",
     "zh": "凡人 Semele 卷入众神之间的爱情与野心，为自己的愿望付出代价。"
+  },
+  "beautiful-noise-mel": {
+    "en": "Neil Diamond’s journey from a Brooklyn childhood to musical stardom unfolds through the songs that shaped his life and career.",
+    "zh": "通过贯穿人生与事业的歌曲，讲述 Neil Diamond 从布鲁克林少年成长为音乐巨星的经历。",
+    "sourceUrl": "https://marrinergroup.com.au/shows/a-beautiful-noise",
+    "checkedAt": "2026-09-26"
+  },
+  "a-beautiful-noise": {
+    "en": "Neil Diamond’s journey from a Brooklyn childhood to musical stardom unfolds through the songs that shaped his life and career.",
+    "zh": "通过贯穿人生与事业的歌曲，讲述 Neil Diamond 从布鲁克林少年成长为音乐巨星的经历。",
+    "sourceUrl": "https://marrinergroup.com.au/shows/a-beautiful-noise",
+    "checkedAt": "2026-09-26"
+  },
+  "mrs-doubtfire-mel": {
+    "en": "After a divorce separates him from his children, actor Daniel Hillard disguises himself as a Scottish nanny to remain part of their lives. His elaborate deception forces him to rethink fatherhood and family.",
+    "zh": "离婚后失去孩子监护权的演员 Daniel Hillard，扮成苏格兰保姆留在孩子身边。这场精心设计的伪装，让他重新理解父亲的责任与家庭的意义。",
+    "sourceUrl": "https://marrinergroup.com.au/shows/mrs-doubtfire-the-musical",
+    "checkedAt": "2026-09-26"
+  },
+  "lord-flies-mel": {
+    "en": "Boys stranded on an island after a plane crash try to build a fair society. Rivalries and mounting fear soon threaten their rules, exposing the fragile boundary between civilisation and brutality.",
+    "zh": "飞机失事后，一群男孩流落孤岛，试图建立公平有序的小社会。但竞争与恐惧逐渐瓦解规则，文明与暴力之间的界线开始模糊。",
+    "sourceUrl": "https://www.theatreworks.org.au/2026/lord-of-the-flies",
+    "checkedAt": "2026-09-26"
+  },
+  "young-frankenstein-mel": {
+    "en": "Frederick Frankenstein inherits his grandfather’s castle and hopes to leave its notorious experiments behind. With Igor and Inga at his side, he instead revives a monster and unleashes musical mayhem.",
+    "zh": "Frederick Frankenstein 继承祖父的城堡，本想与家族臭名昭著的实验划清界线，却在 Igor 和 Inga 的陪伴下让怪物复活，引发一连串荒诞的音乐喜剧风波。",
+    "sourceUrl": "https://youngfrankensteinthemusical.com.au/",
+    "checkedAt": "2026-09-26"
+  },
+  "koreaboo-mel": {
+    "en": "A Korean adoptee returns to her birth country and attempts to connect with the woman who gave birth to her, exploring family, identity and the desire to belong.",
+    "zh": "一位被收养的韩国女性回到出生地，尝试与生母建立联系，在家庭、身份与归属感之间寻找自己的位置。",
+    "sourceUrl": "https://www.malthousetheatre.com.au/digital-program/koreaboo",
+    "checkedAt": "2026-09-26"
+  },
+  "all-about-eve-mel": {
+    "en": "Broadway star Margo Channing welcomes devoted fan Eve Harrington into her life. Eve’s ambitions turn admiration into rivalry, revealing the pressures of fame, ageing and power.",
+    "zh": "百老汇明星 Margo Channing 将忠实粉丝 Eve Harrington 带入自己的生活。随着 Eve 的野心显露，崇拜变成竞争，名望、衰老与权力的压力逐渐浮现。",
+    "sourceUrl": "https://www.malthousetheatre.com.au/whats-on/season-2026/all-about-eve",
+    "checkedAt": "2026-09-26"
+  },
+  "come-from-away-cloc": {
+    "en": "Thousands of airline passengers are diverted to Newfoundland after the September 11 attacks. The local community welcomes the strangers, and unexpected friendships emerge amid fear and uncertainty.",
+    "zh": "九一一袭击后，数千名航空旅客被迫降落在纽芬兰。当地居民敞开家门接纳陌生人，在恐惧与不确定中建立起意想不到的友谊。",
+    "sourceUrl": "https://www.cloc.org.au/comefromaway2026.html",
+    "checkedAt": "2026-09-26"
+  },
+  "come-from-away": {
+    "en": "Thousands of airline passengers are diverted to Newfoundland after the September 11 attacks. The local community welcomes the strangers, and unexpected friendships emerge amid fear and uncertainty.",
+    "zh": "九一一袭击后，数千名航空旅客被迫降落在纽芬兰。当地居民敞开家门接纳陌生人，在恐惧与不确定中建立起意想不到的友谊。",
+    "sourceUrl": "https://www.cloc.org.au/comefromaway2026.html",
+    "checkedAt": "2026-09-26"
+  },
+  "steel-magnolias-encore": {
+    "en": "In a Louisiana beauty salon, a circle of women share gossip, celebrations and grief. Their friendship provides humour and strength through weddings, family changes and tragedy.",
+    "zh": "在路易斯安那小镇的美容院里，一群女性分享八卦、喜悦与悲伤。在婚礼、家庭变故与悲剧面前，她们用幽默和友谊支撑彼此。",
+    "sourceUrl": "https://encoretheatre.com.au/steel-magnolias/",
+    "checkedAt": "2026-09-26"
+  },
+  "steel-magnolias": {
+    "en": "In a Louisiana beauty salon, a circle of women share gossip, celebrations and grief. Their friendship provides humour and strength through weddings, family changes and tragedy.",
+    "zh": "在路易斯安那小镇的美容院里，一群女性分享八卦、喜悦与悲伤。在婚礼、家庭变故与悲剧面前，她们用幽默和友谊支撑彼此。",
+    "sourceUrl": "https://encoretheatre.com.au/steel-magnolias/",
+    "checkedAt": "2026-09-26"
+  },
+  "switzerland-1812": {
+    "en": "Reclusive novelist Patricia Highsmith receives a visitor urging her to write another Ripley book. Their encounter becomes a psychological power struggle in which fiction and reality blur.",
+    "zh": "隐居的小说家 Patricia Highsmith 迎来一位访客，对方劝她再写一本 Ripley 小说。两人的交锋逐渐变成心理权力游戏，虚构与现实的界线不断模糊。",
+    "sourceUrl": "https://www.1812theatre.com.au/2026-season/switzerland/",
+    "checkedAt": "2026-09-26"
+  },
+  "closer-1812": {
+    "en": "Four strangers in London become entangled in shifting relationships. Attraction, deception and betrayal test the difference between intimacy and possession.",
+    "zh": "伦敦的四个陌生人卷入不断变化的感情关系。吸引、欺骗与背叛交织，考验亲密与占有之间的界线。",
+    "sourceUrl": "https://www.1812theatre.com.au/2026-season/closer/",
+    "checkedAt": "2026-09-26"
+  },
+  "anxiety-bakes-mel": {
+    "en": "Luce’s kitchen is overrun by Annie, a drag queen obsessed with baking muffins. Failed recipes and escalating sabotage turn their struggle to coexist into an absurd comedy about anxiety.",
+    "zh": "Luce 的厨房被热衷烤松饼的变装皇后 Annie 占据。失败的食谱与不断升级的破坏行动，将两人的共处难题变成关于焦虑的荒诞喜剧。",
+    "sourceUrl": "https://www.theatreworks.org.au/2026/my-anxiety-is-a-b-who-bakes",
+    "checkedAt": "2026-09-26"
+  },
+  "fairytalers-mel": {
+    "en": "Four women who helped create fairy tales reclaim their overlooked stories. Their lives of love, scandal and resistance reveal a history that predates the Brothers Grimm.",
+    "zh": "四位曾推动童话创作的女性重新讲述被忽视的人生。爱情、丑闻与反抗交织，揭开格林兄弟之前的一段童话史。",
+    "sourceUrl": "https://www.theatreworks.org.au/2026/fairytalers",
+    "checkedAt": "2026-09-26"
+  },
+  "girlhood-bathroom-mel": {
+    "en": "On New Year’s Eve, five young women meet in a club bathroom. Through arguments, confidences and songs, they navigate love, friendship and the realities of growing up.",
+    "zh": "跨年夜，五位年轻女性在夜店洗手间相遇。争执、倾诉与歌曲交织，她们共同面对爱情、友情与成长中的现实。",
+    "sourceUrl": "https://www.theatreworks.org.au/2026/girlhood-in-the-bathroom",
+    "checkedAt": "2026-09-26"
+  },
+  "cruise-mel": {
+    "en": "After an HIV diagnosis, Michael plans one final celebration in London’s queer nightlife. Surviving beyond his predicted death leaves him facing a new question: how to keep living.",
+    "zh": "被诊断感染 HIV 后，Michael 决定在伦敦的酷儿夜生活中举行最后一次狂欢。但当他活过医生预言的死期，他必须重新面对如何继续生活的问题。",
+    "sourceUrl": "https://www.theatreworks.org.au/2026/cruise",
+    "checkedAt": "2026-09-26"
+  },
+  "smoke-mel": {
+    "en": "At the end of a night out, a club’s smoking area slips into a surreal world of ghosts and distorted time. Partygoers confront their fears, relationships and longing for connection.",
+    "zh": "狂欢将尽时，夜店吸烟区滑入鬼魂出没、时间扭曲的超现实世界。几位派对客面对各自的恐惧、关系与对连接的渴望。",
+    "sourceUrl": "https://www.theatreworks.org.au/2026/smoke",
+    "checkedAt": "2026-09-26"
+  },
+  "timon-mel": {
+    "en": "Generous, wealthy Timon supports friends and the powerful, expecting loyalty in return. As his fortune collapses, this dark satire questions money’s influence on friendship and society.",
+    "zh": "富有慷慨的 Timon 资助朋友与权贵，期待换来同样的忠诚。当财富崩塌，这部黑色讽刺剧追问金钱如何改变友谊与社会。",
+    "sourceUrl": "https://www.theatreworks.org.au/2026/timon-of-athens",
+    "checkedAt": "2026-09-26"
+  },
+  "luke-mel": {
+    "en": "A school-leaver spends an evening with two older teacher friends. A buried secret surfaces, changing all three lives in a story about truth, regret and the echoes of the past.",
+    "zh": "一位刚毕业的年轻人与两位年长的教师朋友共度一晚。被埋藏的秘密浮出水面，改变了三人的人生，留下关于真相、悔恨与过去的追问。",
+    "sourceUrl": "https://www.redstitch.net/luke-2026",
+    "checkedAt": "2026-09-26"
+  },
+  "carbon-mel": {
+    "en": "After a widely witnessed encounter with an unfamiliar alien life-form, a man is questioned by an investigator. Their conversation pits belief against reason and challenges what it means to be alive.",
+    "zh": "一场众人目睹的外星生命接触之后，一名男子接受调查员询问。两人的对话让信念与理性发生碰撞，也动摇了人们对生命的理解。",
+    "sourceUrl": "https://www.redstitch.net/carbon-2026",
+    "checkedAt": "2026-09-26"
+  },
+  "my-fair-lady-mel": {
+    "en": "Cockney flower seller Eliza Doolittle transforms into a woman accepted by high society. Her journey explores identity, class and the right to define who she becomes.",
+    "zh": "伦敦卖花女 Eliza Doolittle 蜕变为上流社会接纳的淑女。这段经历探讨身份、阶级，以及由谁决定一个人应当成为怎样的人。",
+    "sourceUrl": "https://opera.org.au/productions/my-fair-lady-melbourne",
+    "checkedAt": "2026-09-26"
+  },
+  "my-fair-lady": {
+    "en": "Cockney flower seller Eliza Doolittle transforms into a woman accepted by high society. Her journey explores identity, class and the right to define who she becomes.",
+    "zh": "伦敦卖花女 Eliza Doolittle 蜕变为上流社会接纳的淑女。这段经历探讨身份、阶级，以及由谁决定一个人应当成为怎样的人。",
+    "sourceUrl": "https://opera.org.au/productions/my-fair-lady-melbourne",
+    "checkedAt": "2026-09-26"
+  },
+  "la-boheme-mel": {
+    "en": "Young artists in Paris hold on to love and friendship while struggling with poverty. Passion and jealousy meet the harsh realities of illness and loss.",
+    "zh": "巴黎的年轻艺术家在贫困中守护爱情与友情。热恋与嫉妒交织，最终与疾病和失去的残酷现实相遇。",
+    "sourceUrl": "https://marrinergroup.com.au/shows/opera-australia-la-boheme",
+    "checkedAt": "2026-09-26"
+  },
+  "sleeping-beauty-mel": {
+    "en": "The Sleeping Beauty fairytale becomes a struggle between the protective Lilac Fairy and the malevolent Carabosse, balancing enchantment with darkness.",
+    "zh": "《睡美人》的童话化为守护公主的紫丁香仙女与邪恶 Carabosse 之间的较量，在梦幻与黑暗之间展开。",
+    "sourceUrl": "https://marrinergroup.com.au/shows/the-australian-ballet-the-sleeping-beauty",
+    "checkedAt": "2026-09-26"
+  },
+  "dracula-mel": {
+    "en": "Bram Stoker’s gothic tale is reimagined through ballet, exploring forbidden love, immortality and sacrifice.",
+    "zh": "以芭蕾重新诠释 Bram Stoker 的哥特故事，探索禁忌之爱、不朽与牺牲。",
+    "sourceUrl": "https://hmt.com.au/dracula-ballet-at-its-darkest/",
+    "checkedAt": "2026-09-26"
+  },
+  "catch-me-if-you-can": {
+    "en": "Teenager Frank Abagnale Jr runs away and reinvents himself as a pilot, doctor and lawyer using forged cheques and charm. FBI agent Carl Hanratty begins a relentless pursuit.",
+    "zh": "少年 Frank Abagnale Jr 离家出走，凭借伪造支票与个人魅力，先后冒充飞行员、医生和律师。FBI 探员 Carl Hanratty 展开紧追不舍的追捕。",
+    "sourceUrl": "https://www.innerwesttheatre.com.au/productions/catch-me-if-you-can-2026",
+    "checkedAt": "2026-09-26"
+  },
+  "reefer-madness": {
+    "en": "A satire of the 1936 propaganda film follows supposedly innocent teenagers into an exaggerated spiral of drug-fuelled chaos, mocking moral panic and political manipulation.",
+    "zh": "讽刺改编自 1936 年同名宣传电影，以夸张的吸毒与失控故事，嘲弄围绕“纯真少年堕落”的道德恐慌和政治操纵。",
+    "sourceUrl": "https://hornsbymusicalsociety.com.au/reefer-madness-2026/",
+    "checkedAt": "2026-09-26"
+  },
+  "yerma": {
+    "en": "A woman’s longing for a child grows into an overwhelming obsession. Desire and repression collide in a tragedy about the cost of unfulfilled hopes.",
+    "zh": "一位女性对孩子的渴望逐渐变成吞噬生活的执念。欲望与压抑碰撞，酿成关于未遂愿望与代价的悲剧。",
+    "sourceUrl": "https://genesiantheatre.com.au/events/yerma/",
+    "checkedAt": "2026-09-26"
+  },
+  "arsenic-and-old-lace": {
+    "en": "Drama critic Mortimer Brewster discovers that his kindly aunts poison lonely men. With other eccentric relatives adding to the chaos, he struggles to manage his family and his own marriage plans.",
+    "zh": "剧评人 Mortimer Brewster 发现，两位慈祥的姑妈竟在毒杀孤独老人。其他古怪亲属不断添乱，他必须同时应付家族的疯狂和自己的婚姻计划。",
+    "sourceUrl": "https://www.theatreonchester.com.au/post/arsenic-and-old-lace",
+    "checkedAt": "2026-09-26"
+  },
+  "a-christmas-carol-a-ghost-story-of-christmas": {
+    "en": "The miserly Ebenezer Scrooge confronts the spectral side of Christmas and the warmth of the community around him, in a story about the possibility of change.",
+    "zh": "吝啬的 Ebenezer Scrooge 面对圣诞节的幽灵与周围人们的温暖，在这场经历中重新认识改变的可能。",
+    "sourceUrl": "https://pymbleplayers.com.au/a-christmas-carol",
+    "checkedAt": "2026-09-26"
+  },
+  "the-wizard-of-oz": {
+    "en": "Dorothy and Toto travel from Kansas to the magical land of Oz. Along the yellow brick road, they meet the Scarecrow, Tin Man and Cowardly Lion while searching for a way home.",
+    "zh": "Dorothy 和 Toto 从堪萨斯来到魔法国度 Oz，沿黄砖路结识稻草人、铁皮人和胆小狮，一起寻找回家的路。",
+    "sourceUrl": "https://www.engadinemusicalsociety.com.au/2026-the-wizard-of-oz.html",
+    "checkedAt": "2026-09-26"
+  },
+  "the-shark-is-broken": {
+    "en": "During the filming of Jaws, three actors wait on a boat as the mechanical shark fails. Frustration and clashing egos turn the delay into a comedy about fame, failure and friendship.",
+    "zh": "《大白鲨》拍摄期间，机械鲨鱼故障让三位演员困在船上等待。挫败感与自尊不断碰撞，变成一场关于名望、失败与友谊的喜剧。",
+    "sourceUrl": "https://www.foundrytheatre.com.au/the-shark-is-broken",
+    "checkedAt": "2026-09-26"
+  },
+  "stay-married-mel": {
+    "en": "Francis Molloy has built a marriage, family and reality show while standing on a landmine. A live taping exposes the fragile bubble of his immovable life.",
+    "zh": "Francis Molloy 踩着地雷，建立起婚姻、家庭甚至真人秀。一场现场录制逐渐揭开他无法挪动的人生中脆弱的泡泡。",
+    "sourceUrl": "https://www.theatreworks.org.au/2026/how-to-stay-married",
+    "checkedAt": "2026-09-26"
+  },
+  "mayfair-mel": {
+    "en": "Workaholic Scott unexpectedly enters a dystopian world populated by living board-game characters. He must navigate its strange rules to find a way out.",
+    "zh": "工作狂 Scott 意外进入由活生生的桌游角色组成的反乌托邦世界，必须摸清其中奇异的规则，才能找到出口。",
+    "sourceUrl": "https://chapeloffchapel.com.au/show/mayfair-a-new-musical/",
+    "checkedAt": "2026-09-26"
+  },
+  "american-psycho-mel": {
+    "en": "Wealthy banker Patrick Bateman’s polished Manhattan life conceals a sinister interior. This musical satire explores greed, privilege and moral decay beneath consumer culture.",
+    "zh": "富有的银行家 Patrick Bateman 光鲜的曼哈顿生活，掩藏着阴暗内心。这部音乐剧讽刺消费文化背后的贪婪、特权与道德腐败。",
+    "sourceUrl": "https://chapeloffchapel.com.au/show/american-psycho-a-musical-thriller/",
+    "checkedAt": "2026-09-26"
+  },
+  "rhomboid-mel": {
+    "en": "Xavier and Sebastian connect at school, then drift in and out of each other’s lives as they grow up. Xavier’s experiences as a queer Asian-Australian shape a story about friendship and the unexpected forms of love.",
+    "zh": "Xavier 与 Sebastian 在学校相识，成长后又不断走近、错过彼此。Xavier 身为亚裔澳洲酷儿的经历，贯穿这个关于友谊与爱情不同形态的故事。",
+    "sourceUrl": "https://fortyfivedownstairs.com/event/rhomboid/",
+    "checkedAt": "2026-09-26"
+  },
+  "never-closer-mel": {
+    "en": "In troubled Northern Ireland, Deirdre reunites with old school friends on Christmas Eve. Their differences expose painful divisions as they confront home, leaving, staying and forgiveness.",
+    "zh": "在动荡的北爱尔兰，Deirdre 与旧同学在平安夜重聚。彼此的差异引出痛苦的裂痕，让他们面对故乡、离开或留下，以及宽恕的可能。",
+    "sourceUrl": "https://fortyfivedownstairs.com/event/never-closer/",
+    "checkedAt": "2026-09-26"
+  },
+  "the-turn-of-the-screw-vo": {
+    "en": "A governess caring for two children in an English manor senses sinister forces around them. Uncertainty about what is real deepens this haunting psychological mystery.",
+    "zh": "英国庄园里的家庭教师照看着两个孩子，却感到邪恶力量围绕着他们。真实与幻觉难以分辨，让这场心理悬疑愈发令人不安。",
+    "sourceUrl": "https://www.victorianopera.com.au/production/the-turn-of-the-screw/",
+    "checkedAt": "2026-09-26"
+  },
+  "the-spare-room-vo": {
+    "en": "Helen welcomes her friend Nicola, who seeks a treatment she believes will cure her cancer. Care, anger and denial strain their friendship as Helen becomes both protector and judge.",
+    "zh": "Helen 接待前来寻求癌症治疗的朋友 Nicola。随着她既成为照顾者又成为严厉的审视者，关怀、愤怒与否认不断考验两人的友谊。",
+    "sourceUrl": "https://www.victorianopera.com.au/production/the-spare-room/",
+    "checkedAt": "2026-09-26"
+  },
+  "cirque-alice": {
+    "en": "Lewis Carroll’s Wonderland is reimagined through acrobatics, aerial performance, contortion, puppetry and music, turning Alice’s adventures into a fantastical circus journey.",
+    "zh": "通过杂技、空中表演、柔术、木偶和音乐，重新想象 Lewis Carroll 的仙境，将 Alice 的冒险化为奇幻的马戏旅程。",
+    "sourceUrl": "https://www.sydneylyric.com.au/cirque-alice",
+    "checkedAt": "2026-09-26"
+  },
+  "trash-wizard-mel": {
+    "en": "After humanity’s extinction, a chip packet and a seagull seek a mysterious wizard who may remember their identities. Absurd puppetry becomes a dark reflection on climate collapse.",
+    "zh": "人类灭绝后，一只薯片袋与一只海鸥寻找可能记得它们身份的神秘巫师。荒诞木偶冒险逐渐转向对气候崩溃的黑色思考。",
+    "sourceUrl": "https://www.lamama.com.au/whats-on/melbourne-fringe-festival-2026/trash-wizard",
+    "checkedAt": "2026-09-26"
+  },
+  "exhibit-mel": {
+    "en": "Two women become both specimens and curators in a living gallery. Dance and comedy challenge how bodies are watched, misread and judged, and who gets to define normality.",
+    "zh": "两位女性在“活的展览”中既是展品，也是策展者。舞蹈与喜剧共同追问身体如何被观看、误读和评判，以及谁有权定义正常。",
+    "sourceUrl": "https://www.lamama.com.au/whats-on/melbourne-fringe-festival-2026/exhibit",
+    "checkedAt": "2026-09-26"
+  },
+  "totos-song-mel": {
+    "en": "Struggling performer Phillip returns home as his unconventional mother Toto approaches the end of her life. Their clashes explore care, grief, regret and the things left unsaid.",
+    "zh": "事业受挫的表演者 Phillip 回到家中，面对以自己的方式迎接生命终点的母亲 Toto。两人的碰撞触及照顾、悲伤、悔恨与未说出口的话。",
+    "sourceUrl": "https://www.lamama.com.au/whats-on/melbourne-fringe-festival-2026/totos-song",
+    "checkedAt": "2026-09-26"
+  },
+  "parasocial-mel": {
+    "en": "A musical comedy examines the one-sided intimacy people feel towards celebrities, creators and fictional characters, and the awkward boundaries between fandom and connection.",
+    "zh": "一部音乐喜剧，探索人们对明星、创作者与虚构角色产生的单向亲密感，以及粉丝关系与真实连接之间尴尬的界线。",
+    "sourceUrl": "https://www.lamama.com.au/whats-on/melbourne-fringe-festival-2026/parasocial",
+    "checkedAt": "2026-09-26"
+  },
+  "wrong-way-mel": {
+    "en": "A man reaching midlife looks back at the internet’s shift from free expression to commercialisation, asking whether life can be put into reverse.",
+    "zh": "一名步入中年的人回望互联网从自由表达走向商业化的过程，追问自己的人生是否还有机会倒车重来。",
+    "sourceUrl": "https://www.lamama.com.au/whats-on/melbourne-fringe-festival-2026/wrong-way-grow-back",
+    "checkedAt": "2026-09-26"
+  },
+  "red-mel": {
+    "en": "Performers inside a reimagined Little Red Riding Hood story resist a narrator trying to control them. Their rebellion explores power, survival and ownership of a story.",
+    "zh": "身处重新想象的《小红帽》故事中的表演者，反抗试图操控一切的叙述者。这场反抗探索权力、生存与故事的讲述权。",
+    "sourceUrl": "https://www.lamama.com.au/whats-on/melbourne-fringe-festival-2026/red",
+    "checkedAt": "2026-09-26"
+  },
+  "before-i-forget-mtc": {
+    "en": "As First Nations cultural leader Faith’s dementia progresses, her daughter and granddaughter face moving her into care. Packing the family home brings memories, conflict and cultural legacy into focus.",
+    "zh": "原住民文化领袖 Faith 的失智症日益加重，女儿与外孙女必须面对让她入住养老机构的决定。整理家宅的过程，引出记忆、冲突与文化传承。",
+    "sourceUrl": "https://www.mtc.com.au/plays-and-tickets/whats-on/season-2026/before-i-forget",
+    "checkedAt": "2026-09-26"
+  },
+  "trumpet-swan-mel": {
+    "en": "Louis, a young swan unable to speak, finds a new means of expression with a boy named Sam and a stolen trumpet. His adventure celebrates the power of music to make a voice heard.",
+    "zh": "无法发声的小天鹅 Louis，在男孩 Sam 和一支偷来的小号帮助下，找到新的表达方式。这场冒险讲述音乐如何让沉默的声音被听见。",
+    "sourceUrl": "https://marrinergroup.com.au/shows/opera-australia-the-trumpet-of-the-swan",
+    "checkedAt": "2026-09-26"
+  },
+  "opera-up-late-mel": {
+    "en": "A queer celebration reimagines opera favourites alongside musical-theatre songs and pop music, mixing vocal spectacle with comedy.",
+    "zh": "以酷儿视角重新演绎歌剧名曲、音乐剧歌曲与流行音乐，将声乐表演与喜剧结合。",
+    "sourceUrl": "https://marrinergroup.com.au/shows/opera-australia-opera-up-late",
+    "checkedAt": "2026-09-26"
+  },
+  "nutcracker-mel": {
+    "en": "A Christmas ballet journey into the magical Land of Sweets, told through dance and Tchaikovsky’s music.",
+    "zh": "伴随柴可夫斯基的音乐与舞蹈，踏上通往魔法糖果王国的圣诞芭蕾旅程。",
+    "sourceUrl": "https://marrinergroup.com.au/shows/the-nutcracker",
+    "checkedAt": "2026-09-26"
+  },
+  "cock-mordialloc": {
+    "en": "During a break from his boyfriend, John falls in love with a woman. A dinner with both partners forces questions about desire, identity and the pressure to choose a label.",
+    "zh": "John 与男友暂时分开时，爱上了一位女性。与两位伴侣的一场晚餐，迫使他面对欲望、身份，以及必须选择标签的压力。",
+    "sourceUrl": "https://mordialloctheatre.com.au/",
+    "checkedAt": "2026-09-26"
+  },
+  "carousel": {
+    "en": "Carnival barker Billy Bigelow falls in love with Julie Jordan. Their relationship becomes a musical story about hope, redemption and the enduring power of love.",
+    "zh": "游乐场招徕客人的 Billy Bigelow 爱上 Julie Jordan，两人的关系展开一段关于希望、救赎与爱的力量的音乐故事。",
+    "sourceUrl": "https://www.foundrytheatre.com.au/carousel",
+    "checkedAt": "2026-09-26"
+  },
+  "the-nutcracker-tab-mel": {
+    "en": "Young ballet student Clara celebrates Christmas Eve with her family as an enchanted world of snowflakes, toy soldiers and the Sugar Plum Fairy comes to life.",
+    "zh": "年轻的芭蕾学生 Clara 与家人庆祝平安夜，雪花、玩具士兵与糖梅仙子组成的魔法世界逐渐苏醒。",
+    "sourceUrl": "https://australianballet.com.au/performances/the-nutcracker",
+    "checkedAt": "2026-09-26"
+  },
+  "swan-lake-tab-mel": {
+    "en": "A classical ballet exploring yearning, betrayal and sacrifice through Tchaikovsky’s music.",
+    "zh": "伴随柴可夫斯基的音乐，以古典芭蕾探索渴望、背叛与牺牲。",
+    "sourceUrl": "https://australianballet.com.au/performances/swan-lake",
+    "checkedAt": "2026-09-26"
+  },
+  "mayerling-tab-mel": {
+    "en": "Rudolf’s story reveals the political, social and personal pressures of royal life, spiralling into obsession and despair.",
+    "zh": "Rudolf 的故事揭示王室生活中的政治、社会与私人压力，以及由此滋长的执念与绝望。",
+    "sourceUrl": "https://australianballet.com.au/performances/mayerling",
+    "checkedAt": "2026-09-26"
+  },
+  "cinderella-tab-mel": {
+    "en": "A kind young woman rises above her stepsisters’ cruelty and rewrites her destiny through magic and love.",
+    "zh": "一位善良的年轻女性摆脱继姐妹的残酷对待，在魔法与爱情中改写自己的命运。",
+    "sourceUrl": "https://australianballet.com.au/performances/cinderella",
+    "checkedAt": "2026-09-26"
+  },
+  "kunstkamer-tab-mel": {
+    "en": "Inspired by a cabinet of curiosities, recurring characters and images connect dance, song, film and spoken word in an exploration of artistic possibility.",
+    "zh": "以珍奇柜为灵感，用反复出现的角色与意象串联舞蹈、歌唱、影像和对白，探索艺术表达的可能。",
+    "sourceUrl": "https://australianballet.com.au/performances/kunstkamer",
+    "checkedAt": "2026-09-26"
+  },
+  "modern-masters-tab-mel": {
+    "en": "A collection of ballets explores the bond between dance and music, combining intimacy, comedy and the expressive possibilities of classical movement.",
+    "zh": "一组芭蕾作品探索舞蹈与音乐之间的联系，结合亲密情感、喜剧与古典动作的表达可能。",
+    "sourceUrl": "https://australianballet.com.au/performances/modern-masters",
+    "checkedAt": "2026-09-26"
+  },
+  "dirty-rotten-malvern": {
+    "en": "Two conmen on the French Riviera compete to swindle a young heiress. Their wager becomes a battle of charm, deception and wounded egos.",
+    "zh": "法国蔚蓝海岸的两名骗子打赌，比赛谁能先骗到年轻女继承人的钱。魅力、谎言与受伤的自尊，让较量不断升级。",
+    "sourceUrl": "https://malverntheatre.com.au/whats-on/shows/",
+    "checkedAt": "2026-09-26"
+  },
+  "kindness-brighton": {
+    "en": "A young couple’s property plans force them to live with her parents during a pandemic. Conflicting ambitions turn their shared home into a comedy about family and financial bargains.",
+    "zh": "一对年轻情侣的购房计划，使他们在疫情期间不得不与女方父母同住。相互冲突的野心，将共同生活变成关于家庭与金钱交易的喜剧。",
+    "sourceUrl": "https://brightontheatre.com.au/project/season-4-a-simple-act-of-kindness/",
+    "checkedAt": "2026-09-26"
+  },
+  "dinosaur-world-mel": {
+    "en": "Explorer Miranda leads an interactive journey through a prehistoric world, meeting lifelike dinosaur puppets along the way.",
+    "zh": "探险家 Miranda 带领观众踏上互动的史前旅程，一路遇见栩栩如生的恐龙木偶。",
+    "sourceUrl": "https://marrinergroup.com.au/shows/dinosaur-world-live",
+    "checkedAt": "2026-09-26"
+  },
+  "storytime-ballet-tab-mel": {
+    "en": "Cinderella escapes her stepfamily’s demands with help from a fairy godmother, entering a world of magical transformation and true love.",
+    "zh": "Cinderella 在仙女教母的帮助下摆脱继母与继姐妹的使唤，走进魔法变身与真爱的童话世界。",
+    "sourceUrl": "https://marrinergroup.com.au/shows/storytime-ballet-cinderella",
+    "checkedAt": "2026-09-26"
+  },
+  "engineer-snow-mel": {
+    "en": "One woman’s imagination creates a fantastical quest to save Earth, confronting environmental destruction, inequality and capitalism’s grip on the possibility of renewal.",
+    "zh": "一位女性的想象化为拯救地球的奇幻旅程，直面环境破坏、经济不平等，以及资本主义对更新可能的束缚。",
+    "sourceUrl": "https://www.theatreworks.org.au/2026/engineer-in-the-snow",
+    "checkedAt": "2026-09-26"
+  },
+  "iolanthe-vo": {
+    "en": "Banished for marrying a mortal, fairy Iolanthe returns as fairy magic collides with the British House of Lords, setting romance and rivalry loose.",
+    "zh": "因与凡人结婚而被放逐的仙女 Iolanthe 归来。仙界魔法与英国上议院碰撞，引发爱情、竞争与一连串误会。",
+    "sourceUrl": "https://www.victorianopera.com.au/production/iolanthe/",
+    "checkedAt": "2026-09-26"
+  },
+  "figaro-horti-vo": {
+    "en": "Figaro and Susanna’s wedding day is disrupted by disguises, misunderstandings and competing schemes in a comedy of manners and desire.",
+    "zh": "Figaro 与 Susanna 的婚礼当天，被伪装、误会和相互冲突的计谋打乱，展开一场关于礼法与欲望的喜剧。",
+    "sourceUrl": "https://www.victorianopera.com.au/production/the-marriage-of-figaro/",
+    "checkedAt": "2026-09-26"
+  },
+  "figaro-playhouse-vo": {
+    "en": "Figaro and Susanna’s wedding day is disrupted by disguises, misunderstandings and competing schemes in a comedy of manners and desire.",
+    "zh": "Figaro 与 Susanna 的婚礼当天，被伪装、误会和相互冲突的计谋打乱，展开一场关于礼法与欲望的喜剧。",
+    "sourceUrl": "https://www.victorianopera.com.au/production/the-marriage-of-figaro/",
+    "checkedAt": "2026-09-26"
+  },
+  "happy-prince-round-vo": {
+    "en": "A jewelled statue and a swallow help the town’s struggling people by giving away the Prince’s riches, discovering the value of compassion and sacrifice.",
+    "zh": "镶满珠宝的王子雕像与一只燕子，将王子的财富送给镇上受苦的人们，在付出中发现同情与牺牲的价值。",
+    "sourceUrl": "https://www.victorianopera.com.au/production/the-happy-prince/",
+    "checkedAt": "2026-09-26"
+  },
+  "happy-prince-bunjil-vo": {
+    "en": "A jewelled statue and a swallow help the town’s struggling people by giving away the Prince’s riches, discovering the value of compassion and sacrifice.",
+    "zh": "镶满珠宝的王子雕像与一只燕子，将王子的财富送给镇上受苦的人们，在付出中发现同情与牺牲的价值。",
+    "sourceUrl": "https://www.victorianopera.com.au/production/the-happy-prince/",
+    "checkedAt": "2026-09-26"
+  },
+  "streetcar-vo": {
+    "en": "Blanche DuBois struggles to preserve her self-image and longing for beauty while confronting the harsh realities around her in New Orleans.",
+    "zh": "Blanche DuBois 在新奥尔良严酷的现实中，竭力维护自己的形象，以及对美好生活与逃离的渴望。",
+    "sourceUrl": "https://www.victorianopera.com.au/production/a-streetcar-named-desire/",
+    "checkedAt": "2026-09-26"
+  },
+  "freischutz-vo": {
+    "en": "Marksman Max must win a shooting contest to secure his future and marriage. Desperation tempts him towards seven magic bullets, with the Devil controlling the final shot.",
+    "zh": "射手 Max 必须赢得射击比赛，才能保住未来与婚姻。绝望使他接受七颗魔法子弹的诱惑，而最后一枪由魔鬼掌控。",
+    "sourceUrl": "https://www.victorianopera.com.au/production/der-freischutz/",
+    "checkedAt": "2026-09-26"
+  },
+  "lola-montez-vo": {
+    "en": "Irish-born Eliza James reinvents herself as dancer Lola Montez, pursuing ambition and courting scandal among European royalty and Australian goldfields.",
+    "zh": "爱尔兰出生的 Eliza James 将自己重新塑造成舞者 Lola Montez，在欧洲王室与澳洲金矿区追逐野心，也不断卷入丑闻。",
+    "sourceUrl": "https://www.victorianopera.com.au/production/lola-montez/",
+    "checkedAt": "2026-09-26"
+  },
+  "richard-iii-mtc": {
+    "en": "Richard, Duke of Gloucester, schemes, seduces and murders his way towards the throne. His pursuit of power exposes the destructive cost of ambition.",
+    "zh": "格洛斯特公爵 Richard 以阴谋、诱惑与谋杀一步步逼近王位，对权力的追逐逐渐暴露出野心的毁灭性代价。",
+    "sourceUrl": "https://www.mtc.com.au/plays-and-tickets/whats-on/season-2027/richard-iii",
+    "checkedAt": "2026-09-26"
+  },
+  "a-delicate-balance-mtc": {
+    "en": "Agnes and Tobias share their comfortable home with Agnes’s sister. When frightened friends seek refuge and their daughter returns after another failed marriage, buried resentments threaten the household’s fragile balance.",
+    "zh": "Agnes 和 Tobias 与 Agnes 的妹妹同住。惊恐的朋友前来避难，女儿又因婚姻破裂回家，积压的怨怼逐渐打破这个家庭脆弱的平衡。",
+    "sourceUrl": "https://www.mtc.com.au/plays-and-tickets/whats-on/season-2027/a-delicate-balance",
+    "checkedAt": "2026-09-26"
+  },
+  "the-war-of-the-worlds-mtc": {
+    "en": "A late-night distress call draws a woman into a disaster zone in Gippsland. As hostile aliens claim the land, she confronts an invasion in a retelling through a First Nations perspective.",
+    "zh": "一通深夜求救电话将一名女子带入 Gippsland 的灾区。敌对外星人企图占领土地，她必须直面入侵；这部改编从原住民视角重新讲述故事。",
+    "sourceUrl": "https://www.mtc.com.au/plays-and-tickets/whats-on/season-2027/the-war-of-the-worlds",
+    "checkedAt": "2026-09-26"
+  },
+  "rebels-mtc": {
+    "en": "An imagined encounter between Bob Hawke, Kerry Packer and Clive Lloyd becomes a battle over the future of Australian cricket, where sporting ambition collides with money, nationalism and political power.",
+    "zh": "故事想象了 Bob Hawke、Kerry Packer 与 Clive Lloyd 的一次会面。围绕澳洲板球未来的角力中，体育雄心与金钱、民族认同及政治权力交织。",
+    "sourceUrl": "https://www.mtc.com.au/plays-and-tickets/whats-on/season-2027/rebels",
+    "checkedAt": "2026-09-26"
+  },
+  "john-proctor-is-the-villain-mtc": {
+    "en": "A group of teenage girls studying The Crucible begin questioning its heroes as unsettling rumours and scandals emerge around them. Their new reading of the play challenges the loyalties and power structures of their own community.",
+    "zh": "一群研读《萨勒姆的女巫》的少女，在身边出现令人不安的传闻与丑闻后，开始重新审视剧中的英雄。她们对作品的新理解，也挑战了自己社区的忠诚与权力关系。",
+    "sourceUrl": "https://www.mtc.com.au/plays-and-tickets/whats-on/season-2027/john-proctor-is-the-villain",
+    "checkedAt": "2026-09-26"
+  },
+  "the-authenticator-mtc": {
+    "en": "After inheriting a mansion, Fenella discovers ancestral diaries and hires scholars Marva and Abi to authenticate them. Their investigation unsettles a family story of virtue and reveals the troubling origins of inherited wealth.",
+    "zh": "Fenella 继承豪宅后发现祖先的日记，聘请学者 Marva 与 Abi 鉴定真伪。调查逐渐动摇家族引以为傲的往事，也揭开祖传财富背后令人不安的秘密。",
+    "sourceUrl": "https://www.mtc.com.au/plays-and-tickets/whats-on/season-2027/the-authenticator",
+    "checkedAt": "2026-09-26"
+  },
+  "phar-lap-the-electro-swing-musical-mtc": {
+    "en": "Struggling trainer Harry Telford persuades businessman David Davis to buy an unlikely New Zealand colt. The horse becomes Phar Lap, an underdog whose rise transforms the fortunes and hopes of those around him.",
+    "zh": "陷入困境的练马师 Harry Telford 说服商人 David Davis 买下一匹不起眼的新西兰幼马。它成为 Phar Lap，以逆袭的成长改变身边人的命运与希望。",
+    "sourceUrl": "https://www.mtc.com.au/plays-and-tickets/whats-on/season-2027/phar-lap-the-electro-swing-musical",
+    "checkedAt": "2026-09-26"
+  },
+  "every-second-wednesday-mtc": {
+    "en": "A suburban support group brings together people caring for loved ones with addiction. New arrival Jude joins their stories of grief, compassion and the difficult work of continuing to care.",
+    "zh": "一个郊区互助小组聚集了照顾成瘾亲人的人们。新成员 Jude 加入其中，在悲伤、理解与互相支持之间，大家学习如何继续承担照顾的重任。",
+    "sourceUrl": "https://www.mtc.com.au/plays-and-tickets/whats-on/season-2027/every-second-wednesday",
+    "checkedAt": "2026-09-26"
+  },
+  "clarice-mtc": {
+    "en": "Painter Clarice Beckett captures Melbourne’s fleeting light, but her work falls into obscurity after her death. Decades later, curator Rosalind Hollinrake’s rediscovery brings her art and overlooked life back into view.",
+    "zh": "画家 Clarice Beckett 捕捉墨尔本转瞬即逝的光影，却在去世后逐渐被遗忘。数十年后，策展人 Rosalind Hollinrake 的重新发现，让她的艺术与被忽视的人生再次被看见。",
+    "sourceUrl": "https://www.mtc.com.au/plays-and-tickets/whats-on/season-2027/clarice",
+    "checkedAt": "2026-09-26"
   }
 };
