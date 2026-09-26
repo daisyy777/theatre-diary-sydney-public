@@ -3,7 +3,7 @@ const RANKING_POLICY = Object.freeze({
   version: '2026-09-20.1',
   weights: { production: 35, venue: 30, popularity: 20, timing: 10, completeness: 5 },
   flagshipOrder: ['opera', 'lyric', 'royal', 'capitol'],
-  venuePriority: { opera:100, lyric:100, royal:100, capitol:100, belvoir:75, ensemble:75, hayes:75, roslynpacker:75, neilson:70, recital:70, carriageworks:70, concourse:65, foundry:65, newtheatre:60, state:60, teatro:55 },
+  venuePriority: { opera:100, lyric:100, royal:100, capitol:100, belvoir:75, ensemble:75, hayes:75, roslynpacker:75, neilson:70, recital:70, carriageworks:70, concourse:65, foundry:65, newtheatre:60, state:60, teatro:55, riverside:70, phive:60, coliseum:75, kxt:60 },
   // Production scale is an editorial cold-start proxy, not measured popularity.
   production: { '商业巡演':100, '专业制作':70, '独立制作':50, '社区剧团':30 },
   popularityMaxAgeDays: 7

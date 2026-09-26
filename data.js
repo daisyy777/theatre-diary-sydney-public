@@ -1,5 +1,45 @@
 const SNAPSHOT = "2026-09-25";
 const VENUES = [
+{
+  "id": "riverside",
+  "name": "Riverside Theatres",
+  "area": "Parramatta",
+  "region": "西区",
+  "address": "Corner Church & Market Streets, Parramatta NSW",
+  "url": "https://riversideparramatta.com.au/your-visit/getting-to-riverside-theatres/",
+  "programme": "https://riversideparramatta.com.au/",
+  "note": "原址与 PHIVE 是不同场馆；请按剧目实际地址前往。官网仍公布原址演出，重建安排以官网为准。"
+},
+{
+  "id": "phive",
+  "name": "PHIVE — Riverside Live at PHIVE",
+  "area": "Parramatta",
+  "region": "西区",
+  "address": "5 Parramatta Square, Parramatta NSW",
+  "url": "https://riversideparramatta.com.au/your-visit/getting-to-live-at-phive/",
+  "programme": "https://riversideparramatta.com.au/",
+  "note": "PHIVE 内的黑匣子剧场，承接 Riverside Live at PHIVE 节目；不是 Riverside 原址。"
+},
+{
+  "id": "coliseum",
+  "name": "Coliseum Theatre",
+  "area": "Rooty Hill",
+  "region": "西区",
+  "address": "33 Railway Street, Rooty Hill NSW 2766",
+  "url": "https://coliseumtheatre.com.au/",
+  "programme": "https://coliseumtheatre.com.au/whats-on/",
+  "note": "West HQ 内的大型剧场，涵盖巡演音乐剧、舞蹈及家庭制作。"
+},
+{
+  "id": "kxt",
+  "name": "KXT on Broadway",
+  "area": "Ultimo",
+  "region": "市区与东区",
+  "address": "181 Broadway, Ultimo NSW",
+  "url": "https://www.kingsxtheatre.com/",
+  "programme": "https://www.kingsxtheatre.com/",
+  "note": "bAKEHOUSE 的独立剧场；主舞台与 KXT Underground 节目须按具体演出区分。"
+},
   {
     "id": "lyric",
     "name": "Sydney Lyric",
@@ -752,6 +792,417 @@ const VENUES = [
   }
 ];
 const SHOWS = [
+{
+  "id": "spamalot-coliseum",
+  "title": "Monty Python’s Spamalot",
+  "venue": "coliseum",
+  "genre": "音乐剧",
+  "scale": "商业巡演",
+  "company": "Monty Python’s Spamalot",
+  "start": "2026-10-22",
+  "end": "2026-10-25",
+  "price": 69.9,
+  "priceText": "A$69.9 起",
+  "priceNote": "优惠资格及手续费以官方售票页为准。",
+  "duration": "约 130 分钟，含中场",
+  "desc": "亚瑟王和圆桌骑士踏上寻找圣杯的荒诞旅程，遭遇杀人兔、法国守卫与各式怪人。",
+  "source": "https://coliseumtheatre.com.au/whats-on/monty-pythons-spamalot/",
+  "booking": "https://coliseumtheatre.com.au/whats-on/monty-pythons-spamalot/",
+  "bookingLabel": "前往官方售票",
+  "schedule": "已录入官网明确公布的场次；购票及变更请核对官方。",
+  "access": "无障碍安排及内容提示请查看官方。",
+  "sessions": [
+    [
+      "2026-10-22",
+      "13:00",
+      ""
+    ],
+    [
+      "2026-10-22",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-10-23",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-10-24",
+      "14:00",
+      ""
+    ],
+    [
+      "2026-10-24",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-10-25",
+      "11:00",
+      ""
+    ],
+    [
+      "2026-10-25",
+      "16:00",
+      ""
+    ]
+  ],
+  "sessionsComplete": true,
+  "verifiedAt": "2026-09-27",
+  "image": "https://coliseumtheatre.com.au/wp-content/uploads/2026/06/Spamalot_Coliseum-Theatre_Event-Hero-Homepage-Carousel_1920x1080.png",
+  "imageCredit": "官方演出宣传图"
+},
+{
+  "id": "nutcracker-ice-coliseum",
+  "title": "The Nutcracker on Ice",
+  "venue": "coliseum",
+  "genre": "舞蹈",
+  "scale": "商业巡演",
+  "company": "The Imperial Ice Stars",
+  "start": "2026-12-10",
+  "end": "2026-12-20",
+  "price": null,
+  "priceText": "查看官方票价",
+  "priceNote": "优惠资格及手续费以官方售票页为准。",
+  "duration": "约 140 分钟，含中场",
+  "desc": "Clara 收到的木制胡桃夹子活了过来，带她走进雪花之国与糖果王国。这段童话以冰上舞蹈演绎。",
+  "source": "https://coliseumtheatre.com.au/whats-on/the-nutcracker-on-ice/",
+  "booking": "https://coliseumtheatre.com.au/whats-on/the-nutcracker-on-ice/",
+  "bookingLabel": "前往官方售票",
+  "schedule": "已录入官网明确公布的场次；购票及变更请核对官方。",
+  "access": "无障碍安排及内容提示请查看官方。",
+  "sessions": [
+    [
+      "2026-12-10",
+      "19:00",
+      ""
+    ],
+    [
+      "2026-12-11",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-12-12",
+      "14:00",
+      ""
+    ],
+    [
+      "2026-12-12",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-12-13",
+      "13:00",
+      ""
+    ],
+    [
+      "2026-12-13",
+      "18:00",
+      ""
+    ],
+    [
+      "2026-12-15",
+      "19:00",
+      ""
+    ],
+    [
+      "2026-12-16",
+      "19:00",
+      ""
+    ],
+    [
+      "2026-12-17",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-12-18",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-12-19",
+      "14:00",
+      ""
+    ],
+    [
+      "2026-12-19",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-12-20",
+      "13:00",
+      ""
+    ],
+    [
+      "2026-12-20",
+      "18:00",
+      ""
+    ]
+  ],
+  "sessionsComplete": true,
+  "verifiedAt": "2026-09-27",
+  "image": "https://coliseumtheatre.com.au/wp-content/uploads/2026/07/Nutcracker-1920x1080-2.jpg",
+  "imageCredit": "官方演出宣传图"
+},
+{
+  "id": "fiji-untold-coliseum",
+  "title": "Fiji Untold",
+  "venue": "coliseum",
+  "genre": "舞蹈",
+  "scale": "商业巡演",
+  "company": "VOU Dance Fiji",
+  "start": "2026-11-28",
+  "end": "2026-11-28",
+  "price": null,
+  "priceText": "查看官方票价",
+  "priceNote": "优惠资格及手续费以官方售票页为准。",
+  "duration": "约 90 分钟",
+  "desc": "被排斥的 Lagi 进入神秘地下世界，遇到变形的鬣蜥精灵与章鱼神。太平洋传说通过舞蹈、鼓乐和肢体戏剧展开。",
+  "source": "https://coliseumtheatre.com.au/whats-on/fiji-untold/",
+  "booking": "https://coliseumtheatre.com.au/whats-on/fiji-untold/",
+  "bookingLabel": "前往官方售票",
+  "schedule": "已录入官网明确公布的场次；购票及变更请核对官方。",
+  "access": "无障碍安排及内容提示请查看官方。",
+  "sessions": [
+    [
+      "2026-11-28",
+      "19:00",
+      ""
+    ]
+  ],
+  "sessionsComplete": true,
+  "verifiedAt": "2026-09-27",
+  "image": "https://coliseumtheatre.com.au/wp-content/uploads/2026/09/Fiji-Untold-1920x1080-1.jpg",
+  "imageCredit": "官方演出宣传图"
+},
+{
+  "id": "santa-bubbles-coliseum",
+  "title": "Santa’s Christmas Bubble Spectacular",
+  "venue": "coliseum",
+  "genre": "亲子剧",
+  "scale": "商业巡演",
+  "company": "Dr. Bubbles & Milkshake",
+  "start": "2026-12-04",
+  "end": "2026-12-05",
+  "price": null,
+  "priceText": "查看官方票价",
+  "priceNote": "优惠资格及手续费以官方售票页为准。",
+  "duration": "约 60 分钟",
+  "desc": "泡泡艺术家 Dr. Bubbles 与 Milkshake 用泡泡幻术、喜剧和视觉效果营造圣诞世界，圣诞老人夫妇也加入庆典。",
+  "source": "https://coliseumtheatre.com.au/whats-on/santas-christmas-bubble-spectacular/",
+  "booking": "https://coliseumtheatre.com.au/whats-on/santas-christmas-bubble-spectacular/",
+  "bookingLabel": "前往官方售票",
+  "schedule": "已录入官网明确公布的场次；购票及变更请核对官方。",
+  "access": "无障碍安排及内容提示请查看官方。",
+  "sessions": [
+    [
+      "2026-12-04",
+      "19:00",
+      ""
+    ],
+    [
+      "2026-12-05",
+      "10:30",
+      ""
+    ],
+    [
+      "2026-12-05",
+      "13:00",
+      ""
+    ],
+    [
+      "2026-12-05",
+      "16:00",
+      ""
+    ]
+  ],
+  "sessionsComplete": true,
+  "verifiedAt": "2026-09-27",
+  "image": "https://coliseumtheatre.com.au/wp-content/uploads/2026/09/SCBSS-1920x1080-1.jpg",
+  "imageCredit": "官方演出宣传图"
+},
+{
+  "id": "green-sheep-riverside",
+  "title": "Where Is The Green Sheep?",
+  "venue": "riverside",
+  "genre": "亲子剧",
+  "scale": "专业制作",
+  "company": "Riverside Presents",
+  "start": "2026-10-07",
+  "end": "2026-10-16",
+  "price": 39,
+  "priceText": "A$39 起",
+  "priceNote": "常规票 A$39；四张及以上团购 A$32，另有 A$7.95 交易费。",
+  "duration": "约 45 分钟",
+  "desc": "三位农夫寻找躲起来的绿绵羊，途中遇到颜色和习性各异的羊。木偶和动画将 Mem Fox 与 Judy Horacek 的绘本带上舞台。",
+  "source": "https://riversideparramatta.com.au/whats-on/where-is-the-green-sheep/",
+  "booking": "https://riversideparramatta.com.au/whats-on/where-is-the-green-sheep/",
+  "bookingLabel": "前往官方售票",
+  "schedule": "演期已核实，完整逐场时间请查看官方售票日历。",
+  "access": "无障碍安排及内容提示请查看官方。",
+  "sessions": [
+    [
+      "2026-10-07",
+      "10:15",
+      "Relaxed performance"
+    ]
+  ],
+  "sessionsComplete": false,
+  "verifiedAt": "2026-09-27",
+  "image": "https://riversideparramatta.com.au/wp-content/uploads/2025/09/3555-MB25GS-4738-%C2%A9-Robert-Catto-974x548.jpg",
+  "imageCredit": "官方演出宣传图"
+},
+{
+  "id": "western-line-phive",
+  "title": "The Western Line",
+  "venue": "phive",
+  "genre": "话剧",
+  "scale": "专业制作",
+  "company": "National Theatre of Parramatta",
+  "start": "2026-11-25",
+  "end": "2026-11-28",
+  "price": 25,
+  "priceText": "A$25 起",
+  "priceNote": "优惠资格及手续费以官方售票页为准。",
+  "duration": "约 90 分钟",
+  "desc": "一名男子乘火车从 Circular Quay 前往西悉尼。沿途遇见的旅客与萨摩亚祖先的记忆交织，展开关于迁徙、身份和归属的探索。",
+  "source": "https://riversideparramatta.com.au/whats-on/the-western-line/",
+  "booking": "https://riversideparramatta.com.au/whats-on/the-western-line/",
+  "bookingLabel": "前往官方售票",
+  "schedule": "演期已核实，完整逐场时间请查看官方售票日历。",
+  "access": "无障碍安排及内容提示请查看官方。",
+  "sessions": [],
+  "sessionsComplete": false,
+  "verifiedAt": "2026-09-27",
+  "image": "https://riversideparramatta.com.au/wp-content/uploads/2026/08/Riverside_NTofP_Lockoff_2_B.png",
+  "imageCredit": "官方演出宣传图"
+},
+{
+  "id": "ruins-phive",
+  "title": "Ruins / أطلال",
+  "venue": "phive",
+  "genre": "话剧",
+  "scale": "专业制作",
+  "company": "Clockfire Theatre / Rare Earth Creative / National Theatre of Parramatta",
+  "start": "2026-12-02",
+  "end": "2026-12-05",
+  "price": 25,
+  "priceText": "A$25 起",
+  "priceNote": "优惠资格及手续费以官方售票页为准。",
+  "duration": "约 90 分钟",
+  "desc": "父亲去世后，Amelia Alissa 前往黎巴嫩。个人与跨世代记忆在肢体戏剧、音乐和视觉叙事中交织，追问失落、文化传承与家的意义。",
+  "source": "https://riversideparramatta.com.au/whats-on/ruins/",
+  "booking": "https://riversideparramatta.com.au/whats-on/ruins/",
+  "bookingLabel": "前往官方售票",
+  "schedule": "演期已核实，完整逐场时间请查看官方售票日历。",
+  "access": "无障碍安排及内容提示请查看官方。",
+  "sessions": [],
+  "sessionsComplete": false,
+  "verifiedAt": "2026-09-27",
+  "image": "https://riversideparramatta.com.au/wp-content/uploads/2026/08/Ruins_WebGallery_760x560-760x548.jpg",
+  "imageCredit": "官方演出宣传图"
+},
+{
+  "id": "tartuffe-kxt",
+  "title": "Tartuffe",
+  "venue": "kxt",
+  "genre": "话剧",
+  "scale": "独立制作",
+  "company": "RAUS",
+  "start": "2026-10-02",
+  "end": "2026-10-17",
+  "price": null,
+  "priceText": "查看官方票价",
+  "priceNote": "优惠资格及手续费以官方售票页为准。",
+  "duration": "查看官方",
+  "desc": "一个悲伤的女家长和破裂的家庭遇上一名声称能带来救赎的男人。莫里哀经典的当代改编揭开魅力、权力、信仰与控制的纠葛。",
+  "source": "https://www.kingsxtheatre.com/tartuffe",
+  "booking": "https://events.humanitix.com/tartuffe",
+  "bookingLabel": "前往官方售票",
+  "schedule": "已录入官网明确公布的场次；购票及变更请核对官方。",
+  "access": "无障碍安排及内容提示请查看官方。",
+  "sessions": [
+    [
+      "2026-10-02",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-10-03",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-10-04",
+      "17:00",
+      ""
+    ],
+    [
+      "2026-10-06",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-10-07",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-10-08",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-10-09",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-10-10",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-10-11",
+      "17:00",
+      ""
+    ],
+    [
+      "2026-10-13",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-10-14",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-10-15",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-10-16",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-10-17",
+      "19:30",
+      ""
+    ]
+  ],
+  "sessionsComplete": true,
+  "verifiedAt": "2026-09-27",
+  "image": "https://images.squarespace-cdn.com/content/v1/562b0be5e4b016f977a80f88/71d89838-d387-4a89-b02f-692c8a3e48c2/Tartuffe%2BLandscape%2B%28Humanitix%29.png",
+  "imageCredit": "官方演出宣传图"
+},
   {
     "id": "how-to-succeed",
     "title": "How to Succeed in Business Without Really Trying",
@@ -21899,5 +22350,13 @@ const SOURCES = [
     "group": "独立与社区",
     "status": "已采样",
     "note": "已核实部分社区制作的演期、场馆与官方入口；有明确时间才录入场次，尚未开启全量自动更新。"
+  },
+  {
+    "name": "Coliseum Theatre",
+    "url": "https://coliseumtheatre.com.au/",
+    "group": "主要场馆与剧团",
+    "note": "已核实四部后续制作及 26 个官网明确时间；不含普通音乐会。",
+    "status": "已采样",
+    "checkedAt": "2026-09-27"
   }
 ];
