@@ -4980,3 +4980,35 @@ Object.assign(SHOW_SYNOPSES, {"spamalot-coliseum": {"en": "King Arthur and his k
 Object.assign(EN_VENUES, {"riverside": "Riverside\u2019s original Parramatta venue. Some programmes perform at PHIVE instead; follow each show\u2019s actual address.", "phive": "The PHIVE black-box theatre hosting Riverside Live at PHIVE. A separate address from Riverside Theatres.", "coliseum": "The West HQ theatre in Rooty Hill, hosting touring musicals, dance and family productions.", "kxt": "bAKEHOUSE\u2019s independent Broadway theatre. Check the specific space for Underground events."});
 
 EN_SOURCE_NOTES.push('Four upcoming productions and 26 explicit performances checked on the official venue listings; ordinary concerts excluded.');
+
+Object.assign(EN_SHOWS, {
+  '2027-in-conversation': {
+    bookingLabel:'Check date and RSVP on official page',
+    imageCredit:'Official promotional artwork © Hayes Theatre Co',
+    priceText:'Free · RSVP required',priceNote:'The official page conflicts on the year and start time; confirm directly with Hayes before attending.',
+    desc:'Hayes artistic directors and guests introduce the 2027 season through conversations and live performances.',
+    schedule:'The official page states both 2027 and 2026 for 29 September and gives different start times. The listing is under date review.',
+    dateNote:'29 September 2026 matches the stated Tuesday, but the official page also prints 2027 and conflicting start times.',
+    access:'Check the official event page for access and admission arrangements.'
+  },
+  'hayes-dolly-evening-2026': {
+    bookingLabel:'Official tickets',
+    priceText:'A$280 · full price',priceNote:'The official ticket includes a A$160 donation; confirm fees and any tax treatment with the organiser.',
+    duration:'Approx. 140 minutes',desc:'Hayes artists Brittanie Shipway and Nick Gentile lead a fundraising evening celebrating Dolly Parton’s songs and storytelling.',
+    schedule:'One night only: 19 October 2026 at 7:30pm. Canapés and drinks from 6:30pm.',
+    access:'Check the official listing for accessibility and admission details.'
+  },
+  'hayes-home-grown-october-2026': {
+    bookingLabel:'Official show and tickets',
+    priceText:'A$45 · full price',priceNote:'The official page also lists A$39 for under-35s; check eligibility and fees.',
+    duration:'Approx. 120 minutes, including interval',
+    desc:'Australian musical-theatre writers perform songs about climate and the future in a one-night concert marking International Day for Climate Action.',
+    schedule:'One night only: 26 October 2026 at 7:30pm.',
+    access:'Recommended for ages 16+; coarse language. Check the official page for access arrangements.'
+  }
+});
+Object.assign(SHOW_SYNOPSES, {
+  '2027-in-conversation': {en:'Hayes artistic directors and guests introduce the 2027 season through conversations and live performances.',zh:'Hayes 艺术总监与嘉宾通过对谈和现场表演介绍 2027 演出季。',sourceUrl:'https://hayestheatre.com.au/event/2027-in-conversation/',checkedAt:'2026-09-28'},
+  'hayes-dolly-evening-2026': {en:'Hayes artists Brittanie Shipway and Nick Gentile lead a fundraising evening celebrating Dolly Parton’s songs and storytelling.',zh:'Hayes 艺术家 Brittanie Shipway 与 Nick Gentile 带来筹款专场，致敬 Dolly Parton 的歌曲与创作。',sourceUrl:'https://hayestheatre.com.au/event/an-evening-with-the-music-of-dolly-parton/',checkedAt:'2026-09-28'},
+  'hayes-home-grown-october-2026': {en:'Australian musical-theatre writers perform songs about climate and the future in a one-night concert.',zh:'澳洲音乐剧创作者在一晚音乐会中呈现围绕气候与未来创作的歌曲。',sourceUrl:'https://hayestheatre.com.au/event/home-grown-october-2026/',checkedAt:'2026-09-28'}
+});

@@ -21768,6 +21768,22 @@ const SHOWS = [
     ]
   }
 ];
+// Short-notice Hayes events verified against the producer's own event pages.
+// The 2027 season launch page contradicts itself on year and time, so its
+// existing listing is held for date review rather than shown as a 2027 show.
+const hayesSeasonTalk=SHOWS.find(s=>s.id==='2027-in-conversation');
+if(hayesSeasonTalk){
+  Object.assign(hayesSeasonTalk,{start:'2026-09-29',end:'2026-09-29',genre:'其他',price:0,
+    priceText:'免费；需在官网预约',priceNote:'官网同一页面对年份及开始时间有矛盾，请在主办方页面确认。',
+    desc:'Hayes 的 2027 演出季分享会：艺术总监与创作人员介绍来年作品，并穿插现场表演。',
+    booking:hayesSeasonTalk.source,bookingLabel:'核对官网日期并预约',sessions:[],sessionsComplete:false,
+    schedule:'官网标题写 2027 年 9 月 29 日，但同页详情写 2026 年 9 月 29 日，开始时间也有差异；暂不提供确定场次时间。',
+    dateNeedsReview:true,dateNote:'官网同页的年份和开演时间互相矛盾；2026 年 9 月 29 日与页面所写星期二一致。',verifiedAt:'2026-09-28'});
+}
+SHOWS.push(
+  {id:'hayes-dolly-evening-2026',title:'An Evening With: The Music of Dolly Parton',genre:'卡巴莱',scale:'专业制作',venue:'hayes',company:'Hayes Theatre Co',start:'2026-10-19',end:'2026-10-19',price:280,priceText:'$280 · 全价',priceNote:'官网标明票价含 $160 捐款；具体税务处理及费用以官方页面为准。',duration:'约 140 分钟',desc:'Hayes 艺术家 Brittanie Shipway 与 Nick Gentile 联同嘉宾，以一晚现场演出致敬 Dolly Parton 的歌曲与创作。这是支持 Hayes Theatre Co 的筹款活动。',source:'https://hayestheatre.com.au/event/an-evening-with-the-music-of-dolly-parton/',booking:'https://boxoffice.hayestheatre.com.au/tiny/an-evening-with-dolly',bookingLabel:'官网购票',sessions:[['2026-10-19','19:30','']],sessionsComplete:true,schedule:'仅一晚：2026 年 10 月 19 日 19:30 开演；18:30 起有迎宾酒会。',access:'无障碍与入场安排请以主办方官网为准。',verifiedAt:'2026-09-28'},
+  {id:'hayes-home-grown-october-2026',title:'Home Grown: From Little Things',genre:'卡巴莱',scale:'独立制作',venue:'hayes',company:'Hayes Theatre Co / Hedger and Nicholson',start:'2026-10-26',end:'2026-10-26',price:45,priceText:'$45 · 全价',priceNote:'官网另列 35 岁以下 $39；资格与手续费以官网为准。',duration:'约 120 分钟（含中场休息）',desc:'澳洲音乐剧创作者在一晚音乐会中呈现围绕气候与未来创作的歌曲，以纪念国际气候行动日。',source:'https://hayestheatre.com.au/event/home-grown-october-2026/',booking:'https://hayestheatre.com.au/event/home-grown-october-2026/',bookingLabel:'官网演出／购票',sessions:[['2026-10-26','19:30','']],sessionsComplete:true,schedule:'仅一晚：2026 年 10 月 26 日 19:30。',access:'官网建议 16 岁以上观看，含粗俗语言；无障碍安排以主办方为准。',verifiedAt:'2026-09-28'}
+);
 const SOURCES = [
   {
     "name": "Hayes Theatre Co",
