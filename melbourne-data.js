@@ -2187,3 +2187,20 @@ const melRemainingOfficialArt={
   "modern-masters-tab-mel": "https://images.australianballet.com.au/images/Productions/2027/Mixed-Bill/Mixed-Bill_1200x1600_A.jpg?crop=focalpoint&domain=images.australianballet.com.au&fit=crop&fm=pjpg&fp-x=0.5&fp-y=0.5&h=853&ixlib=php-3.3.1&q=82&w=640"
 };
 for(const s of MELBOURNE_SHOWS){if(melRemainingOfficialArt[s.id]){s.image=melRemainingOfficialArt[s.id];s.imageSource=s.source;}}
+
+// 2026-09-28: new Cape Ballet Africa tour; separate from The Australian Ballet's Swan Lake.
+MELBOURNE_SHOWS.push({
+  id:'swan-lake-cape-mel',title:'Swan Lake',genre:'舞蹈',scale:'商业巡演',
+  company:'Cape Ballet Africa / Theatre Tours International',venue:'mel-princess',
+  start:'2027-04-21',end:'2027-04-25',
+  source:'https://marrinergroup.com.au/shows/swan-lake',
+  booking:'https://premier.ticketek.com.au/shows/show.aspx?sh=SWANMEL27',
+  bookingLabel:'Official tickets',
+  desc:'Princess Odette is cursed to live as a swan; Prince Siegfried’s love may set her free in Cape Ballet Africa’s touring production.',
+  descZh:'奥杰塔公主遭诅咒化身天鹅，齐格弗里德王子的爱或许能解开魔咒。此为 Cape Ballet Africa 的巡演制作。',
+  image:'https://cdn.marrinergroup.com.au/strapi/uploads/3840x2160_IMAGE_adad571f78.jpg',
+  imageSource:'https://marrinergroup.com.au/shows/swan-lake',
+  sessions:[],calendarCoverage:'unavailable',dateNeedsReview:false,checkedAt:'2026-09-28',
+  bookingNote:'Marriner subscriber pre-sale starts 28 September 2026; general public on-sale is scheduled for 30 September. Check official availability.',
+  bookingNoteZh:'Marriner 订阅用户预售于 2026 年 9 月 28 日开始，普通票计划于 9 月 30 日开售；实时余票以官网为准。'
+});
