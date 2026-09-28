@@ -23,7 +23,7 @@ function showState(s,today=browseToday()){
  if(s.start<=addDays(today,30))return T('Opening soon','即将开演');
  return T('Upcoming','后续演出');
 }
-function showPrice(s){return Number.isFinite(s.price)&&s.price>=0?T(`From $${s.price}`,`$${s.price} 起`):T('Check official price','查看官方票价');}
+function showPrice(s){if(!Number.isFinite(s.price)||s.price<0)return T('Check official price','查看官方票价');const price=Number.isInteger(s.price)?String(s.price):s.price.toFixed(2);return T(`From $${price}`,`$${price} 起`);}
 function discoveryCard(s){const v=browseVenue(s),shown=browseCity==='sydney'?displayShow(s):s;return `<article class="show-card discovery-card"><a class="art" href="${browsePath('show',s.id)}" tabindex="-1" aria-hidden="true">${s.image?`<img src="${esc(s.image)}" alt="" loading="lazy" width="480" height="640">`:''}<div class="poster-fallback" ${s.image?'hidden':''}><span>${esc(label(s.genre))}</span><strong>${esc(s.title)}</strong><small>${esc(v.name)}</small></div></a><div class="card-body"><div class="card-top"><span class="tag ${cls(s.genre)}">${esc(label(s.genre))}</span>${s.festival?`<span class="tag festival">${esc(s.festival)}</span>`:''}<span class="status">${showState(s)}</span></div><h3><a href="${browsePath('show',s.id)}">${esc(shown.title)}</a></h3><a class="venue-link" href="${browsePath('venue',v.id)}">${esc(v.name)}<span>${esc(v.area)}</span></a><p class="card-date">${day(s.start)} – ${day(s.end)}</p><div class="card-meta">${ext(s.booking||s.source,showPrice(s),'price-link')}${ext(s.source,T('Official listing','官方详情'),'official-link')}</div></div></article>`;}
 function recommendationSets(today=browseToday()){
  const live=browseShows().filter(s=>!s.dateNeedsReview&&s.end>=today&&s.start<=addDays(today,90)),weekend=dateWindow('weekend','',today);
@@ -47,7 +47,7 @@ function browseFiltered(today=browseToday()){
  const f=browseStates[browseCity],range=dateWindow(f.period,f.pick,today),q=f.q.trim().toLowerCase();
  let shows=browseShows().filter(s=>{
  if(['cancelled','withdrawn'].includes(s.status))return false;
- const v=browseVenue(s),text=[s.title,s.company,s.genre,s.scale,v?.name,v?.area,s.desc,s.descZh,EN_SHOWS[s.id]?.desc].join(' ').toLowerCase();
+ const v=browseVenue(s),text=[s.title,...(s.aliases||[]),s.company,s.genre,s.scale,v?.name,v?.area,s.desc,s.descZh,EN_SHOWS[s.id]?.desc].join(' ').toLowerCase();
  if(!text.includes(q)||f.genre!=='all'&&s.genre!==f.genre||f.festival!=='all'&&s.festival!==f.festival||f.scale!=='all'&&s.scale!==f.scale||f.venue!=='all'&&s.venue!==f.venue)return false;
  if(f.archive?s.end>=today:s.end<today)return false;
  if(range&&(s.start>range[1]||s.end<range[0]))return false;
