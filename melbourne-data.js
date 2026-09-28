@@ -1,6 +1,6 @@
 // Melbourne pilot: manually checked official-source snapshot, 26 September 2026.
 // A season range is never presented as a complete performance calendar.
-const MELBOURNE_SNAPSHOT='2026-09-26';
+const MELBOURNE_SNAPSHOT='2026-09-28';
 const MELBOURNE_VENUES=[
   {id:'mel-princess',name:'Princess Theatre',area:'Melbourne CBD',address:'163 Spring Street, Melbourne VIC 3000',url:'https://marrinergroup.com.au/princess-theatre',programme:'https://marrinergroup.com.au/whats-on',note:'Major musical theatre venue.'},
   {id:'mel-regent',name:'Regent Theatre',area:'Melbourne CBD',address:'191 Collins Street, Melbourne VIC 3000',url:'https://marrinergroup.com.au/regent-theatre',programme:'https://marrinergroup.com.au/whats-on',note:'Major musicals, ballet and opera.'},
@@ -2204,3 +2204,54 @@ MELBOURNE_SHOWS.push({
   bookingNote:'Marriner subscriber pre-sale starts 28 September 2026; general public on-sale is scheduled for 30 September. Check official availability.',
   bookingNoteZh:'Marriner 订阅用户预售于 2026 年 9 月 28 日开始，普通票计划于 9 月 30 日开售；实时余票以官网为准。'
 });
+
+// The festival programme is a discovery source in its own right. Keep the
+// official genre and venue separate from the festival tag; a Fringe show can
+// also be a play, musical, cabaret or circus work.
+MELBOURNE_VENUES.push(
+  {id:'mel-capitol',name:'The Capitol',area:'Melbourne CBD',address:'113 Swanston Street, Melbourne VIC 3000',url:'https://www.rmit.edu.au/thecapitol',programme:'https://www.melbournefringe.com.au/whats-on/events',note:'RMIT theatre and festival venue.'},
+  {id:'mel-round',name:'The Round',area:'Nunawading',address:'379–399 Whitehorse Road, Nunawading VIC 3131',url:'https://www.theround.com.au/',programme:'https://www.theround.com.au/whats-on',note:'Local performing arts venue and community productions.'},
+  {id:'mel-athenaeum',name:'Athenaeum Theatre',area:'Melbourne CBD',address:'188 Collins Street, Melbourne VIC 3000',url:'https://www.athenaeumtheatre.com.au/',programme:'https://www.athenaeumtheatre.com.au/whats-on',note:'Two performance spaces for touring and independent theatre.'},
+  {id:'mel-fringe-hub',name:'Festival Hub: Trades Hall',area:'Carlton',address:'Corner Lygon and Victoria Streets, Carlton VIC 3053',url:'https://www.melbournefringe.com.au/whats-on/programs-guides/festival-hub-trades-hall',programme:'https://www.melbournefringe.com.au/whats-on/programs-guides/festival-hub-trades-hall',note:'Melbourne Fringe Festival Hub with multiple rooms.'},
+  {id:'mel-club-voltaire',name:'Club Voltaire',area:'North Melbourne',address:'Level 1, 14 Raglan Street, North Melbourne VIC 3051',url:'https://www.clubvoltaire.com.au/your-visit',programme:'https://www.melbournefringe.com.au/whats-on/events',note:'Independent cabaret and theatre venue.'},
+  {id:'mel-wheat-wine-whisky',name:'Wheat, Wine & Whisky',area:'Collingwood',address:'284 Smith Street, Collingwood VIC 3066',url:'https://www.melbournefringe.com.au/whats-on/events',programme:'https://www.melbournefringe.com.au/whats-on/events',note:'Melbourne Fringe performance venue.'}
+);
+Object.assign(MELBOURNE_VENUE_NOTES_ZH,{
+  'mel-capitol':'RMIT 剧院及戏剧节场地。','mel-round':'本地表演艺术场馆，承接社区制作。','mel-athenaeum':'设有两处演出空间的历史剧院。',
+  'mel-fringe-hub':'墨尔本 Fringe 的多空间节庆中心。','mel-club-voltaire':'独立卡巴莱与剧场空间。','mel-wheat-wine-whisky':'墨尔本 Fringe 演出场地。'
+});
+for(const s of MELBOURNE_SHOWS)if(s.source.includes('/melbourne-fringe-festival-2026/'))s.festival='Melbourne Fringe';
+MELBOURNE_SOURCES.push(
+  {name:'Melbourne Fringe — full programme',url:'https://www.melbournefringe.com.au/whats-on/events',type:'Official festival',note:'Festival-wide discovery; each published listing is checked against its official event page.'},
+  {name:'Melbourne Fringe — Trades Hall Hub',url:'https://www.melbournefringe.com.au/whats-on/programs-guides/festival-hub-trades-hall',type:'Official festival guide',note:'Hub-specific discovery; an empty server render does not mean there are no events.'},
+  {name:'Athenaeum Theatre',url:'https://www.athenaeumtheatre.com.au/whats-on',type:'Official venue',note:'Theatre 1 and Theatre 2 programme.'},
+  {name:'The Round',url:'https://www.theround.com.au/whats-on',type:'Official venue',note:'Nunawading venue programme and community musicals.'}
+);
+Object.assign(MELBOURNE_SOURCE_NOTES_ZH,{
+  'Melbourne Fringe — full programme':'戏剧节官方总节目；每条入库节目再核对官方详情页。',
+  'Melbourne Fringe — Trades Hall Hub':'Trades Hall 专题入口；页面暂时显示空列表不能视为无演出。',
+  'Athenaeum Theatre':'Theatre 1 与 Theatre 2 的官方节目。','The Round':'Nunawading 场馆及社区音乐剧官方节目。'
+});
+const melFringe='https://www.melbournefringe.com.au/whats-on/events/';
+const melNewShows=[
+  {id:'opening-night-gala-mel',title:'Opening Night Gala',genre:'卡巴莱',scale:'独立制作',company:'Melbourne Fringe',venue:'mel-capitol',start:'2026-09-29',end:'2026-09-29',festival:'Melbourne Fringe',source:melFringe+'opening-night-gala',desc:'Hosted by Michelle Brasier, this opening-night showcase brings together standouts from across the Fringe programme.',descZh:'由 Michelle Brasier 主持的开幕盛典，集合本届 Fringe 节目中的多位亮点表演者。',image:'https://d1vlmco8ur52ud.cloudfront.net/08-27-2026-023312-5240.jpg',sessions:[['2026-09-29','19:30','']],calendarCoverage:'partial'},
+  {id:'frozen-babirra-mel',title:"Disney's Frozen — The Broadway Musical",genre:'音乐剧',scale:'社区剧团',company:'Babirra Music Theatre',venue:'mel-round',start:'2026-10-01',end:'2026-10-11',source:'https://www.theround.com.au/FrozenMusical',desc:'When Elsa’s magic traps Arendelle in winter, Anna sets out to find her sister and save their home.',descZh:'艾莎的魔法使阿伦黛尔陷入寒冬，安娜踏上寻找姐姐、拯救家园的旅程。'},
+  {id:'finding-nemo-jr-round',title:"Disney's Finding Nemo JR.",genre:'亲子剧',scale:'社区剧团',company:'MDMS Theatre',venue:'mel-round',start:'2026-09-28',end:'2026-10-04',source:'https://www.theround.com.au/MDMSNemoJR',desc:'Marlin crosses the ocean with Dory to find his son Nemo in a family musical based on the Pixar story.',descZh:'马林与多莉横越海洋寻找儿子尼莫；这部家庭音乐剧改编自皮克斯故事。'},
+  {id:'the-homecoming-athenaeum',title:'The Homecoming',genre:'话剧',scale:'专业制作',company:'Greg Carroll and Australian Shakespeare Company',venue:'mel-athenaeum',space:'Theatre 2',start:'2026-09-17',end:'2026-10-03',source:'https://homecomingplay.com.au/',desc:'Teddy returns from America with his wife Ruth to a family home in East London, setting off a struggle for control.',descZh:'泰迪携妻子露丝从美国返回伦敦东区的家，家人之间随即展开一场争夺掌控权的角力。',sessions:[['2026-09-29','19:30',''],['2026-09-30','14:00',''],['2026-09-30','19:30',''],['2026-10-01','19:30',''],['2026-10-02','19:30',''],['2026-10-03','14:00',''],['2026-10-03','19:30','']],calendarCoverage:'partial',bookingNote:'The 23 September 7:30pm performance was cancelled; current dates must be confirmed on the official page.',bookingNoteZh:'9 月 23 日 19:30 场已取消；当前场次请以官网为准。'},
+  {id:'spamalot-athenaeum',title:"Monty Python's Spamalot",genre:'音乐剧',scale:'商业巡演',company:'Spamalot Australia',venue:'mel-athenaeum',space:'Theatre 1',start:'2026-09-16',end:'2026-10-11',source:'https://www.athenaeumtheatre.com.au/shows/monty-python',desc:'King Arthur and his knights pursue the Holy Grail through Monty Python’s absurd musical comedy.',descZh:'亚瑟王与骑士踏上寻找圣杯的旅程，闯入蒙提·派森式的荒诞音乐喜剧。'},
+  {id:'shark-broken-athenaeum',title:'The Shark is Broken',genre:'话剧',scale:'专业制作',company:'Athenaeum Theatre',venue:'mel-athenaeum',space:'Theatre 1',start:'2026-10-15',end:'2026-11-08',source:'https://www.athenaeumtheatre.com.au/shows/the-shark-is-broken',desc:'While filming Jaws, three actors are stuck on a boat waiting for a broken mechanical shark to work.',descZh:'《大白鲨》拍摄期间，三位演员被困在船上，等待故障中的机械鲨鱼恢复运作。'},
+  {id:'resume-gap-fringe-mel',title:'The Resume Gap',genre:'马戏',scale:'独立制作',company:'Elle Diablo',venue:'mel-fringe-hub',space:'Meeting Room',start:'2026-09-30',end:'2026-10-04',festival:'Melbourne Fringe',source:melFringe+'the-resume-gap',desc:'A sword swallower, fire eater and clown tries to explain her unconventional skills in a job interview.',descZh:'一位吞剑、玩火、扮小丑的表演者试图在求职面试中解释自己与众不同的技能。',image:'https://d1vlmco8ur52ud.cloudfront.net/05-05-2026-104653-5480.jpg'},
+  {id:'improvised-zombie-fringe-mel',title:'A Completely Improvised Zombie Apocalypse',genre:'喜剧',scale:'独立制作',company:'Carla Burn',venue:'mel-club-voltaire',start:'2026-09-30',end:'2026-10-06',festival:'Melbourne Fringe',source:melFringe+'a-completely-improvised-zombie-apocalypse',desc:'Performers invent a zombie movie live, with the story changing every night.',descZh:'演员在现场即兴创作僵尸电影，每晚剧情各不相同。',image:'https://d1vlmco8ur52ud.cloudfront.net/05-16-2026-134545-1604.jpg'},
+  {id:'monty-python-cabaret-fringe-mel',title:'A Monty Python Cabaret Singalong Circus',genre:'卡巴莱',scale:'独立制作',company:'Antony Hubmayer',venue:'mel-club-voltaire',start:'2026-10-08',end:'2026-10-08',festival:'Melbourne Fringe',source:melFringe+'a-monty-python-cabaret-singalong-circus',desc:'An interactive piano cabaret with Monty Python-inspired songs and audience singalongs.',descZh:'一场受蒙提·派森启发的互动钢琴卡巴莱，观众可以一起唱歌。',image:'https://d1vlmco8ur52ud.cloudfront.net/05-13-2026-155431-8845.jpg',sessions:[['2026-10-08','19:30','']],calendarCoverage:'partial'},
+  {id:'a-la-fringe-mel',title:'A La Fringe',genre:'卡巴莱',scale:'独立制作',company:'Lucy Best and Nicky Barry',venue:'mel-wheat-wine-whisky',start:'2026-09-29',end:'2026-10-04',festival:'Melbourne Fringe',source:melFringe+'a-la-fringe',desc:'A variety show blending comedy, cabaret, burlesque, theatre, clowning and storytelling.',descZh:'融合喜剧、卡巴莱、滑稽表演、戏剧、小丑和故事讲述的综艺演出。',image:'https://d1vlmco8ur52ud.cloudfront.net/05-22-2026-023824-8107.jpg'},
+  {id:'a-nice-time-fringe-mel',title:'A Nice Time',genre:'喜剧',scale:'独立制作',company:'Ashley Apap',venue:'mel-fringe-hub',space:'Archive Room',start:'2026-10-16',end:'2026-10-18',festival:'Melbourne Fringe',source:melFringe+'a-nice-time',desc:'Ashley Apap guides the audience through an hour of silly conversation about how to spend time better.',descZh:'Ashley Apap 用一小时诙谐的互动，带观众重新想象如何把时间过得更有趣。',image:'https://d1vlmco8ur52ud.cloudfront.net/05-08-2026-052013-1178.jpg'}
+];
+const melNewArtwork={
+  'frozen-babirra-mel':'https://www.theround.com.au/sites/theround/files/styles/metatag_image_default/public/2026-01/web_banner.png?itok=uxXSyhbn',
+  'finding-nemo-jr-round':'https://www.theround.com.au/sites/theround/files/styles/metatag_image_default/public/2026-08/nemowebbanner.jpg?itok=czv8Gw44',
+  'the-homecoming-athenaeum':'https://thehomecoming.com.au/3109-PosterEdit.jpg',
+  'spamalot-athenaeum':'https://cdn.prod.website-files.com/622bf2657de9706619cdab85/6a3218013c83256f03c98ec2_ATH%20square%20(1).png',
+  'shark-broken-athenaeum':'https://cdn.prod.website-files.com/622bf2657de9706619cdab85/69fad2ee3942e8b9ada8206f_MELB_Social_1080x1080_.jpg'
+};
+for(const s of melNewShows)if(melNewArtwork[s.id])s.image=melNewArtwork[s.id];
+for(const s of melNewShows)MELBOURNE_SHOWS.push({booking:s.source,bookingLabel:'Official show / tickets',sessions:[],calendarCoverage:'unavailable',dateNeedsReview:false,checkedAt:'2026-09-28',...s,imageSource:s.image?s.source:undefined});
