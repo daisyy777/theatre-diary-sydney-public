@@ -8,7 +8,7 @@ const RANKING_POLICY = Object.freeze({
   production: { '商业巡演':100, '专业制作':70, '独立制作':50, '社区剧团':30 },
   popularityMaxAgeDays: 7
 });
-const MELBOURNE_VENUE_PRIORITY=Object.freeze({'mel-sumner':85,'mel-lawler':70,'mel-fairfax':80,'mel-playhouse':85,'mel-palais':85,'mel-state':100,'mel-redstitch':75,'mel-chapel':70,'mel-fortyfive':65,'mel-lamama-hq':65,'mel-lamama-courthouse':65,'mel-explosives':60,'mel-mccomas':55,'mel-brighton':55,'mel-regent':100,'mel-princess':100,'mel-her-majestys':100,'mel-comedy':95,'mel-national':75,'mel-malthouse':75,'mel-theatre-works':70,'mel-1812':55,'mel-shirley-burke':55,'mel-clayton':55,'mel-malvern':55});
+const MELBOURNE_VENUE_PRIORITY=Object.freeze({'mel-sumner':85,'mel-lawler':70,'mel-fairfax':80,'mel-playhouse':85,'mel-palais':85,'mel-state':100,'mel-redstitch':75,'mel-chapel':70,'mel-fortyfive':65,'mel-lamama-hq':65,'mel-lamama-courthouse':65,'mel-explosives':60,'mel-mccomas':55,'mel-brighton':55,'mel-regent':100,'mel-princess':100,'mel-her-majestys':100,'mel-comedy':95,'mel-national':75,'mel-malthouse':75,'mel-theatre-works':70,'mel-1812':55,'mel-shirley-burke':55,'mel-clayton':55,'mel-malvern':55,'mel-athenaeum':85,'mel-capitol':80,'mel-round':65,'mel-fringe-hub':65,'mel-club-voltaire':55,'mel-wheat-wine-whisky':50});
 const MELBOURNE_FLAGSHIP_ORDER=['mel-state','mel-princess','mel-regent','mel-her-majestys','mel-comedy'];
 const rankDay = value => Date.parse(value + 'T00:00:00Z') / 86400000;
 function popularityValue(show, asOf) {
