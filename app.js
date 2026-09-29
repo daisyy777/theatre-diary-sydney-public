@@ -1,5 +1,5 @@
-function synopsisCredit(s){const text=SHOW_SYNOPSES[s.id];return text&&text.sourceUrl?`<p class="credit">${ext(text.sourceUrl,T('Synopsis source','简介来源'))}</p>`:'';}
-function synopsisText(s){const text=SHOW_SYNOPSES[s.id];return text?T(text.en,text.zh):T('A synopsis is not yet available. Read the official show page for the story or themes.','剧情简介暂待补充，可前往官方剧目页面了解故事或主题。');}
+function synopsisCredit(s){const text=SHOW_SYNOPSES[s.id];const url=text?.sourceUrl||(s.festival==='Melbourne Fringe'&&s.desc?s.source:null);return url?`<p class="credit">${ext(url,T('Synopsis source','简介来源'))}</p>`:'';}
+function synopsisText(s){const text=SHOW_SYNOPSES[s.id];if(text)return T(text.en,text.zh);if(s.festival==='Melbourne Fringe'&&s.desc)return T(s.desc,s.descZh||`官网英文简介：${s.desc}`);return T('A synopsis is not yet available. Read the official show page for the story or themes.','剧情简介暂待补充，可前往官方剧目页面了解故事或主题。');}
 let locale='en';try{locale=localStorage.getItem('theatre-language')==='zh'?'zh':'en';}catch{}
 const T=(en,zh)=>locale==='zh'?zh:en;
 const label=x=>locale==='zh'?x:(EN_LABELS[x]||x);

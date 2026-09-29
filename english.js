@@ -4384,6 +4384,8 @@ const EN_LABELS = {
   "马戏": "Circus",
   "亲子剧": "Family & kids",
   "喜剧": "Comedy",
+  "实验戏剧": "Experimental theatre",
+  "朗诵": "Spoken word",
   "其他": "Other",
   "悉尼艺穗节 2026": "Sydney Fringe 2026"
 };
