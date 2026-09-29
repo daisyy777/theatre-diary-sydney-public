@@ -22906,3 +22906,7 @@ const SOURCES = [
     "checkedAt": "2026-09-27"
   }
 ];
+// BEGIN VERIFIED HAYES 2027 END DATES
+const HAYES_TICKETED_END_DATES = {"1776":"2027-03-19","a-funny-thing-happened-on-the-way-to-the-forum":"2027-05-14","dames-at-sea":"2027-10-22"};
+SHOWS.forEach(show => { if(HAYES_TICKETED_END_DATES[show.id])show.end=HAYES_TICKETED_END_DATES[show.id]; });
+// END VERIFIED HAYES 2027 END DATES
