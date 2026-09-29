@@ -3848,8 +3848,8 @@ const EN_SHOWS = {
     "priceText": "See the official listing for prices",
     "priceNote": "The ticketing API returned no price, so none is shown.",
     "duration": "",
-    "desc": "A production at Belvoir St Theatre, announced for 2027-01-07 to 2027-01-23, tickets not yet on sale. This entry is aggregated from the venue's own programme and has no published synopsis yet.",
-    "schedule": "The season is announced for 2027-01-07 to 2027-01-23 but tickets are not on sale yet. The performance calendar is added once booking opens.",
+    "desc": "On the evening of his mother’s funeral, Josh meets Ray, and their conversation becomes a night of memory, sparring and revelation.",
+    "schedule": "The official season runs from 7 to 24 January 2027. A sample of explicitly listed performances is shown; check the venue for the full calendar.",
     "access": "Accessible seating, latecomer and venue notices: check the official listing.",
     "imageCredit": "Official promotional artwork © Belvoir St Theatre"
   },
@@ -4010,7 +4010,8 @@ const EN_SHOWS = {
     "priceText": "See the official listing for prices",
     "priceNote": "The ticketing API returned no price, so none is shown.",
     "duration": "",
-    "desc": "A production at Belvoir St Theatre, announced for 2027-02-03 to 2027-03-06. This entry is aggregated from the venue's own programme and has no published synopsis yet.",
+    "desc": "Across two decades, nine relationships and ten vignettes, Mark and Addy explore how past relationships shape the present.",
+    "dateNote": "The official season begins on 3 February; the programme collector mistakenly treated the 14 February preview as the start.",
     "schedule": "6 published performances from 2027-02-03 to 2027-03-06. See the calendar below for dates and times; this is not a guaranteed season total.",
     "access": "Accessible seating, latecomer and venue notices: check the official listing.",
     "imageCredit": "Official promotional artwork © Belvoir St Theatre"
@@ -4195,7 +4196,124 @@ const EN_SHOWS = {
     "desc": "A community production by Arts Theatre Cronulla, running from 2026-10-23 to 2026-11-28. See the official listing for production details.",
     "schedule": "The season is announced for 2026-10-23 to 2026-11-28 but tickets are not on sale yet (public on sale 2026-10-10). 4 published performance times are listed below.",
     "access": "Accessible seating, latecomer and venue notices: check the official listing."
-  }
+  },
+  "dixon-and-daughters-oldfitz": {
+  "priceText": "From A$34.5 · official listing",
+  "priceNote": "Check the official booking page for current prices, concessions and fees.",
+  "duration": "Approx. 90 minutes",
+  "desc": "Mary returns from prison to a hostile home where her daughters and family confront a painful shared past.",
+  "schedule": "The season range is confirmed; check the official booking page for individual performances.",
+  "access": "Check the official page for access and admission information.",
+  "bookingLabel": "Official dates and tickets"
+},
+  "catch-as-catch-can-oldfitz": {
+  "priceText": "From A$34.5 · official listing",
+  "priceNote": "Check the official booking page for current prices, concessions and fees.",
+  "duration": "Approx. 105 minutes",
+  "desc": "A homecoming unsettles two families whose lives have been intertwined for decades.",
+  "schedule": "The season range is confirmed; check the official booking page for individual performances.",
+  "access": "Check the official page for access and admission information.",
+  "bookingLabel": "Official dates and tickets"
+},
+  "dick-swingin-oldfitz": {
+  "priceText": "From A$24.5 · official listing",
+  "priceNote": "Check the official booking page for current prices, concessions and fees.",
+  "duration": "Approx. 50 minutes",
+  "desc": "A vaudeville performer moves through jazz, characters and memories of growing up queer in a regional town.",
+  "schedule": "The season range is confirmed; check the official booking page for individual performances.",
+  "access": "Check the official page for access and admission information.",
+  "bookingLabel": "Official dates and tickets"
+},
+  "scenes-from-a-friendship-oldfitz": {
+  "priceText": "From A$34.5 · official listing",
+  "priceNote": "Check the official booking page for current prices, concessions and fees.",
+  "duration": "Approx. 95 minutes",
+  "desc": "Jess and Billy navigate four decades of friendship through love, family, loss and change.",
+  "schedule": "The season range is confirmed; check the official booking page for individual performances.",
+  "access": "Check the official page for access and admission information.",
+  "bookingLabel": "Official dates and tickets"
+},
+  "a-number-oldfitz": {
+  "priceText": "From A$24.5 · official listing",
+  "priceNote": "Check the official booking page for current prices, concessions and fees.",
+  "duration": "Approx. 60 minutes",
+  "desc": "Brooke discovers she is one of several clones created by her father, opening questions about identity and grief.",
+  "schedule": "The season range is confirmed; check the official booking page for individual performances.",
+  "access": "Check the official page for access and admission information.",
+  "bookingLabel": "Official dates and tickets"
+},
+  "comet-boombox-oldfitz": {
+  "priceText": "From A$24.5 · official listing",
+  "priceNote": "Check the official booking page for current prices, concessions and fees.",
+  "duration": "Approx. 80 minutes",
+  "desc": "A betrayal upends the friendship between influencer Retro and her childhood robot Comet.",
+  "schedule": "The season range is confirmed; check the official booking page for individual performances.",
+  "access": "Check the official page for access and admission information.",
+  "bookingLabel": "Official dates and tickets"
+},
+  "all-the-more-reason-oldfitz": {
+  "priceText": "From A$34.5 · official listing",
+  "priceNote": "Check the official booking page for current prices, concessions and fees.",
+  "duration": "Approx. 100 minutes",
+  "desc": "Four friends reconnect every six years in a Christmas romantic comedy spanning eighteen years.",
+  "schedule": "The season range is confirmed; check the official booking page for individual performances.",
+  "access": "Check the official page for access and admission information.",
+  "bookingLabel": "Official dates and tickets"
+},
+  "infinite-scroll-oldfitz": {
+  "priceText": "From A$24.5 · official listing",
+  "priceNote": "Check the official booking page for current prices, concessions and fees.",
+  "duration": "Approx. 50 minutes",
+  "desc": "Six performers use sketches and characters to explore the double-edged pull of social media.",
+  "schedule": "The season range is confirmed; check the official booking page for individual performances.",
+  "access": "Check the official page for access and admission information.",
+  "bookingLabel": "Official dates and tickets"
+},
+  "green-scenes-oldfitz": {
+  "priceText": "See official listing for prices",
+  "priceNote": "Check the official booking page for current prices, concessions and fees.",
+  "duration": "Approx. 90 minutes",
+  "desc": "An afternoon of scenes, songs and poems about the planet and climate action.",
+  "schedule": "One verified performance is listed below; confirm changes on the official page.",
+  "access": "Check the official page for access and admission information.",
+  "bookingLabel": "Official dates and tickets"
+},
+  "pornography-of-someone-you-know-oldfitz": {
+  "priceText": "See official listing for prices",
+  "priceNote": "Check the official booking page for current prices, concessions and fees.",
+  "duration": "Approx. 90 minutes",
+  "desc": "A public reading of Charlie Murphy’s play about a trans woman and a former reality star whose relationship is strained by desire, shame and obsession.",
+  "schedule": "One verified performance is listed below; confirm changes on the official page.",
+  "access": "Check the official page for access and admission information.",
+  "bookingLabel": "Official dates and tickets"
+},
+  "prey-reading-oldfitz": {
+  "priceText": "See official listing for prices",
+  "priceNote": "Check the official booking page for current prices, concessions and fees.",
+  "duration": "Approx. 60 minutes",
+  "desc": "A public reading of David Cole’s rural gothic play about two sisters, an inherited farm and their father’s mysterious death.",
+  "schedule": "One verified performance is listed below; confirm changes on the official page.",
+  "access": "Check the official page for access and admission information.",
+  "bookingLabel": "Official dates and tickets"
+},
+  "way-back-now-reading-oldfitz": {
+  "priceText": "See official listing for prices",
+  "priceNote": "Check the official booking page for current prices, concessions and fees.",
+  "duration": "Approx. 75 minutes",
+  "desc": "A public reading of Taylor Venter’s play about a ballerina preparing for a pivotal audition while a new flatmate’s support turns controlling.",
+  "schedule": "One verified performance is listed below; confirm changes on the official page.",
+  "access": "Check the official page for access and admission information.",
+  "bookingLabel": "Official dates and tickets"
+},
+  "wankernomics-show-v4-1-state": {
+  "priceText": "See the official listing for prices",
+  "priceNote": "Check the official booking page for current prices and fees.",
+  "duration": "",
+  "desc": "Wankernomics returns to Sydney for a one-night comedy show satirising office culture and workplace language.",
+  "schedule": "One performance on 9 December 2026 at 7pm; confirm changes with the venue.",
+  "access": "Check the State Theatre listing for access and admission information.",
+  "bookingLabel": "Official dates and tickets"
+}
 };
 const EN_VENUES = {
   "lyric": "A major musicals and touring venue. Some productions are listed here; see the official programme for the full season.",
@@ -4300,7 +4418,7 @@ const EN_SOURCE_NOTES = [
   "Semele is sampled here with five explicitly published performances.",
   "Opera and venue information; ordinary concerts need separate classification.",
   "Independent theatre, now in Ultimo; do not reuse the former Kings Cross address.",
-  "Use the current venue programme rather than relying on historical operators.",
+  "Thirteen current or future listings were reviewed against the venue programme and official booking pages; new events enter the daily review queue.",
   "Two productions, adult prices, explicit sample dates and official ticketing links checked.",
   "Inner West independent performance and Fringe programming.",
   "Selected community productions checked against official listings. Only explicit performance times are listed; full automatic updates are not enabled.",

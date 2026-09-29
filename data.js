@@ -1,4 +1,4 @@
-const SNAPSHOT = "2026-09-25";
+const SNAPSHOT = "2026-09-29";
 const VENUES = [
 {
   "id": "riverside",
@@ -19834,12 +19834,12 @@ const SHOWS = [
     "venue": "belvoir",
     "company": "",
     "start": "2027-01-07",
-    "end": "2027-01-23",
+    "end": "2027-01-24",
     "price": null,
     "priceText": "票价见官方售票页",
     "priceNote": "售票接口未返回票价，未作估算。",
     "duration": "",
-    "desc": "GAME. SET. MATCH. 在Belvoir St Theatre上演，演期 2027-01-07 至 2027-01-23（官方已官宣，尚未开票）。本条目由官方节目单汇总，暂无官方剧情简介。",
+    "desc": "乔希在母亲的葬礼后遇见雷。两人通过一夜的交谈与交锋，重新看待记忆、失去和彼此的关系。",
     "source": "https://belvoir.com.au/productions/game-set-match/",
     "booking": "https://belvoir.com.au/productions/game-set-match/",
     "bookingLabel": "查看官方演出公告",
@@ -19876,9 +19876,9 @@ const SHOWS = [
       ]
     ],
     "sessionsComplete": false,
-    "schedule": "官方已公布演期 2027-01-07 至 2027-01-23，但尚未开票。逐场日历待开票后补充。",
+    "schedule": "官网演期为 2027-01-07 至 2027-01-24；已录入明确公布的部分场次，完整场次请以官网为准。",
     "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
-    "verifiedAt": "2026-09-20",
+    "verifiedAt": "2026-09-29",
     "status": "announced",
     "onSaleFrom": null,
     "image": "https://belvoir.com.au/wp-content/uploads/2026/09/Website_GAME.-SET.-MATCH_2-scaled.jpg",
@@ -20830,7 +20830,7 @@ const SHOWS = [
     "priceText": "票价见官方售票页",
     "priceNote": "售票接口未返回票价，未作估算。",
     "duration": "",
-    "desc": "RIPPLE 在Belvoir St Theatre上演，演期 2027-02-03 至 2027-03-06。本条目由官方节目单汇总，暂无官方剧情简介。",
+    "desc": "马克与艾迪之间的吸引力跨越二十年、九段关系与十个片段，呈现过去如何影响当下的爱情选择。",
     "source": "https://belvoir.com.au/productions/ripple/",
     "booking": "https://my.belvoir.com.au/overview/15320",
     "bookingLabel": "官方场次与购票",
@@ -20869,7 +20869,8 @@ const SHOWS = [
     "sessionsComplete": false,
     "schedule": "已公布 6 场（2027-02-03 至 2027-03-06）。具体日期与时间见下方日历；不保证为全季总数。",
     "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
-    "verifiedAt": "2026-09-20",
+    "verifiedAt": "2026-09-29",
+    "dateNote": "官网演期从 2 月 3 日开始；节目采集器误把 2 月 14 日首个预演当成演期起点。",
     "image": "https://belvoir.com.au/wp-content/uploads/2026/08/25A_27_03_Ripple_1897x1067-1.png",
     "imageCredit": "官方宣传图 © Belvoir St Theatre"
   },
@@ -21766,7 +21767,376 @@ const SHOWS = [
     "evidenceUrls": [
       "https://www.artstheatrecronulla.com.au/2026season"
     ]
-  }
+  },
+{
+  "id": "dixon-and-daughters-oldfitz",
+  "title": "Dixon & Daughters",
+  "venue": "oldfitz",
+  "genre": "话剧",
+  "scale": "独立制作",
+  "company": "Tiny Dog Productions",
+  "start": "2026-09-18",
+  "end": "2026-10-03",
+  "price": 34.5,
+  "priceText": "A$34.5 起 · 官网票价",
+  "priceNote": "实际票价、优惠及手续费以官方购票页为准。",
+  "duration": "约 90 分钟",
+  "desc": "玛丽出狱后回到女儿们身边，家人必须面对旧日创伤与彼此的选择。",
+  "source": "https://www.oldfitztheatre.com.au/dixon-and-daughters",
+  "booking": "https://www.oldfitztheatre.com.au/dixon-and-daughters",
+  "bookingLabel": "查看官网场次与购票",
+  "sessions": [],
+  "sessionsComplete": false,
+  "schedule": "官网已公布演期；逐场时间请到官方购票页查看。",
+  "access": "无障碍及观演提示请以官网为准。",
+  "verifiedAt": "2026-09-29",
+  "evidenceUrls": [
+    "https://www.oldfitztheatre.com.au/dixon-and-daughters"
+  ]
+},
+{
+  "id": "catch-as-catch-can-oldfitz",
+  "title": "Catch As Catch Can",
+  "venue": "oldfitz",
+  "genre": "话剧",
+  "scale": "独立制作",
+  "company": "Empress Theatre",
+  "start": "2026-10-09",
+  "end": "2026-10-31",
+  "price": 34.5,
+  "priceText": "A$34.5 起 · 官网票价",
+  "priceNote": "实际票价、优惠及手续费以官方购票页为准。",
+  "duration": "约 105 分钟",
+  "desc": "两户相识多年的家庭因一名儿子的归来，重新面对亲情、身份与彼此的关系。",
+  "source": "https://www.oldfitztheatre.com.au/catch-as-catch-can",
+  "booking": "https://www.oldfitztheatre.com.au/catch-as-catch-can",
+  "bookingLabel": "查看官网场次与购票",
+  "sessions": [],
+  "sessionsComplete": false,
+  "schedule": "官网已公布演期；逐场时间请到官方购票页查看。",
+  "access": "无障碍及观演提示请以官网为准。",
+  "verifiedAt": "2026-09-29",
+  "evidenceUrls": [
+    "https://www.oldfitztheatre.com.au/catch-as-catch-can"
+  ]
+},
+{
+  "id": "dick-swingin-oldfitz",
+  "title": "Dick Swingin'",
+  "venue": "oldfitz",
+  "genre": "卡巴莱",
+  "scale": "独立制作",
+  "company": "Legit Theatre Co.",
+  "start": "2026-10-13",
+  "end": "2026-10-18",
+  "price": 24.5,
+  "priceText": "A$24.5 起 · 官网票价",
+  "priceNote": "实际票价、优惠及手续费以官方购票页为准。",
+  "duration": "约 50 分钟",
+  "desc": "一名歌舞表演者以爵士与杂耍演绎多个角色，探寻乡镇成长经历、男性气质与自我表达。",
+  "source": "https://www.oldfitztheatre.com.au/dick-swingin",
+  "booking": "https://www.oldfitztheatre.com.au/dick-swingin",
+  "bookingLabel": "查看官网场次与购票",
+  "sessions": [],
+  "sessionsComplete": false,
+  "schedule": "官网已公布演期；逐场时间请到官方购票页查看。",
+  "access": "无障碍及观演提示请以官网为准。",
+  "verifiedAt": "2026-09-29",
+  "evidenceUrls": [
+    "https://www.oldfitztheatre.com.au/dick-swingin"
+  ]
+},
+{
+  "id": "scenes-from-a-friendship-oldfitz",
+  "title": "Scenes From A Friendship",
+  "venue": "oldfitz",
+  "genre": "话剧",
+  "scale": "独立制作",
+  "company": "Outhouse Theatre Co",
+  "start": "2026-11-06",
+  "end": "2026-11-22",
+  "price": 34.5,
+  "priceText": "A$34.5 起 · 官网票价",
+  "priceNote": "实际票价、优惠及手续费以官方购票页为准。",
+  "duration": "约 95 分钟",
+  "desc": "杰丝与比利从少年相识，四十年间经历爱情、家庭与变化，也不断重塑彼此的友谊。",
+  "source": "https://www.oldfitztheatre.com.au/scenes-from-a-friendship",
+  "booking": "https://www.oldfitztheatre.com.au/scenes-from-a-friendship",
+  "bookingLabel": "查看官网场次与购票",
+  "sessions": [],
+  "sessionsComplete": false,
+  "schedule": "官网已公布演期；逐场时间请到官方购票页查看。",
+  "access": "无障碍及观演提示请以官网为准。",
+  "verifiedAt": "2026-09-29",
+  "evidenceUrls": [
+    "https://www.oldfitztheatre.com.au/scenes-from-a-friendship"
+  ]
+},
+{
+  "id": "a-number-oldfitz",
+  "title": "A Number",
+  "venue": "oldfitz",
+  "genre": "话剧",
+  "scale": "独立制作",
+  "company": "Lil Tacker Productions",
+  "start": "2026-11-10",
+  "end": "2026-11-15",
+  "price": 24.5,
+  "priceText": "A$24.5 起 · 官网票价",
+  "priceNote": "实际票价、优惠及手续费以官方购票页为准。",
+  "duration": "约 60 分钟",
+  "desc": "布鲁克发现自己并非父亲创造的唯一克隆人，由此追问身份、亲情与失去的代价。",
+  "source": "https://www.oldfitztheatre.com.au/a-number",
+  "booking": "https://www.oldfitztheatre.com.au/a-number",
+  "bookingLabel": "查看官网场次与购票",
+  "sessions": [],
+  "sessionsComplete": false,
+  "schedule": "官网已公布演期；逐场时间请到官方购票页查看。",
+  "access": "无障碍及观演提示请以官网为准。",
+  "verifiedAt": "2026-09-29",
+  "evidenceUrls": [
+    "https://www.oldfitztheatre.com.au/a-number"
+  ]
+},
+{
+  "id": "comet-boombox-oldfitz",
+  "title": "Comet Boombox",
+  "venue": "oldfitz",
+  "genre": "话剧",
+  "scale": "独立制作",
+  "company": "",
+  "start": "2026-11-17",
+  "end": "2026-11-22",
+  "price": 24.5,
+  "priceText": "A$24.5 起 · 官网票价",
+  "priceNote": "实际票价、优惠及手续费以官方购票页为准。",
+  "duration": "约 80 分钟",
+  "desc": "网红瑞特罗与童年机器人科梅特共同主持人机关系播客，一次背叛使两人的友谊陷入危机。",
+  "source": "https://www.oldfitztheatre.com.au/comet-boombox",
+  "booking": "https://www.oldfitztheatre.com.au/comet-boombox",
+  "bookingLabel": "查看官网场次与购票",
+  "sessions": [],
+  "sessionsComplete": false,
+  "schedule": "官网已公布演期；逐场时间请到官方购票页查看。",
+  "access": "无障碍及观演提示请以官网为准。",
+  "verifiedAt": "2026-09-29",
+  "evidenceUrls": [
+    "https://www.oldfitztheatre.com.au/comet-boombox"
+  ]
+},
+{
+  "id": "all-the-more-reason-oldfitz",
+  "title": "All The More Reason",
+  "venue": "oldfitz",
+  "genre": "话剧",
+  "scale": "独立制作",
+  "company": "New Ghosts Theatre Company",
+  "start": "2026-12-04",
+  "end": "2026-12-20",
+  "price": 34.5,
+  "priceText": "A$34.5 起 · 官网票价",
+  "priceNote": "实际票价、优惠及手续费以官方购票页为准。",
+  "duration": "约 100 分钟",
+  "desc": "四位朋友每隔六年在圣诞节前重逢，十八年间不断重新认识爱情、友谊与自己。",
+  "source": "https://www.oldfitztheatre.com.au/all-the-more-reason",
+  "booking": "https://www.oldfitztheatre.com.au/all-the-more-reason",
+  "bookingLabel": "查看官网场次与购票",
+  "sessions": [],
+  "sessionsComplete": false,
+  "schedule": "官网已公布演期；逐场时间请到官方购票页查看。",
+  "access": "无障碍及观演提示请以官网为准。",
+  "verifiedAt": "2026-09-29",
+  "evidenceUrls": [
+    "https://www.oldfitztheatre.com.au/all-the-more-reason"
+  ]
+},
+{
+  "id": "infinite-scroll-oldfitz",
+  "title": "Infinite Scroll",
+  "venue": "oldfitz",
+  "genre": "喜剧",
+  "scale": "独立制作",
+  "company": "Percolator Productions",
+  "start": "2026-12-08",
+  "end": "2026-12-13",
+  "price": 24.5,
+  "priceText": "A$24.5 起 · 官网票价",
+  "priceNote": "实际票价、优惠及手续费以官方购票页为准。",
+  "duration": "约 50 分钟",
+  "desc": "六名演员以短剧与荒诞角色呈现社交媒体带来的快乐、焦虑和注意力争夺。",
+  "source": "https://www.oldfitztheatre.com.au/infinite-scroll",
+  "booking": "https://www.oldfitztheatre.com.au/infinite-scroll",
+  "bookingLabel": "查看官网场次与购票",
+  "sessions": [],
+  "sessionsComplete": false,
+  "schedule": "官网已公布演期；逐场时间请到官方购票页查看。",
+  "access": "无障碍及观演提示请以官网为准。",
+  "verifiedAt": "2026-09-29",
+  "evidenceUrls": [
+    "https://www.oldfitztheatre.com.au/infinite-scroll"
+  ]
+},
+{
+  "id": "green-scenes-oldfitz",
+  "title": "Green Scenes",
+  "venue": "oldfitz",
+  "genre": "其他",
+  "scale": "独立制作",
+  "company": "Blinking Light",
+  "start": "2026-10-18",
+  "end": "2026-10-18",
+  "price": null,
+  "priceText": "票价以官网为准",
+  "priceNote": "实际票价、优惠及手续费以官方购票页为准。",
+  "duration": "约 90 分钟",
+  "desc": "一场以气候行动为主题的戏剧片段、歌曲和诗歌下午场。",
+  "source": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=4801",
+  "booking": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=4801",
+  "bookingLabel": "查看官网场次与购票",
+  "sessions": [
+    [
+      "2026-10-18",
+      "13:00",
+      ""
+    ]
+  ],
+  "sessionsComplete": true,
+  "schedule": "已录入官网明确公布的单场时间；购票及变更请核对官方。",
+  "access": "无障碍及观演提示请以官网为准。",
+  "verifiedAt": "2026-09-29",
+  "evidenceUrls": [
+    "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=4801"
+  ]
+},
+{
+  "id": "pornography-of-someone-you-know-oldfitz",
+  "title": "pornography of someone you know by Charlie Murphy",
+  "venue": "oldfitz",
+  "genre": "话剧",
+  "scale": "独立制作",
+  "company": "",
+  "start": "2026-11-13",
+  "end": "2026-11-13",
+  "price": null,
+  "priceText": "票价以官网为准",
+  "priceNote": "实际票价、优惠及手续费以官方购票页为准。",
+  "duration": "约 90 分钟",
+  "desc": "查理·墨菲剧作的公开朗读：一名跨性别女性与前真人秀明星之间的关系，牵出欲望、羞耻与现实生活的冲突。",
+  "source": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=4201",
+  "booking": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=4201",
+  "bookingLabel": "查看官网场次与购票",
+  "sessions": [
+    [
+      "2026-11-13",
+      "13:00",
+      ""
+    ]
+  ],
+  "sessionsComplete": true,
+  "schedule": "已录入官网明确公布的单场时间；购票及变更请核对官方。",
+  "access": "无障碍及观演提示请以官网为准。",
+  "verifiedAt": "2026-09-29",
+  "evidenceUrls": [
+    "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=4201"
+  ]
+},
+{
+  "id": "prey-reading-oldfitz",
+  "title": "Prey by David Cole",
+  "venue": "oldfitz",
+  "genre": "话剧",
+  "scale": "独立制作",
+  "company": "",
+  "start": "2026-09-30",
+  "end": "2026-09-30",
+  "price": null,
+  "priceText": "票价以官网为准",
+  "priceNote": "实际票价、优惠及手续费以官方购票页为准。",
+  "duration": "约 60 分钟",
+  "desc": "大卫·科尔剧作的公开朗读：两姐妹继承偏远农场，也卷入围绕父亲之死的谜团。",
+  "source": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=4001",
+  "booking": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=4001",
+  "bookingLabel": "查看官网场次与购票",
+  "sessions": [
+    [
+      "2026-09-30",
+      "13:00",
+      ""
+    ]
+  ],
+  "sessionsComplete": true,
+  "schedule": "已录入官网明确公布的单场时间；购票及变更请核对官方。",
+  "access": "无障碍及观演提示请以官网为准。",
+  "verifiedAt": "2026-09-29",
+  "evidenceUrls": [
+    "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=4001"
+  ]
+},
+{
+  "id": "way-back-now-reading-oldfitz",
+  "title": "Way Back Now by Taylor Venter",
+  "venue": "oldfitz",
+  "genre": "话剧",
+  "scale": "独立制作",
+  "company": "",
+  "start": "2026-10-15",
+  "end": "2026-10-15",
+  "price": null,
+  "priceText": "票价以官网为准",
+  "priceNote": "实际票价、优惠及手续费以官方购票页为准。",
+  "duration": "约 75 分钟",
+  "desc": "泰勒·文特尔剧作的公开朗读：一位芭蕾舞者在关键试镜前搬入合租公寓，逐渐发现室友的支持变成操控。",
+  "source": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=4601",
+  "booking": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=4601",
+  "bookingLabel": "查看官网场次与购票",
+  "sessions": [
+    [
+      "2026-10-15",
+      "13:00",
+      ""
+    ]
+  ],
+  "sessionsComplete": true,
+  "schedule": "已录入官网明确公布的单场时间；购票及变更请核对官方。",
+  "access": "无障碍及观演提示请以官网为准。",
+  "verifiedAt": "2026-09-29",
+  "evidenceUrls": [
+    "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=4601"
+  ]
+},
+{
+  "id": "wankernomics-show-v4-1-state",
+  "title": "Wankernomics: Show_v4.1_Final_USETHIS",
+  "venue": "state",
+  "genre": "喜剧",
+  "scale": "商业巡演",
+  "company": "Wankernomics",
+  "start": "2026-12-09",
+  "end": "2026-12-09",
+  "price": null,
+  "priceText": "票价以官网为准",
+  "priceNote": "具体票价及手续费以官方购票页为准。",
+  "duration": "",
+  "desc": "Wankernomics 带来一晚职场主题喜剧，用荒诞笑料调侃办公室文化与工作语言。",
+  "source": "https://www.statetheatre.com.au/show-calendar/wankernomics/",
+  "booking": "https://www.statetheatre.com.au/show-calendar/wankernomics/",
+  "bookingLabel": "查看官方场次与购票",
+  "sessions": [
+    [
+      "2026-12-09",
+      "19:00",
+      ""
+    ]
+  ],
+  "sessionsComplete": true,
+  "schedule": "2026 年 12 月 9 日 19:00，单晚演出；变更以官方为准。",
+  "access": "无障碍与入场信息请以 State Theatre 官网为准。",
+  "verifiedAt": "2026-09-29",
+  "evidenceUrls": [
+    "https://www.statetheatre.com.au/show-calendar/wankernomics/",
+    "https://www.ticketmaster.com.au/wankernomics-showv41finalusethis-sydney-09-12-2026/event/130064C18F131DE8"
+  ]
+}
 ];
 // Short-notice Hayes events verified against the producer's own event pages.
 // The 2027 season launch page contradicts itself on year and time, so its
@@ -21989,9 +22359,9 @@ const SOURCES = [
     "name": "Old Fitz Theatre",
     "url": "https://www.oldfitztheatre.com.au/",
     "group": "独立与社区",
-    "note": "节目应从现行场馆网站采集，不能只依赖历史运营方。",
-    "status": "已发现",
-    "checkedAt": "2026-09-20"
+    "note": "已核实当前及未来 13 部演出；新节目继续进入每日复核清单。",
+    "status": "已采样",
+    "checkedAt": "2026-09-29"
   },
   {
     "name": "New Theatre",
