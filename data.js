@@ -22105,6 +22105,166 @@ const SHOWS = [
   ]
 },
 {
+  "id": "arranged-reading-oldfitz",
+  "title": "Arranged by Shekhar Raychaudhury",
+  "venue": "oldfitz",
+  "genre": "话剧",
+  "scale": "独立制作",
+  "company": "",
+  "start": "2026-10-28",
+  "end": "2026-10-28",
+  "price": null,
+  "priceText": "票价以官网为准",
+  "priceNote": "实际票价、优惠及手续费以官方购票页为准。",
+  "duration": "约 90 分钟",
+  "desc": "一场由 Shekhar Raychaudhury 创作的公开剧本朗读。",
+  "source": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=5001",
+  "booking": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=5001",
+  "bookingLabel": "查看官网场次与购票",
+  "sessions": [
+    [
+      "2026-10-28",
+      "13:00",
+      ""
+    ]
+  ],
+  "sessionsComplete": true,
+  "schedule": "已录入官网明确公布的单场时间；购票及变更请核对官方。",
+  "access": "无障碍及观演提示请以官网为准。",
+  "verifiedAt": "2026-09-29",
+  "evidenceUrls": [
+    "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=5001"
+  ]
+},
+{
+  "id": "gentlemen-prefer-mestizas-reading-oldfitz",
+  "title": "Gentlemen Prefer Mestizas by Dominique Purdue",
+  "venue": "oldfitz",
+  "genre": "话剧",
+  "scale": "独立制作",
+  "company": "",
+  "start": "2026-10-29",
+  "end": "2026-10-29",
+  "price": null,
+  "priceText": "票价以官网为准",
+  "priceNote": "实际票价、优惠及手续费以官方购票页为准。",
+  "duration": "约 60 分钟",
+  "desc": "一场由 Dominique Purdue 创作的公开剧本朗读。",
+  "source": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=6001",
+  "booking": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=6001",
+  "bookingLabel": "查看官网场次与购票",
+  "sessions": [
+    [
+      "2026-10-29",
+      "13:00",
+      ""
+    ]
+  ],
+  "sessionsComplete": true,
+  "schedule": "已录入官网明确公布的单场时间；购票及变更请核对官方。",
+  "access": "无障碍及观演提示请以官网为准。",
+  "verifiedAt": "2026-09-29",
+  "evidenceUrls": [
+    "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=6001"
+  ]
+},
+{
+  "id": "jean-paul-sartre-have-my-babies-reading-oldfitz",
+  "title": "Jean-Paul Sartre, Have My Babies by Taylor Fernandez",
+  "venue": "oldfitz",
+  "genre": "话剧",
+  "scale": "独立制作",
+  "company": "",
+  "start": "2026-10-30",
+  "end": "2026-10-30",
+  "price": null,
+  "priceText": "票价以官网为准",
+  "priceNote": "实际票价、优惠及手续费以官方购票页为准。",
+  "duration": "约 90 分钟",
+  "desc": "一场由 Taylor Fernandez 创作的公开剧本朗读。",
+  "source": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=5801",
+  "booking": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=5801",
+  "bookingLabel": "查看官网场次与购票",
+  "sessions": [
+    [
+      "2026-10-30",
+      "13:00",
+      ""
+    ]
+  ],
+  "sessionsComplete": true,
+  "schedule": "已录入官网明确公布的单场时间；购票及变更请核对官方。",
+  "access": "无障碍及观演提示请以官网为准。",
+  "verifiedAt": "2026-09-29",
+  "evidenceUrls": [
+    "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=5801"
+  ]
+},
+{
+  "id": "power-lines-reading-oldfitz",
+  "title": "Power Lines by Jared Stephenson",
+  "venue": "oldfitz",
+  "genre": "话剧",
+  "scale": "独立制作",
+  "company": "",
+  "start": "2026-11-20",
+  "end": "2026-11-20",
+  "price": null,
+  "priceText": "票价以官网为准",
+  "priceNote": "实际票价、优惠及手续费以官方购票页为准。",
+  "duration": "约 90 分钟",
+  "desc": "一场由 Jared Stephenson 创作的公开剧本朗读。",
+  "source": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=5201",
+  "booking": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=5201",
+  "bookingLabel": "查看官网场次与购票",
+  "sessions": [
+    [
+      "2026-11-20",
+      "13:00",
+      ""
+    ]
+  ],
+  "sessionsComplete": true,
+  "schedule": "已录入官网明确公布的单场时间；购票及变更请核对官方。",
+  "access": "无障碍及观演提示请以官网为准。",
+  "verifiedAt": "2026-09-29",
+  "evidenceUrls": [
+    "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=5201"
+  ]
+},
+{
+  "id": "worn-reading-oldfitz",
+  "title": "Worn by Lana Morgan",
+  "venue": "oldfitz",
+  "genre": "话剧",
+  "scale": "独立制作",
+  "company": "",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "price": null,
+  "priceText": "票价以官网为准",
+  "priceNote": "实际票价、优惠及手续费以官方购票页为准。",
+  "duration": "约 90 分钟",
+  "desc": "一场由 Lana Morgan 创作的公开剧本朗读。",
+  "source": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=5401",
+  "booking": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=5401",
+  "bookingLabel": "查看官网场次与购票",
+  "sessions": [
+    [
+      "2026-10-27",
+      "13:00",
+      ""
+    ]
+  ],
+  "sessionsComplete": true,
+  "schedule": "已录入官网明确公布的单场时间；购票及变更请核对官方。",
+  "access": "无障碍及观演提示请以官网为准。",
+  "verifiedAt": "2026-09-29",
+  "evidenceUrls": [
+    "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=5401"
+  ]
+},
+{
   "id": "wankernomics-show-v4-1-state",
   "title": "Wankernomics: Show_v4.1_Final_USETHIS",
   "venue": "state",

@@ -4305,6 +4305,51 @@ const EN_SHOWS = {
   "access": "Check the official page for access and admission information.",
   "bookingLabel": "Official dates and tickets"
 },
+  "arranged-reading-oldfitz": {
+  "priceText": "See official listing for prices",
+  "priceNote": "Check the official booking page for current prices, concessions and fees.",
+  "duration": "Approx. 90 minutes",
+  "desc": "A public reading of a play by Shekhar Raychaudhury.",
+  "schedule": "One verified performance is listed below; confirm changes on the official page.",
+  "access": "Check the official page for access and admission information.",
+  "bookingLabel": "Official dates and tickets"
+},
+  "gentlemen-prefer-mestizas-reading-oldfitz": {
+  "priceText": "See official listing for prices",
+  "priceNote": "Check the official booking page for current prices, concessions and fees.",
+  "duration": "Approx. 60 minutes",
+  "desc": "A public reading of a play by Dominique Purdue.",
+  "schedule": "One verified performance is listed below; confirm changes on the official page.",
+  "access": "Check the official page for access and admission information.",
+  "bookingLabel": "Official dates and tickets"
+},
+  "jean-paul-sartre-have-my-babies-reading-oldfitz": {
+  "priceText": "See official listing for prices",
+  "priceNote": "Check the official booking page for current prices, concessions and fees.",
+  "duration": "Approx. 90 minutes",
+  "desc": "A public reading of a play by Taylor Fernandez.",
+  "schedule": "One verified performance is listed below; confirm changes on the official page.",
+  "access": "Check the official page for access and admission information.",
+  "bookingLabel": "Official dates and tickets"
+},
+  "power-lines-reading-oldfitz": {
+  "priceText": "See official listing for prices",
+  "priceNote": "Check the official booking page for current prices, concessions and fees.",
+  "duration": "Approx. 90 minutes",
+  "desc": "A public reading of a play by Jared Stephenson.",
+  "schedule": "One verified performance is listed below; confirm changes on the official page.",
+  "access": "Check the official page for access and admission information.",
+  "bookingLabel": "Official dates and tickets"
+},
+  "worn-reading-oldfitz": {
+  "priceText": "See official listing for prices",
+  "priceNote": "Check the official booking page for current prices, concessions and fees.",
+  "duration": "Approx. 90 minutes",
+  "desc": "A public reading of a play by Lana Morgan.",
+  "schedule": "One verified performance is listed below; confirm changes on the official page.",
+  "access": "Check the official page for access and admission information.",
+  "bookingLabel": "Official dates and tickets"
+},
   "wankernomics-show-v4-1-state": {
   "priceText": "See the official listing for prices",
   "priceNote": "Check the official booking page for current prices and fees.",
