@@ -28,8 +28,14 @@ function discoveryCard(s){const v=browseVenue(s),shown=browseCity==='sydney'?dis
 function recommendationSets(today=browseToday()){
  const live=browseShows().filter(s=>!s.dateNeedsReview&&s.end>=today&&s.start<=addDays(today,90)),weekend=dateWindow('weekend','',today);
  const ranked=rankShows(live,today,browseCity);
+ const current=ranked.filter(s=>s.start<=today);
+ // Keep the home preview representative when a large festival shares the city
+ // with long-running major productions. The full ranked list remains available.
+ const onNow=browseCity==='melbourne'&&current.some(s=>s.festival==='Melbourne Fringe')
+  ?(()=>{const fringe=current.filter(s=>s.festival==='Melbourne Fringe'),other=current.filter(s=>s.festival!=='Melbourne Fringe');const featured=[...other.slice(0,2),...fringe.slice(0,2)],ids=new Set(featured.map(s=>s.id));return [...featured,...current.filter(s=>!ids.has(s.id))];})()
+  :current;
  return [
- {key:'current',en:'On now',zh:'正在上演',items:ranked.filter(s=>s.start<=today)},
+ {key:'current',en:'On now',zh:'正在上演',items:onNow},
  {key:'weekend',en:'This weekend',zh:'这个周末',items:ranked.filter(s=>s.start<=weekend[1]&&s.end>=weekend[0])},
  {key:'opening',en:'Opening soon',zh:'即将开演',items:ranked.filter(s=>s.start>today&&s.start<=addDays(today,30)).sort((a,b)=>a.start.localeCompare(b.start))},
  {key:'closing',en:'Closing soon',zh:'即将闭幕',items:ranked.filter(s=>s.start<=today&&s.end<=addDays(today,30)).sort((a,b)=>a.end.localeCompare(b.end))},
