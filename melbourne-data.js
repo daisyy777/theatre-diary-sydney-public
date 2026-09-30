@@ -12490,3 +12490,7 @@ const MELBOURNE_TICKETED_SESSIONS_4 = {"carbon-mel":[["2026-11-07","19:30",""],[
 const MELBOURNE_TICKETED_SOURCES_4 = {"carbon-mel":"https://boxoffice.redstitch.net/WebPages/EntaWebGateway/gateway.aspx?E=N&QL=S74|VRED|G~/WEBPAGES/EntaWebShow/ShowDatesCombo.aspx","kindness-brighton":"https://BTC189.sales.ticketsearch.com/sales/salesevent/158830","dirty-rotten-malvern":"https://aumalverntc.sales.ticketsearch.com/sales/salesevent/157889","cock-mordialloc":"https://www.kingstonarts.com.au/whats-on/mtc-season-2026","breaking-walls-mordialloc":"https://www.kingstonarts.com.au/whats-on/mtc-season-2026"};
 MELBOURNE_SHOWS.forEach(show => { const rows=MELBOURNE_TICKETED_SESSIONS_4[show.id]; if(!rows)return; show.sessions=rows; show.calendarCoverage='published'; show.calendarSource=MELBOURNE_TICKETED_SOURCES_4[show.id]; show.calendarCheckedAt='2026-09-30'; });
 // END VERIFIED TICKETED SESSIONS 2026-09-30C
+// BEGIN VERIFIED TICKETED SESSIONS 2026-09-30D
+const MELBOURNE_TICKETED_SESSIONS_5 = {"the-nutcracker-tab-mel":[["2026-10-24","19:00",""],["2026-10-26","18:30",""],["2026-10-27","19:00",""],["2026-10-28","19:00",""],["2026-10-29","19:00",""],["2026-10-30","19:00",""],["2026-10-31","14:00",""],["2026-10-31","19:00",""]]};
+MELBOURNE_SHOWS.forEach(show => { const rows=MELBOURNE_TICKETED_SESSIONS_5[show.id]; if(!rows)return; show.sessions=rows; show.calendarCoverage='published'; show.calendarSource='https://australianballet.com.au/performances/the-nutcracker'; show.calendarCheckedAt='2026-09-30'; });
+// END VERIFIED TICKETED SESSIONS 2026-09-30D
