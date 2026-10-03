@@ -48,7 +48,7 @@ const selectedShowDate=()=>selectedShowDates[browseCity]||browseToday();
 function validShowDate(value){return /^\d{4}-\d{2}-\d{2}$/.test(value)&&!Number.isNaN(Date.parse(value+'T12:00:00Z'))&&new Date(value+'T12:00:00Z').toISOString().slice(0,10)===value;}
 function showDateTitle(date){const today=browseToday();return date===today?T('Today on stage','今天演什么'):date===addDays(today,1)?T('Tomorrow on stage','明天演什么'):date===addDays(today,2)?T('The day after tomorrow','后天演什么'):T('On stage this day','这天演什么');}
 function showDateControls(date){return `<div class="show-date-controls"><label class="show-date-picker"><span>${T('Choose date','选择日期')}</span><input type="date" data-show-calendar value="${date}" aria-label="${T('Pick a performance date','选择演出日期')}"></label></div>`;}
-function bindShowDateControls(render){document.querySelectorAll('[data-show-calendar]').forEach(input=>input.onchange=()=>{if(!validShowDate(input.value))return;selectedShowDates[browseCity]=input.value;render();});}
+function bindShowDateControls(render){document.querySelectorAll('[data-show-calendar]').forEach(input=>input.onchange=()=>{if(!validShowDate(input.value))return;selectedShowDates[browseCity]=input.value;if((location.hash||'').split('?')[0]===browsePath('today')){const hash=`${browsePath('today')}?date=${input.value}`;window.history?.replaceState(null,'',hash);currentBrowseHash=hash;showReturnHashes[browseCity]=hash;}render();});}
 function todaySessions(date=browseToday()){
  return browseShows().flatMap(s=>{
   if(s.dateNeedsReview||s.start>date||s.end<date||['cancelled','withdrawn'].includes(s.status))return [];
@@ -65,7 +65,7 @@ function todayPage(){const date=selectedShowDate(),items=todaySessions(date);she
 function discoveryChrome(){document.documentElement.lang=locale==='en'?'en-AU':'zh-CN';const labels={recommend:T('What’s on','近期演出'),catalogue:T('Discover','发现演出'),venues:T('Venues','剧院')};document.querySelectorAll('[data-nav]').forEach(a=>{a.textContent=labels[a.dataset.nav];a.href=browsePath(a.dataset.nav==='recommend'?'':a.dataset.nav);});$('#city-picker').value=browseCity;$('#language').textContent=locale==='en'?'中文':'English';$('#language').setAttribute('aria-label',T('Switch to Chinese','切换到英文'));$('nav').setAttribute('aria-label',T('Main navigation','主导航'));$('.skip').textContent=T('Skip to content','跳至内容');$('#city-picker').setAttribute('aria-label',T('Choose city','选择城市'));document.querySelectorAll('.brand').forEach(a=>a.href=browsePath());$('footer').innerHTML=`<div><a class="brand" href="${browsePath()}">theatre<span>diary.</span></a><p>${T('Discover theatre across Sydney and Melbourne.','发现悉尼与墨尔本的舞台演出。')}</p></div><div class="footer-links"><a href="${browsePath('about')}">${T('About','关于')}</a><a href="${browsePath('sources')}">${T('Data sources','数据来源')}</a><a href="${browsePath('contact')}">${T('Contact','联系')}</a><small>© 2026 Theatre Diary</small></div>`;}
 // Filters stay on this device, so returning from a show keeps the catalogue context.
 try{for(const city of ['sydney','melbourne']){const saved=JSON.parse(sessionStorage.getItem('theatre-browse-'+city)||'null');if(saved)Object.assign(browseStates[city],saved);}}catch{}
-const browseScroll=new Map();let currentBrowseHash='',lastCatalogueHash='';
+const browseScroll=new Map(),showReturnHashes={sydney:null,melbourne:null};let currentBrowseHash='',lastCatalogueHash='';
 function persistBrowse(){try{sessionStorage.setItem('theatre-browse-'+browseCity,JSON.stringify(browseStates[browseCity]));}catch{}}
 function browseFiltered(today=browseToday()){
  const f=browseStates[browseCity],range=dateWindow(f.period,f.pick,today),q=f.q.trim().toLowerCase();
@@ -109,18 +109,19 @@ function contactPage(){shell('',`<article class="info-page"><h1>${T('Contact','�
 function applyGroup(group){resetBrowse();const f=browseStates[browseCity];if(['current','weekend','opening','closing'].includes(group))f.period=group;if(group==='musicals')f.genre='音乐剧';if(group==='plays')f.genre='话剧';if(group==='fringe')f.festival=browseCity==='melbourne'?'Melbourne Fringe':([...new Set(SHOWS.map(s=>s.festival).filter(Boolean))][0]||'Sydney Fringe');persistBrowse();}
 route=function(){
  const raw=location.hash||'#/',[path,query]=raw.split('?'),parts=path.replace(/^#\/?/,'').split('/');
+ if(currentBrowseHash&&currentBrowseHash!==raw)browseScroll.set(currentBrowseHash,window.scrollY);
  browseCity=parts[0]==='melbourne'?'melbourne':'sydney';const offset=browseCity==='melbourne'?1:0,kind=parts[offset]||'',id=parts[offset+1];
  discoveryChrome();document.title=`Theatre Diary · ${browseCity==='melbourne'?'Melbourne':'Sydney'}`;
  if(!kind||kind==='recommend')recommendPage();
  else if(kind==='today'){const date=new URLSearchParams(query||'').get('date');if(validShowDate(date))selectedShowDates[browseCity]=date;todayPage();}
  else if(kind==='catalogue'||kind==='discover'){const group=new URLSearchParams(query||'').get('group');if(group&&raw!==lastCatalogueHash)applyGroup(group);cataloguePage();lastCatalogueHash=raw;}
- else if(kind==='show'){if(browseCity==='melbourne')melShow(id);else showDetail(id);const back=$('.breadcrumb');if(back){back.href=lastCatalogueHash&&lastCatalogueHash.includes(browseCity==='melbourne'?'melbourne/':'#/catalogue')?lastCatalogueHash:browsePath('catalogue');back.textContent=T('← Back to Discover','← 返回发现演出');}document.querySelectorAll('[data-nav]').forEach(a=>{if(a.dataset.nav==='catalogue')a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});}
+ else if(kind==='show'){if(browseCity==='melbourne')melShow(id);else showDetail(id);const back=$('.breadcrumb'),origin=showReturnHashes[browseCity]||browsePath('catalogue'),originKind=origin.split('?')[0].replace(/^#\/?/,'').split('/')[offset]||'';if(back){back.href=origin;back.textContent=originKind==='today'?T('← Back to performances','← 返回当日演出'):originKind==='catalogue'||originKind==='discover'?T('← Back to Discover','← 返回发现演出'):originKind==='venue'||originKind==='venues'?T('← Back to Venues','← 返回剧院'):T('← Back to What’s on','← 返回近期演出');}document.querySelectorAll('[data-nav]').forEach(a=>{const active=originKind==='catalogue'||originKind==='discover'?'catalogue':originKind==='venue'||originKind==='venues'?'venues':'recommend';if(a.dataset.nav===active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});}
  else if(kind==='venues')discoveryVenues();
  else if(kind==='venue')browseCity==='melbourne'?melVenueDetail(id):venueDetail(id);
  else if(kind==='sources')browseCity==='melbourne'?melSources():sourcesPage();
  else if(kind==='about')aboutPage();else if(kind==='contact')contactPage();else notFound();
  // Existing detail/source renderers are kept, but global chrome belongs to this shared surface.
- discoveryChrome();currentBrowseHash=raw;const y=browseScroll.get(raw)||0;
+ discoveryChrome();currentBrowseHash=raw;if(kind!=='show')showReturnHashes[browseCity]=raw;const y=browseScroll.get(raw)||0;
  window.requestAnimationFrame(()=>{if(currentBrowseHash===raw)window.scrollTo(0,y);});
 };
 window.addEventListener('scroll',()=>{if(currentBrowseHash)browseScroll.set(currentBrowseHash,window.scrollY);},{passive:true});
