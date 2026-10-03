@@ -12499,3 +12499,20 @@ const MELBOURNE_TICKETED_SESSIONS_6 = {"la-boheme-mel":[["2026-11-07","19:30",""
 const MELBOURNE_TICKETED_SOURCES_6 = {"la-boheme-mel":"https://opera.org.au/productions/la-boheme-melbourne/","opera-up-late-mel":"https://opera.org.au/productions/opera-up-late-melbourne/","trumpet-swan-mel":"https://opera.org.au/productions/the-trumpet-of-the-swan-melbourne/","nutcracker-mel":"https://marrinergroup.com.au/shows/the-nutcracker"};
 MELBOURNE_SHOWS.forEach(show => { const rows=MELBOURNE_TICKETED_SESSIONS_6[show.id]; if(!rows)return; show.sessions=rows; if(show.id==='nutcracker-mel'){show.start=rows[0][0];show.end=rows[rows.length-1][0];} show.calendarCoverage='published'; show.calendarSource=MELBOURNE_TICKETED_SOURCES_6[show.id]; show.calendarCheckedAt='2026-09-30'; });
 // END VERIFIED TICKETED SESSIONS 2026-09-30E
+// BEGIN VERIFIED FRINGE CHANGES 2026-10-03
+const MELBOURNE_FRINGE_VERIFIED_CHANGES_20261003 = {"fringe-2026-100-dark-comedy":{"start":"2026-10-08","end":"2026-10-18","venue":"mel-fringe-multiple-locations","add":[["2026-10-08","19:00",""],["2026-10-09","18:00",""],["2026-10-10","17:30",""],["2026-10-15","19:00",""],["2026-10-16","18:00",""],["2026-10-17","17:30",""],["2026-10-18","19:00",""]]},"fringe-2026-blake-everett-tight-five":{"end":"2026-10-18","add":[["2026-10-09","17:45",""],["2026-10-10","17:45",""],["2026-10-18","16:00",""]]},"fringe-2026-7-eleven-attack":{"start":"2026-10-10","add":[["2026-10-10","17:00",""]]},"fringe-2026-the-river":{"start":"2026-10-04","end":"2026-10-04","remove":[["2026-10-03","07:30"],["2026-10-03","18:00"]],"add":[["2026-10-04","07:30",""],["2026-10-04","18:00",""]]},"fringe-2026-congress":{"start":"2026-10-06","end":"2026-10-06","remove":[["2026-10-03","19:30"]],"add":[["2026-10-06","19:30",""]]},"fringe-2026-intrusion":{"remove":[["2026-10-04","21:00"]],"add":[["2026-10-04","20:00",""]]},"fringe-2026-comedy-champagne-tasting":{"remove":[["2026-10-03","17:00"]],"add":[["2026-10-03","16:00",""]]}};
+for (const [id,change] of Object.entries(MELBOURNE_FRINGE_VERIFIED_CHANGES_20261003)) {
+  const show=MELBOURNE_SHOWS.find(row=>row.id===id);
+  if (!show) throw new Error("Missing reviewed Fringe show: "+id);
+  if (change.start) show.start=change.start;
+  if (change.end) show.end=change.end;
+  if (change.venue) show.venue=change.venue;
+  const removed=new Set((change.remove||[]).map(row=>row.join("T")));
+  const rows=[...(show.sessions||[]).filter(row=>!removed.has(row.slice(0,2).join("T"))),...(change.add||[])];
+  show.sessions=[...new Map(rows.map(row=>[row.slice(0,2).join("T"),row])).values()].sort((a,b)=>a[0].localeCompare(b[0])||a[1].localeCompare(b[1]));
+  show.calendarCoverage="partial";
+  show.calendarSource="https://api.melbournefringe.com.au/api/WhatsOn/DailyDiary";
+  show.calendarCheckedAt="2026-10-03";
+  show.verifiedAt="2026-10-03";
+}
+// END VERIFIED FRINGE CHANGES 2026-10-03
