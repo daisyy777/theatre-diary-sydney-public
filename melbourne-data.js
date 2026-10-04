@@ -12516,3 +12516,21 @@ for (const [id,change] of Object.entries(MELBOURNE_FRINGE_VERIFIED_CHANGES_20261
   show.verifiedAt="2026-10-03";
 }
 // END VERIFIED FRINGE CHANGES 2026-10-03
+// BEGIN VERIFIED FRINGE CHANGES 2026-10-04
+const MELBOURNE_FRINGE_VERIFIED_CHANGES_20261004 = {"fringe-2026-the-loch-of-love":{"space":"The Motley Wherehaus - Vault 1"},"fringe-2026-a-lucky-refugee":{"image":"https://d1vlmco8ur52ud.cloudfront.net/10-03-2026-035146-4373.jpg","imageCredit":"Ezz Monem"},"fringe-2026-comedy-champagne-tasting":{"remove":[["2026-10-10","17:00"]],"add":[["2026-10-10","16:00",""]]},"fringe-2026-overload-add-pachinko-parlor-nightmare-gorgeous-20-30-mins-long-refunds-on-request":{"add":[["2026-10-04","22:00",""]]},"fringe-2026-work-in-progress":{"remove":[["2026-10-10","17:30"]],"add":[["2026-10-10","16:30",""],["2026-10-10","19:00",""]]}};
+for (const [id,change] of Object.entries(MELBOURNE_FRINGE_VERIFIED_CHANGES_20261004)) {
+  const show=MELBOURNE_SHOWS.find(row=>row.id===id);
+  if (!show) throw new Error("Missing reviewed Fringe show: "+id);
+  if (change.space) show.space=change.space;
+  if (change.image) { show.image=change.image; show.imageCredit=change.imageCredit; }
+  if (change.add||change.remove) {
+    const removed=new Set((change.remove||[]).map(row=>row.join("T")));
+    const rows=[...(show.sessions||[]).filter(row=>!removed.has(row.slice(0,2).join("T"))),...(change.add||[])];
+    show.sessions=[...new Map(rows.map(row=>[row.slice(0,2).join("T"),row])).values()].sort((a,b)=>a[0].localeCompare(b[0])||a[1].localeCompare(b[1]));
+    show.calendarCoverage="partial";
+    show.calendarSource="https://api.melbournefringe.com.au/api/WhatsOn/DailyDiary";
+    show.calendarCheckedAt="2026-10-04";
+  }
+  show.verifiedAt="2026-10-04";
+}
+// END VERIFIED FRINGE CHANGES 2026-10-04
