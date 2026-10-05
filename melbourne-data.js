@@ -12509,3 +12509,26 @@ for (const [id,change] of Object.entries(MELBOURNE_FRINGE_VERIFIED_CHANGES_20261
   show.verifiedAt='2026-10-06';
 }
 // END VERIFIED FRINGE FUTURE TIMES 2026-10-06
+
+// BEGIN VERIFIED FRINGE VENUES 2026-10-06
+{
+  const rooms={
+    'fringe-2026-jellyfish':'The Motley Wherehaus - Vault 5',
+    'fringe-2026-no-audhdinary-boistar':'The Motley Wherehaus - Vault 1',
+    'fringe-2026-rosie-the-haunted-house-that-became-a-haunted-home':'The Motley Wherehaus - Vault 4',
+    'fringe-2026-deadbeat-academy':'The Motley Wherehaus - Vault 1'
+  };
+  for (const [id,room] of Object.entries(rooms)) {
+    const show=MELBOURNE_SHOWS.find(row=>row.id===id);
+    if (!show) throw new Error('Missing reviewed Fringe show: '+id);
+    show.venue='mel-motley-wherehaus';
+    show.space=room;
+    show.verifiedAt='2026-10-06';
+  }
+  const tour=MELBOURNE_SHOWS.find(row=>row.id==='fringe-2026-till-the-day-i-die');
+  if (!tour) throw new Error('Missing reviewed Fringe show: fringe-2026-till-the-day-i-die');
+  tour.venue='mel-fringe-multiple-locations';
+  delete tour.space;
+  tour.verifiedAt='2026-10-06';
+}
+// END VERIFIED FRINGE VENUES 2026-10-06
