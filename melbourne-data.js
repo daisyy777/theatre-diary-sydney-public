@@ -12494,3 +12494,18 @@ for (const [id,change] of Object.entries(MELBOURNE_FRINGE_VERIFIED_CHANGES_20261
   show.verifiedAt='2026-10-06';
 }
 // END VERIFIED FRINGE CHANGES 2026-10-06
+
+// BEGIN VERIFIED FRINGE FUTURE TIMES 2026-10-06
+{
+  const show=MELBOURNE_SHOWS.find(row=>row.id==='fringe-2026-comedy-champagne-tasting');
+  if (!show) throw new Error('Missing reviewed Fringe show: fringe-2026-comedy-champagne-tasting');
+  const rows=(show.sessions||[]).filter(row=>!(row[0]==='2026-10-17'&&row[1]==='17:00'));
+  rows.push(['2026-10-17','16:00','']);
+  show.sessions=[...new Map(rows.map(row=>[row.slice(0,2).join('T'),row])).values()]
+    .sort((a,b)=>a[0].localeCompare(b[0])||a[1].localeCompare(b[1]));
+  show.calendarCoverage='partial';
+  show.calendarSource='https://api.melbournefringe.com.au/api/WhatsOn/DailyDiary';
+  show.calendarCheckedAt='2026-10-06';
+  show.verifiedAt='2026-10-06';
+}
+// END VERIFIED FRINGE FUTURE TIMES 2026-10-06
