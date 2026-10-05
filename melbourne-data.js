@@ -10814,33 +10814,6 @@ MELBOURNE_SHOWS.push(...[
     "price": 16.0
   },
   {
-    "id": "fringe-2026-that-song-from-rocky-horror-toucha-toucha-touch-me",
-    "title": "That Song From Rocky Horror (Toucha, Toucha, Touch Me)",
-    "genre": "话剧",
-    "scale": "独立制作",
-    "company": "Stoness Verda",
-    "venue": "mel-fringe-hub",
-    "start": "2026-10-14",
-    "end": "2026-10-18",
-    "festival": "Melbourne Fringe",
-    "source": "https://www.melbournefringe.com.au/whats-on/events/that-song-from-rocky-horror-toucha-toucha-touch-me",
-    "booking": "https://www.melbournefringe.com.au/whats-on/events/that-song-from-rocky-horror-toucha-toucha-touch-me",
-    "bookingLabel": "Official show / tickets",
-    "desc": "A playful, provocative twirl through touch, community building and the commodification of intimacy.",
-    "descZh": "一部关于触碰、建立社群与亲密关系商品化的俏皮而挑衅的作品。",
-    "translationPending": false,
-    "image": "https://d1vlmco8ur52ud.cloudfront.net/04-20-2026-170659-5408.jpg",
-    "imageSource": "https://www.melbournefringe.com.au/whats-on/events/that-song-from-rocky-horror-toucha-toucha-touch-me",
-    "sessions": [],
-    "calendarCoverage": "unavailable",
-    "dateNeedsReview": false,
-    "checkedAt": "2026-09-28",
-    "space": "Festival Hub: Trades Hall - The Square",
-    "detailChecked": true,
-    "priceText": "$22.00 - $30.00",
-    "price": 22.0
-  },
-  {
     "id": "fringe-2026-the-best-of-adam-sharp",
     "title": "The Best of Adam Sharp",
     "genre": "朗诵",
@@ -11526,33 +11499,6 @@ MELBOURNE_SHOWS.push(...[
     "dateNeedsReview": false,
     "checkedAt": "2026-09-28",
     "space": "Grouse Melbourne - Room 7",
-    "detailChecked": true,
-    "priceText": "$25.00",
-    "price": 25.0
-  },
-  {
-    "id": "fringe-2026-throw-away-cabaret-songs-about-haunted-hard-rubbish",
-    "title": "Throw Away Cabaret: Songs about haunted hard rubbish",
-    "genre": "卡巴莱",
-    "scale": "独立制作",
-    "company": "Taylor Project",
-    "venue": "mel-motley-wherehaus",
-    "start": "2026-10-12",
-    "end": "2026-10-18",
-    "festival": "Melbourne Fringe",
-    "source": "https://www.melbournefringe.com.au/whats-on/events/throw-away-cabaret-songs-about-haunted-hard-rubbish",
-    "booking": "https://www.melbournefringe.com.au/whats-on/events/throw-away-cabaret-songs-about-haunted-hard-rubbish",
-    "bookingLabel": "Official show / tickets",
-    "desc": "A nerdy cabaret for heavy feelings about hard objects.",
-    "descZh": "一场带点书呆子气的卡巴莱，用被丢弃的大件旧物唱出难以放下的情感。",
-    "translationPending": false,
-    "image": "https://d1vlmco8ur52ud.cloudfront.net/06-03-2026-073235-7649.jpg",
-    "imageSource": "https://www.melbournefringe.com.au/whats-on/events/throw-away-cabaret-songs-about-haunted-hard-rubbish",
-    "sessions": [],
-    "calendarCoverage": "unavailable",
-    "dateNeedsReview": false,
-    "checkedAt": "2026-09-28",
-    "space": "The Motley Wherehaus - Cosmic Microwave",
     "detailChecked": true,
     "priceText": "$25.00",
     "price": 25.0
@@ -12534,3 +12480,17 @@ for (const [id,change] of Object.entries(MELBOURNE_FRINGE_VERIFIED_CHANGES_20261
   show.verifiedAt="2026-10-04";
 }
 // END VERIFIED FRINGE CHANGES 2026-10-04
+// BEGIN VERIFIED FRINGE CHANGES 2026-10-06
+{
+  const show=MELBOURNE_SHOWS.find(row=>row.id==='fringe-2026-work-in-progress');
+  if (!show) throw new Error('Missing reviewed Fringe show: fringe-2026-work-in-progress');
+  const rows=(show.sessions||[]).filter(row=>!(row[0]==='2026-10-11'&&row[1]==='17:30'));
+  rows.push(['2026-10-11','16:30','']);
+  show.sessions=[...new Map(rows.map(row=>[row.slice(0,2).join('T'),row])).values()]
+    .sort((a,b)=>a[0].localeCompare(b[0])||a[1].localeCompare(b[1]));
+  show.calendarCoverage='partial';
+  show.calendarSource='https://api.melbournefringe.com.au/api/WhatsOn/DailyDiary';
+  show.calendarCheckedAt='2026-10-06';
+  show.verifiedAt='2026-10-06';
+}
+// END VERIFIED FRINGE CHANGES 2026-10-06
