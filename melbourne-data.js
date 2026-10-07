@@ -12532,3 +12532,26 @@ for (const [id,change] of Object.entries(MELBOURNE_FRINGE_VERIFIED_CHANGES_20261
   tour.verifiedAt='2026-10-06';
 }
 // END VERIFIED FRINGE VENUES 2026-10-06
+
+// BEGIN VERIFIED FRINGE EXTENSIONS 2026-10-07
+// Official event details and Daily Diary both confirm one added 9 October performance for each show.
+{
+  const changes={
+    'fringe-2026-happy-birthday-taylah-whelan':{date:'2026-10-09',time:'22:00'},
+    'fringe-2026-mrs-lovett-s-famous-meat-pies-grand-reopening-extravaganza':{date:'2026-10-09',time:'22:30',venue:'mel-fringe-multiple-locations'}
+  };
+  for(const show of MELBOURNE_SHOWS){
+    const change=changes[show.id];
+    if(!change)continue;
+    show.end=change.date;
+    const sessions=Array.isArray(show.sessions)?show.sessions:[];
+    if(!sessions.some(row=>row[0]===change.date&&row[1]===change.time))sessions.push([change.date,change.time,'']);
+    show.sessions=sessions.sort((a,b)=>a[0].localeCompare(b[0])||a[1].localeCompare(b[1]));
+    show.calendarCoverage='partial';
+    show.calendarSource='https://api.melbournefringe.com.au/api/WhatsOn/DailyDiary';
+    show.calendarCheckedAt='2026-10-07';
+    show.verifiedAt='2026-10-07';
+    if(change.venue){show.venue=change.venue;delete show.space;}
+  }
+}
+// END VERIFIED FRINGE EXTENSIONS 2026-10-07
