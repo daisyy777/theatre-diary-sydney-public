@@ -12555,3 +12555,22 @@ for (const [id,change] of Object.entries(MELBOURNE_FRINGE_VERIFIED_CHANGES_20261
   }
 }
 // END VERIFIED FRINGE EXTENSIONS 2026-10-07
+
+// BEGIN VERIFIED FRINGE EXTENSION 2026-10-08
+// Official event detail confirms the extended season; Daily Diary confirms both added performances.
+{
+  const show=MELBOURNE_SHOWS.find(item=>item.id==='fringe-2026-can-i-be-honest');
+  if(!show)throw new Error('Missing reviewed Fringe show: Can I Be Honest?');
+  show.end='2026-10-11';
+  const additions=[['2026-10-10','20:30',''],['2026-10-11','20:30','']];
+  const sessions=Array.isArray(show.sessions)?show.sessions:[];
+  for(const row of additions){
+    if(!sessions.some(item=>item[0]===row[0]&&item[1]===row[1]))sessions.push(row);
+  }
+  show.sessions=sessions.sort((a,b)=>a[0].localeCompare(b[0])||a[1].localeCompare(b[1]));
+  show.calendarCoverage='partial';
+  show.calendarSource='https://api.melbournefringe.com.au/api/WhatsOn/DailyDiary';
+  show.calendarCheckedAt='2026-10-08';
+  show.verifiedAt='2026-10-08';
+}
+// END VERIFIED FRINGE EXTENSION 2026-10-08
