@@ -67,7 +67,7 @@ const EN_SHOWS = {
     "priceNote": "The official page lists a A$9.80 booking fee. Confirm the total at checkout.",
     "duration": "Approx. 90 minutes, including a 20-minute interval",
     "desc": "An opera highlights concert with Opera Australia singers and piano accompaniment. English and Simplified Chinese surtitles are provided.",
-    "schedule": "The official calendar displayed the 11 dates below when checked. This is a snapshot of published performances, not the annual total.",
+    "schedule": "The official calendar lists upcoming performances through 21 March 2027. Previously verified performances are also retained.",
     "access": "Sung in multiple languages with English and Simplified Chinese surtitles. Confirm accessible seating with the venue.",
     "dateNote": "Current published dates; not the annual season opening",
     "imageCredit": "Official promotional artwork © Sydney Opera House"

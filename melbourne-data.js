@@ -12574,3 +12574,51 @@ for (const [id,change] of Object.entries(MELBOURNE_FRINGE_VERIFIED_CHANGES_20261
   show.verifiedAt='2026-10-08';
 }
 // END VERIFIED FRINGE EXTENSION 2026-10-08
+
+// BEGIN VERIFIED FRINGE CHANGES 2026-10-09
+// Checked against the official event details, Daily Diary and Comedy Republic listing.
+{
+  MELBOURNE_VENUES.push({
+    id:'mel-comedy-republic',name:'Comedy Republic Theatre',area:'Melbourne CBD',
+    address:'Level 1, 231 Bourke Street, Melbourne VIC 3000',
+    url:'https://www.comedyrepublic.com.au/',
+    programme:'https://www.comedyrepublic.com.au/',
+    note:'Comedy venue hosting the Melbourne Fringe Deadly Funny showcase.'
+  });
+  MELBOURNE_VENUE_NOTES_ZH['mel-comedy-republic']='位于 Bourke Street 的喜剧演出场馆，举办 Fringe 的 Deadly Funny 专场。';
+  MELBOURNE_SHOWS.push({
+    id:'fringe-2026-micf-presents-deadly-funny',title:'MICF Presents: Deadly Funny',
+    genre:'喜剧',scale:'独立制作',company:'Melbourne International Comedy Festival',
+    venue:'mel-comedy-republic',start:'2026-10-17',end:'2026-10-17',festival:'Melbourne Fringe',
+    source:'https://www.melbournefringe.com.au/whats-on/events/micf-presents-deadly-funny',
+    booking:'https://www.comedyrepublic.com.au/event/38:622/38:2377/',
+    bookingLabel:'Official show / tickets',
+    desc:'Hosted by Tarsh Jago and Janty Blair, this showcase brings emerging First Nations comedians and storytellers to the stage for an evening of stand-up and stories.',
+    descZh:'由 Tarsh Jago 与 Janty Blair 主持，澳洲原住民社群的新锐喜剧演员与故事讲述者登台，以单口喜剧和个人故事呈现一场幽默演出。',
+    translationPending:false,
+    image:'https://d1vlmco8ur52ud.cloudfront.net/09-20-2026-230155-7798.jpg',
+    imageSource:'https://www.melbournefringe.com.au/whats-on/events/micf-presents-deadly-funny',
+    imageCredit:'T J Garvie',
+    sessions:[['2026-10-17','18:00','']],calendarCoverage:'published',
+    calendarSource:'https://www.comedyrepublic.com.au/event/38:622/38:2377/',
+    calendarCheckedAt:'2026-10-09',checkedAt:'2026-10-09',verifiedAt:'2026-10-09',
+    price:20,priceText:'$20.00',detailChecked:true
+  });
+  const changes={
+    'fringe-2026-a-grouse-variety-show':{end:'2026-10-15',add:[['2026-10-15','20:45','']]},
+    'fringe-2026-100-dark-comedy':{add:[['2026-10-11','18:00',''],['2026-10-12','18:00','']]}
+  };
+  for(const [id,change] of Object.entries(changes)){
+    const show=MELBOURNE_SHOWS.find(item=>item.id===id);
+    if(!show)throw new Error('Missing reviewed Fringe show: '+id);
+    if(change.end)show.end=change.end;
+    const sessions=new Map((show.sessions||[]).map(row=>[row[0]+'T'+row[1],row]));
+    for(const row of change.add)sessions.set(row[0]+'T'+row[1],row);
+    show.sessions=[...sessions.values()].sort((a,b)=>a[0].localeCompare(b[0])||a[1].localeCompare(b[1]));
+    show.calendarCoverage='partial';
+    show.calendarSource='https://api.melbournefringe.com.au/api/WhatsOn/DailyDiary';
+    show.calendarCheckedAt='2026-10-09';
+    show.verifiedAt='2026-10-09';
+  }
+}
+// END VERIFIED FRINGE CHANGES 2026-10-09
