@@ -12622,3 +12622,24 @@ for (const [id,change] of Object.entries(MELBOURNE_FRINGE_VERIFIED_CHANGES_20261
   }
 }
 // END VERIFIED FRINGE CHANGES 2026-10-09
+
+// BEGIN VERIFIED FRINGE EXTENSION 2026-10-10
+// Official event detail extends the season and lists multiple locations;
+// Daily Diary confirms the 15, 16 and 17 October performances.
+{
+  const show=MELBOURNE_SHOWS.find(item=>item.id==='fringe-2026-daddy-daycare');
+  if(!show)throw new Error('Missing reviewed Fringe show: Daddy Daycare');
+  show.end='2026-10-17';
+  show.venue='mel-fringe-multiple-locations';
+  delete show.space;
+  const sessions=new Map((show.sessions||[]).map(row=>[row[0]+'T'+row[1],row]));
+  for(const row of [['2026-10-15','21:00',''],['2026-10-16','21:00',''],['2026-10-17','21:00','']]){
+    sessions.set(row[0]+'T'+row[1],row);
+  }
+  show.sessions=[...sessions.values()].sort((a,b)=>a[0].localeCompare(b[0])||a[1].localeCompare(b[1]));
+  show.calendarCoverage='partial';
+  show.calendarSource='https://api.melbournefringe.com.au/api/WhatsOn/DailyDiary';
+  show.calendarCheckedAt='2026-10-10';
+  show.verifiedAt='2026-10-10';
+}
+// END VERIFIED FRINGE EXTENSION 2026-10-10
