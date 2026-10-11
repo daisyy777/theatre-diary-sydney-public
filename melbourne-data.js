@@ -12643,3 +12643,25 @@ for (const [id,change] of Object.entries(MELBOURNE_FRINGE_VERIFIED_CHANGES_20261
   show.verifiedAt='2026-10-10';
 }
 // END VERIFIED FRINGE EXTENSION 2026-10-10
+
+// BEGIN VERIFIED FRINGE CHANGES 2026-10-11
+// Both listing and event detail mark A Walk With Duck Fantasia cancelled.
+// The current Daily Diary confirms an extra Inner City Glam Girl performance.
+{
+  const cancelled='fringe-2026-a-walk-with-duck-fantasia';
+  const index=MELBOURNE_SHOWS.findIndex(show=>show.id===cancelled);
+  if(index<0)throw new Error('Missing cancelled Fringe show: '+cancelled);
+  MELBOURNE_SHOWS.splice(index,1);
+  const show=MELBOURNE_SHOWS.find(item=>item.id==='fringe-2026-inner-city-glam-girl');
+  if(!show)throw new Error('Missing reviewed Fringe show: Inner City Glam Girl');
+  const row=['2026-10-11','19:45',''];
+  if(!(show.sessions||[]).some(item=>item[0]===row[0]&&item[1]===row[1])){
+    show.sessions=[...(show.sessions||[]),row]
+      .sort((a,b)=>a[0].localeCompare(b[0])||a[1].localeCompare(b[1]));
+  }
+  show.calendarCoverage='partial';
+  show.calendarSource='https://api.melbournefringe.com.au/api/WhatsOn/DailyDiary';
+  show.calendarCheckedAt='2026-10-11';
+  show.verifiedAt='2026-10-11';
+}
+// END VERIFIED FRINGE CHANGES 2026-10-11
