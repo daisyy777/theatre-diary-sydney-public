@@ -12665,3 +12665,23 @@ for (const [id,change] of Object.entries(MELBOURNE_FRINGE_VERIFIED_CHANGES_20261
   show.verifiedAt='2026-10-11';
 }
 // END VERIFIED FRINGE CHANGES 2026-10-11
+
+// BEGIN VERIFIED FRINGE SESSIONS 2026-10-15
+// The complete official listing and current event details confirm both identities.
+// The official Daily Diary lists these exact performance dates and times.
+for (const [id, date, time] of [
+  ['fringe-2026-im-not-mad-im-maddie', '2026-10-17', '19:30'],
+  ['fringe-2026-slugs', '2026-10-17', '16:00']
+]) {
+  const show = MELBOURNE_SHOWS.find(item => item.id === id);
+  if (!show) throw new Error('Missing reviewed Fringe show: ' + id);
+  if (!(show.sessions || []).some(item => item[0] === date && item[1] === time)) {
+    show.sessions = [...(show.sessions || []), [date, time, '']]
+      .sort((a, b) => a[0].localeCompare(b[0]) || a[1].localeCompare(b[1]));
+  }
+  show.calendarCoverage = 'partial';
+  show.calendarSource = 'https://api.melbournefringe.com.au/api/WhatsOn/DailyDiary';
+  show.calendarCheckedAt = '2026-10-15';
+  show.verifiedAt = '2026-10-15';
+}
+// END VERIFIED FRINGE SESSIONS 2026-10-15

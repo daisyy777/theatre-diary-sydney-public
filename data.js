@@ -1261,7 +1261,7 @@ const SHOWS = [
     "space": "Upstairs Theatre",
     "company": "Belvoir",
     "start": "2026-10-03",
-    "end": "2026-11-01",
+    "end": "2026-11-08",
     "price": 58,
     "priceText": "A$58 起 · 预演",
     "priceNote": "成人常规票 A$78–98；学生及其他优惠另有条件。手续费以官方为准。",
