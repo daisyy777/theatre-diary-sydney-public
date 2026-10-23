@@ -1395,7 +1395,7 @@ const SHOWS = [
     "venue": "hayes",
     "company": "Hayes Theatre Co",
     "start": "2026-11-13",
-    "end": "2026-12-12",
+    "end": "2026-12-19",
     "price": 74,
     "priceText": "A$74–95 · 成人／预演",
     "priceNote": "Under 35 指定场次 A$60 起；手续费以官方为准。",
@@ -22925,3 +22925,6 @@ SHOWS.push({"id":"eggs-oldfitz","title":"Eggs","venue":"oldfitz","genre":"话剧
   show.verifiedAt='2026-10-09';
 }
 // END VERIFIED OPERA HITS EXTENSION 2026-10-09
+
+// Official productions reviewed 23 October 2026.
+SHOWS.push({"id":"pal-joey-belvoir-2027","title":"Pal Joey","genre":"音乐剧","scale":"独立制作","venue":"belvoir","space":"Downstairs Theatre","company":"Neglected Musicals","start":"2027-02-03","end":"2027-02-05","price":65,"priceText":"A$65 · 标准票","priceNote":"官网标价可能随需求调整；实际票价及手续费以结账页为准。","duration":"约 2 小时 20 分钟，含 20 分钟中场","desc":"1930 年代末的芝加哥，机灵却机会主义的 Joey 在一家夜总会找到工作，又周旋于一位歌舞女郎与一位已婚的富有妇人之间。","source":"https://belvoir.com.au/productions/pal-joey/","booking":"https://my.belvoir.com.au/overview/15985","bookingLabel":"前往官方售票","schedule":"官网目前明确列出 4 场，日期与时间见下方；请向主办方核实余票及变更。","access":"内容提示及无障碍安排请查官方页面。","sessions":[["2027-02-03","14:00",""],["2027-02-03","19:30",""],["2027-02-04","19:30",""],["2027-02-05","19:30",""]],"sessionsComplete":false,"image":"https://belvoir.com.au/wp-content/uploads/2026/10/Web-Pal-Joey-Clean-no-text-1897-x-1067-px.png","imageCredit":"官方宣传图 © Belvoir St Theatre","verifiedAt":"2026-10-23","evidenceUrls":["https://belvoir.com.au/productions/pal-joey/"]},{"id":"mrs-doubtfire-capitol-2027","title":"Mrs. Doubtfire - The Musical","genre":"音乐剧","scale":"商业巡演","venue":"capitol","company":"Mrs. Doubtfire - The Musical","start":"2027-03-25","end":"2027-04-14","price":null,"priceText":"票价以官网为准","priceNote":"官网未提供统一起价；不同日期及席位请在官方售票页核对。","duration":"约 2 小时 30 分钟，含中场","desc":"失业演员 Daniel Hillard 离婚后失去孩子抚养权。为了继续陪伴孩子，他化身苏格兰保姆 Euphegenia Doubtfire，却在双重身份中重新认识家庭、爱与父亲的意义。","source":"https://www.capitoltheatre.com.au/mrs-doubtfire","booking":"https://www.capitoltheatre.com.au/mrs-doubtfire","bookingLabel":"查看官网场次与购票","schedule":"已录入官网当前明确列出的 24 场；页面可继续查看其他日期，因此不视为全季场次总数。","access":"官网建议 6 岁以上观看；16 岁以下须与陪同成人同坐。无障碍安排请查官方。","sessions":[["2027-03-25","13:00",""],["2027-03-25","19:00",""],["2027-03-27","14:00",""],["2027-03-27","19:30",""],["2027-03-28","13:00",""],["2027-03-28","18:30",""],["2027-03-30","19:00",""],["2027-03-31","19:00",""],["2027-04-01","19:00",""],["2027-04-02","19:30",""],["2027-04-03","14:00",""],["2027-04-03","19:30",""],["2027-04-04","13:00",""],["2027-04-04","18:30",""],["2027-04-07","13:00",""],["2027-04-07","19:00",""],["2027-04-08","19:00",""],["2027-04-09","19:30",""],["2027-04-10","14:00",""],["2027-04-10","19:30",""],["2027-04-11","13:00",""],["2027-04-11","18:30",""],["2027-04-14","13:00",""],["2027-04-14","19:00",""]],"sessionsComplete":false,"image":"https://foundation-prod.imgix.net/shows/headers/mdf018-capitol-theatre-thumbnail-2048x1364.jpg","imageCredit":"官方宣传图 © Capitol Theatre","verifiedAt":"2026-10-23","evidenceUrls":["https://www.capitoltheatre.com.au/mrs-doubtfire"]});
