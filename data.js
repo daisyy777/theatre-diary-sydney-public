@@ -1800,54 +1800,194 @@ const SHOWS = [
     "imageCredit": "官方宣传图 © Griffin Theatre Company"
   },
   {
-    "id": "coconut-children",
-    "title": "The Coconut Children",
-    "genre": "话剧",
-    "scale": "专业制作",
-    "venue": "belvoir",
-    "company": "Belvoir",
-    "start": "2026-11-21",
-    "end": "2026-12-20",
-    "source": "https://belvoir.com.au/productions/the-coconut-children/",
-    "booking": "https://my.belvoir.com.au/overview/14658",
-    "bookingLabel": "前往官方售票",
-    "price": null,
-    "priceText": "票价见官方",
-    "duration": "官方尚未公布",
-    "access": "内容提示及无障碍安排请查官方页面。",
-    "schedule": "已录入 4 场公开演出；排除学校场及受邀开幕场。",
-    "sessions": [
-      [
-        "2026-11-21",
-        "19:30",
-        "预演"
-      ],
-      [
-        "2026-11-22",
-        "18:30",
-        "预演"
-      ],
-      [
-        "2026-11-26",
-        "19:30",
-        ""
-      ],
-      [
-        "2026-11-28",
-        "14:00",
-        ""
-      ]
+  "id": "coconut-children",
+  "title": "The Coconut Children",
+  "genre": "话剧",
+  "scale": "专业制作",
+  "venue": "belvoir",
+  "company": "Belvoir",
+  "start": "2026-11-21",
+  "end": "2026-12-23",
+  "source": "https://belvoir.com.au/productions/the-coconut-children/",
+  "booking": "https://my.belvoir.com.au/overview/14658",
+  "bookingLabel": "前往官方售票",
+  "price": null,
+  "priceText": "票价见官方",
+  "duration": "约 2 小时 40 分钟，含 20 分钟中场",
+  "access": "内容提示及无障碍安排请查官方页面。",
+  "schedule": "已录入官网明确列出的公开场次；学校场及受邀开幕场不在列表中。演期已延至 12 月 23 日，其他日期以官网为准。",
+  "sessions": [
+    [
+      "2026-11-21",
+      "20:00",
+      "Preview"
     ],
-    "sessionsComplete": false,
-    "verifiedAt": "2026-09-20",
-    "evidenceUrls": [
-      "https://belvoir.com.au/productions/the-coconut-children/"
+    [
+      "2026-11-22",
+      "19:00",
+      "Preview"
     ],
-    "desc": "1998 年的 Cabramatta，两名年轻人在家庭、友情与成长之间寻找方向。",
-    "space": "Upstairs Theatre",
-    "image": "https://belvoir.com.au/wp-content/uploads/2025/08/Belvoir-2026_The-Coconut-Children_web.jpg",
-    "imageCredit": "官方宣传图 © Belvoir St Theatre"
-  },
+    [
+      "2026-11-24",
+      "19:30",
+      "Preview"
+    ],
+    [
+      "2026-11-26",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-11-28",
+      "14:00",
+      ""
+    ],
+    [
+      "2026-11-28",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-11-29",
+      "17:00",
+      ""
+    ],
+    [
+      "2026-12-01",
+      "18:30",
+      ""
+    ],
+    [
+      "2026-12-02",
+      "18:30",
+      ""
+    ],
+    [
+      "2026-12-03",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-12-05",
+      "14:00",
+      ""
+    ],
+    [
+      "2026-12-05",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-12-06",
+      "17:00",
+      ""
+    ],
+    [
+      "2026-12-08",
+      "18:30",
+      ""
+    ],
+    [
+      "2026-12-09",
+      "18:30",
+      ""
+    ],
+    [
+      "2026-12-10",
+      "13:00",
+      ""
+    ],
+    [
+      "2026-12-10",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-12-11",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-12-12",
+      "14:00",
+      ""
+    ],
+    [
+      "2026-12-12",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-12-13",
+      "17:00",
+      ""
+    ],
+    [
+      "2026-12-15",
+      "18:30",
+      ""
+    ],
+    [
+      "2026-12-16",
+      "18:30",
+      ""
+    ],
+    [
+      "2026-12-17",
+      "13:00",
+      ""
+    ],
+    [
+      "2026-12-17",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-12-18",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-12-19",
+      "14:00",
+      ""
+    ],
+    [
+      "2026-12-19",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-12-20",
+      "17:00",
+      ""
+    ],
+    [
+      "2026-12-22",
+      "18:30",
+      ""
+    ],
+    [
+      "2026-12-23",
+      "13:00",
+      ""
+    ],
+    [
+      "2026-12-23",
+      "18:30",
+      ""
+    ]
+  ],
+  "sessionsComplete": false,
+  "verifiedAt": "2026-11-26",
+  "evidenceUrls": [
+    "https://belvoir.com.au/productions/the-coconut-children/"
+  ],
+  "desc": "1998 年的 Cabramatta，两名年轻人在家庭、友情与成长之间寻找方向。",
+  "space": "Upstairs Theatre",
+  "image": "https://belvoir.com.au/wp-content/uploads/2025/08/Belvoir-2026_The-Coconut-Children_web.jpg",
+  "imageCredit": "官方宣传图 © Belvoir St Theatre"
+},
   {
     "id": "stocktake",
     "title": "STOCKTAKE",
@@ -19293,32 +19433,30 @@ const SHOWS = [
     "imageCredit": "官方宣传图 © Sydney Fringe Festival"
   },
   {
-    "id": "mack-the-knife",
-    "title": "Mack the Knife",
-    "genre": "音乐剧",
-    "scale": "专业制作",
-    "venue": "foundry",
-    "company": "",
-    "start": "2027-10-05",
-    "end": "2027-11-07",
-    "price": null,
-    "priceText": "票价见官方售票页",
-    "priceNote": "售票接口未返回票价，未作估算。",
-    "duration": "",
-    "desc": "Mack the Knife 在Foundry Theatre上演，演期 2027-10-05 至 2027-11-07（官方已官宣，尚未开票）。本条目由官方节目单汇总，暂无官方剧情简介。",
-    "source": "https://hayestheatre.com.au/event/mack-the-knife-foundry/",
-    "booking": "https://hayestheatre.com.au/event/mack-the-knife-foundry/",
-    "bookingLabel": "查看官方演出公告",
-    "sessions": [],
-    "sessionsComplete": false,
-    "schedule": "官方已公布演期 2027-10-05 至 2027-11-07，但尚未开票（2026-11-05 起公开发售）。逐场日历待开票后补充。",
-    "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
-    "verifiedAt": "2026-09-20",
-    "status": "announced",
-    "onSaleFrom": "2026-11-05",
-    "image": "http://hayestheatre.com.au/wp-content/uploads/2026/09/Screenshot-2026-09-09-at-2.18.47-pm-725x1024.png",
-    "imageCredit": "官方宣传图 © Hayes Theatre Co"
-  },
+  "id": "mack-the-knife",
+  "title": "Mack the Knife",
+  "genre": "音乐剧",
+  "scale": "专业制作",
+  "venue": "foundry",
+  "company": "",
+  "start": "2027-10-05",
+  "end": "2027-11-07",
+  "price": null,
+  "priceText": "票价见官方售票页",
+  "priceNote": "售票接口未返回票价，未作估算。",
+  "duration": "",
+  "desc": "以《乞丐歌剧》和《三分钱歌剧》人物为基础的沉浸式音乐剧：观众走进 Peachums 的酒吧与地下世界，卷入 Polly、Macheath 和政客 Tiger Brown 之间的权力交易、爱情与背叛。",
+  "source": "https://hayestheatre.com.au/event/mack-the-knife-foundry/",
+  "booking": "https://www.ticketmaster.com.au/artist/843025",
+  "bookingLabel": "官方场次与购票",
+  "sessions": [],
+  "sessionsComplete": false,
+  "schedule": "2027 年 10 月 5 日至 11 月 7 日，官方已提供购票入口；逐场安排以官方售票为准。",
+  "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
+  "verifiedAt": "2026-11-26",
+  "image": "http://hayestheatre.com.au/wp-content/uploads/2026/09/Screenshot-2026-09-09-at-2.18.47-pm-725x1024.png",
+  "imageCredit": "官方宣传图 © Hayes Theatre Co"
+},
   {
     "id": "a-funny-thing-happened-on-the-way-to-the-forum",
     "title": "A Funny Thing Happened on the Way to the Forum",
@@ -19509,32 +19647,30 @@ const SHOWS = [
     "imageCredit": "官方宣传图 © Hayes Theatre Co"
   },
   {
-    "id": "lucky-stiff",
-    "title": "Lucky Stiff",
-    "genre": "音乐剧",
-    "scale": "专业制作",
-    "venue": "hayes",
-    "company": "",
-    "start": "2027-02-12",
-    "end": "2027-03-13",
-    "price": null,
-    "priceText": "票价见官方售票页",
-    "priceNote": "售票接口未返回票价，未作估算。",
-    "duration": "约 135 分钟",
-    "desc": "Lucky Stiff 在Hayes Theatre上演，演期 2027-02-12 至 2027-03-13（官方已官宣，尚未开票）。本条目由官方节目单汇总，暂无官方剧情简介。",
-    "source": "https://hayestheatre.com.au/event/lucky-stiff/",
-    "booking": "https://hayestheatre.com.au/event/lucky-stiff/",
-    "bookingLabel": "查看官方演出公告",
-    "sessions": [],
-    "sessionsComplete": false,
-    "schedule": "官方已公布演期 2027-02-12 至 2027-03-13，但尚未开票（2026-11-12 起公开发售）。逐场日历待开票后补充。",
-    "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
-    "verifiedAt": "2026-09-20",
-    "status": "announced",
-    "onSaleFrom": "2026-11-12",
-    "image": "http://hayestheatre.com.au/wp-content/uploads/2026/09/2-1.png",
-    "imageCredit": "官方宣传图 © Hayes Theatre Co"
-  },
+  "id": "lucky-stiff",
+  "title": "Lucky Stiff",
+  "genre": "音乐剧",
+  "scale": "专业制作",
+  "venue": "hayes",
+  "company": "",
+  "start": "2027-02-12",
+  "end": "2027-03-13",
+  "price": null,
+  "priceText": "票价见官方售票页",
+  "priceNote": "售票接口未返回票价，未作估算。",
+  "duration": "约 135 分钟",
+  "desc": "英国鞋店推销员 Harry Witherspoon 想继承叔叔的巨额遗产，必须带着叔叔经过防腐处理的遗体去蒙特卡洛度假。他一边装作叔叔仍然活着，一边躲避持枪的前情人和执着的动物收容所代表。",
+  "source": "https://hayestheatre.com.au/event/lucky-stiff/",
+  "booking": "https://boxoffice.hayestheatre.com.au/tiny/lucky_stiff",
+  "bookingLabel": "官方场次与购票",
+  "sessions": [],
+  "sessionsComplete": false,
+  "schedule": "2027 年 2 月 12 日至 3 月 13 日，官方已提供购票入口；逐场安排以官方售票为准。",
+  "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
+  "verifiedAt": "2026-11-26",
+  "image": "http://hayestheatre.com.au/wp-content/uploads/2026/09/2-1.png",
+  "imageCredit": "官方宣传图 © Hayes Theatre Co"
+},
   {
     "id": "dames-at-sea",
     "title": "Dames at Sea",
@@ -19590,32 +19726,30 @@ const SHOWS = [
     "imageCredit": "官方宣传图 © Hayes Theatre Co"
   },
   {
-    "id": "peter-allen",
-    "title": "Peter Allen",
-    "genre": "音乐剧",
-    "scale": "专业制作",
-    "venue": "hayes",
-    "company": "",
-    "start": "2027-01-13",
-    "end": "2027-02-06",
-    "price": null,
-    "priceText": "票价见官方售票页",
-    "priceNote": "售票接口未返回票价，未作估算。",
-    "duration": "",
-    "desc": "Peter Allen 在Hayes Theatre上演，演期 2027-01-13 至 2027-02-06（官方已官宣，尚未开票）。本条目由官方节目单汇总，暂无官方剧情简介。",
-    "source": "https://hayestheatre.com.au/event/peter-allen-not-the-boy-next-door/",
-    "booking": "https://hayestheatre.com.au/event/peter-allen-not-the-boy-next-door/",
-    "bookingLabel": "查看官方演出公告",
-    "sessions": [],
-    "sessionsComplete": false,
-    "schedule": "官方已公布演期 2027-01-13 至 2027-02-06，但尚未开票（2026-10-01 起公开发售）。逐场日历待开票后补充。",
-    "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
-    "verifiedAt": "2026-09-20",
-    "status": "announced",
-    "onSaleFrom": "2026-10-01",
-    "image": "https://hayestheatre.com.au/wp-content/uploads/2026/09/2027-Season-Square-images-1000-x-1000-px.png",
-    "imageCredit": "官方宣传图 © Hayes Theatre Co"
-  },
+  "id": "peter-allen",
+  "title": "Peter Allen",
+  "genre": "音乐剧",
+  "scale": "专业制作",
+  "venue": "hayes",
+  "company": "",
+  "start": "2027-01-13",
+  "end": "2027-02-06",
+  "price": null,
+  "priceText": "票价见官方售票页",
+  "priceNote": "售票接口未返回票价，未作估算。",
+  "duration": "",
+  "desc": "四位歌手与现场乐队重新演绎 Peter Allen 的歌曲，以音乐和人生片段回顾这位澳洲艺人的舞台魅力、创作与影响。",
+  "source": "https://hayestheatre.com.au/event/peter-allen-not-the-boy-next-door/",
+  "booking": "https://boxoffice.hayestheatre.com.au/tiny/peter_allen",
+  "bookingLabel": "官方场次与购票",
+  "sessions": [],
+  "sessionsComplete": false,
+  "schedule": "2027 年 1 月 13 日至 2 月 6 日，官方已提供购票入口；逐场安排以官方售票为准。",
+  "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
+  "verifiedAt": "2026-11-26",
+  "image": "https://hayestheatre.com.au/wp-content/uploads/2026/09/2027-Season-Square-images-1000-x-1000-px.png",
+  "imageCredit": "官方宣传图 © Hayes Theatre Co"
+},
   {
     "id": "victoria-falconer-s-parlour-night",
     "title": "Victoria Falconer’s Parlour Night",
@@ -20818,62 +20952,65 @@ const SHOWS = [
     "imageCredit": "官方宣传图 © Belvoir St Theatre"
   },
   {
-    "id": "ripple",
-    "title": "RIPPLE",
-    "genre": "话剧",
-    "scale": "专业制作",
-    "venue": "belvoir",
-    "company": "",
-    "start": "2027-02-03",
-    "end": "2027-03-06",
-    "price": null,
-    "priceText": "票价见官方售票页",
-    "priceNote": "售票接口未返回票价，未作估算。",
-    "duration": "",
-    "desc": "马克与艾迪之间的吸引力跨越二十年、九段关系与十个片段，呈现过去如何影响当下的爱情选择。",
-    "source": "https://belvoir.com.au/productions/ripple/",
-    "booking": "https://my.belvoir.com.au/overview/15320",
-    "bookingLabel": "官方场次与购票",
-    "sessions": [
-      [
-        "2027-02-03",
-        "13:15",
-        ""
-      ],
-      [
-        "2027-02-14",
-        "17:15",
-        ""
-      ],
-      [
-        "2027-02-16",
-        "18:45",
-        ""
-      ],
-      [
-        "2027-02-17",
-        "18:45",
-        ""
-      ],
-      [
-        "2027-02-19",
-        "19:45",
-        ""
-      ],
-      [
-        "2027-02-20",
-        "14:15",
-        ""
-      ]
+  "id": "ripple",
+  "title": "RIPPLE",
+  "genre": "话剧",
+  "scale": "独立制作",
+  "venue": "belvoir",
+  "company": "BRING THE DOG PRODUCTIONS / Belvoir 25A",
+  "start": "2027-02-14",
+  "end": "2027-03-06",
+  "price": 25,
+  "priceText": "A$25–35 · 成人",
+  "priceNote": "预演 A$20–30；票种、余票及费用以官方售票页为准。",
+  "duration": "90 分钟，无中场",
+  "desc": "以一连串双人场景串起二十年、九段关系和十个片段，探问过去的亲密关系如何影响当下，以及个人爱情如何与历史和命运相连。",
+  "source": "https://belvoir.com.au/productions/ripple/",
+  "booking": "https://my.belvoir.com.au/overview/15320",
+  "bookingLabel": "官方场次与购票",
+  "sessions": [
+    [
+      "2027-02-14",
+      "17:15",
+      "Preview"
     ],
-    "sessionsComplete": false,
-    "schedule": "已公布 6 场（2027-02-03 至 2027-03-06）。具体日期与时间见下方日历；不保证为全季总数。",
-    "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
-    "verifiedAt": "2026-09-29",
-    "dateNote": "官网演期从 2 月 3 日开始；节目采集器误把 2 月 14 日首个预演当成演期起点。",
-    "image": "https://belvoir.com.au/wp-content/uploads/2026/08/25A_27_03_Ripple_1897x1067-1.png",
-    "imageCredit": "官方宣传图 © Belvoir St Theatre"
-  },
+    [
+      "2027-02-16",
+      "18:45",
+      "Preview"
+    ],
+    [
+      "2027-02-17",
+      "18:45",
+      "Preview"
+    ],
+    [
+      "2027-02-19",
+      "19:45",
+      ""
+    ],
+    [
+      "2027-02-20",
+      "14:15",
+      ""
+    ],
+    [
+      "2027-02-20",
+      "19:45",
+      ""
+    ]
+  ],
+  "sessionsComplete": false,
+  "schedule": "已录入官网明确列出的 6 场公开演出；不含 2 月 18 日受邀开幕场。完整场次及余票请查看官方。",
+  "access": "官方内容提示待公布；无障碍安排请向剧院确认。",
+  "verifiedAt": "2026-11-26",
+  "image": "https://belvoir.com.au/wp-content/uploads/2026/08/25A_27_03_Ripple_1897x1067-1.png",
+  "imageCredit": "官方宣传图 © Belvoir St Theatre",
+  "space": "Downstairs Theatre",
+  "evidenceUrls": [
+    "https://belvoir.com.au/productions/ripple/"
+  ]
+},
   {
     "id": "the-king-who-was-a-king",
     "title": "THE KING WHO WAS A KING",
@@ -21664,34 +21801,73 @@ const SHOWS = [
     ]
   },
   {
-    "id": "rapunzel",
-    "title": "Rapunzel",
-    "genre": "亲子剧",
-    "scale": "社区剧团",
-    "venue": "beecroft",
-    "company": "Beacon Musical Society",
-    "start": "2026-11-14",
-    "end": "2026-11-28",
-    "price": null,
-    "priceText": "票价见官方售票页",
-    "priceNote": "票价请以官方售票页为准，本站未作估算。",
-    "duration": "",
-    "desc": "Beacon Musical Society 在 Beecroft Community Centre 上演的社区制作。演期为 2026-11-14 至 2026-11-28；详情请查看官方页面。",
-    "source": "https://beams.org.au/",
-    "booking": "https://beams.org.au/",
-    "bookingLabel": "查看官方演出公告",
-    "sessions": [],
-    "sessionsComplete": false,
-    "schedule": "官方已公布演期 2026-11-14 至 2026-11-28，但尚未开票。逐场日历待开票后补充。",
-    "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
-    "verifiedAt": "2026-09-25",
-    "status": "announced",
-    "onSaleFrom": null,
-    "evidenceUrls": [
-      "https://beams.org.au/",
-      "https://communitytheatre.com.au/whats-on/rapunzel/"
+  "id": "rapunzel",
+  "title": "Rapunzel",
+  "genre": "亲子剧",
+  "scale": "社区剧团",
+  "venue": "beecroft",
+  "company": "Beacon Musical Society",
+  "start": "2026-11-14",
+  "end": "2026-11-28",
+  "price": null,
+  "priceText": "票价见官方售票页",
+  "priceNote": "票价请以官方售票页为准，本站未作估算。",
+  "duration": "",
+  "desc": "被困高塔的长发公主与她的变色龙伙伴，遇上了想揭开“空塔”秘密的播客主持人 Flynn。两人试图逃离女巫、找到公主的亲生父母；熟悉的童话在歌曲改编、笑料和观众互动中变成一出家庭哑剧。",
+  "source": "https://beams.org.au/",
+  "booking": "https://AUEASTWUCMS.sales.ticketsearch.com/sales?ev=169781&ismenuhide=true",
+  "bookingLabel": "前往官方售票",
+  "sessions": [
+    [
+      "2026-11-14",
+      "11:00",
+      ""
+    ],
+    [
+      "2026-11-14",
+      "14:30",
+      ""
+    ],
+    [
+      "2026-11-20",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-11-21",
+      "11:00",
+      ""
+    ],
+    [
+      "2026-11-21",
+      "14:30",
+      ""
+    ],
+    [
+      "2026-11-21",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-11-27",
+      "19:30",
+      ""
+    ],
+    [
+      "2026-11-28",
+      "11:00",
+      ""
     ]
-  },
+  ],
+  "sessionsComplete": true,
+  "schedule": "官网明确公布 8 场演出，已开放购票；日期与时间见下方。",
+  "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
+  "verifiedAt": "2026-11-26",
+  "evidenceUrls": [
+    "https://beams.org.au/",
+    "https://communitytheatre.com.au/whats-on/rapunzel/"
+  ]
+},
   {
     "id": "xanadu-jr",
     "title": "Xanadu JR.",
@@ -21720,54 +21896,57 @@ const SHOWS = [
     ]
   },
   {
-    "id": "hay-fever",
-    "title": "Hay Fever",
-    "genre": "话剧",
-    "scale": "社区剧团",
-    "venue": "artscronulla",
-    "company": "Arts Theatre Cronulla",
-    "start": "2026-10-23",
-    "end": "2026-11-28",
-    "price": null,
-    "priceText": "票价见官方售票页",
-    "priceNote": "票价请以官方售票页为准，本站未作估算。",
-    "duration": "",
-    "desc": "Arts Theatre Cronulla 在 Arts Theatre Cronulla 上演的社区制作。演期为 2026-10-23 至 2026-11-28；详情请查看官方页面。",
-    "source": "https://www.artstheatrecronulla.com.au/2026season",
-    "booking": "https://www.artstheatrecronulla.com.au/bookings",
-    "bookingLabel": "查看官方演出公告",
-    "sessions": [
-      [
-        "2026-10-25",
-        "14:00",
-        ""
-      ],
-      [
-        "2026-11-01",
-        "14:00",
-        ""
-      ],
-      [
-        "2026-11-15",
-        "14:00",
-        ""
-      ],
-      [
-        "2026-11-22",
-        "14:00",
-        ""
-      ]
+  "id": "hay-fever",
+  "title": "Hay Fever",
+  "genre": "话剧",
+  "scale": "社区剧团",
+  "venue": "artscronulla",
+  "company": "Arts Theatre Cronulla",
+  "start": "2026-10-23",
+  "end": "2026-11-28",
+  "price": 33,
+  "priceText": "A$33–36 · 一般票",
+  "priceNote": "制作方列示周三及周日 A$33，周五及周六 A$36；官方售票页当前显示已售罄。",
+  "duration": "",
+  "desc": "Bliss 一家各自邀请客人到乡间度周末，却把来访者卷进一场情感闹剧。暗中的调情、错配的关系和突如其来的揭露，让宾客在这个毫无顾忌的家庭面前手足无措。",
+  "source": "https://www.artstheatrecronulla.com.au/2026season",
+  "booking": "https://www.trybooking.com/DHMCO",
+  "bookingLabel": "官方售票（已售罄）",
+  "sessions": [
+    [
+      "2026-10-25",
+      "14:00",
+      ""
     ],
-    "sessionsComplete": false,
-    "schedule": "官方已公布演期 2026-10-23 至 2026-11-28，但尚未开票（2026-10-10 起公开发售）。 已核实 4 场时间，见下方日历。",
-    "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
-    "verifiedAt": "2026-09-25",
-    "status": "announced",
-    "onSaleFrom": "2026-10-10",
-    "evidenceUrls": [
-      "https://www.artstheatrecronulla.com.au/2026season"
+    [
+      "2026-11-01",
+      "14:00",
+      ""
+    ],
+    [
+      "2026-11-15",
+      "14:00",
+      ""
+    ],
+    [
+      "2026-11-22",
+      "14:00",
+      ""
+    ],
+    [
+      "2026-11-28",
+      "20:00",
+      "Sold out"
     ]
-  },
+  ],
+  "sessionsComplete": false,
+  "schedule": "官方售票页显示已售罄。已核实的部分场次见下方，末场为 11 月 28 日 20:00；未从每周时间表推算其他场次。",
+  "access": "无障碍座位、迟到入场与观演提示请以官方售票页为准。",
+  "verifiedAt": "2026-11-26",
+  "evidenceUrls": [
+    "https://www.artstheatrecronulla.com.au/2026season"
+  ]
+},
 {
   "id": "dixon-and-daughters-oldfitz",
   "title": "Dixon & Daughters",
@@ -21854,23 +22033,46 @@ const SHOWS = [
   "scale": "独立制作",
   "company": "Outhouse Theatre Co",
   "start": "2026-11-06",
-  "end": "2026-11-22",
-  "price": 34.5,
-  "priceText": "A$34.5 起 · 官网票价",
-  "priceNote": "实际票价、优惠及手续费以官方购票页为准。",
-  "duration": "约 95 分钟",
-  "desc": "杰丝与比利从少年相识，四十年间经历爱情、家庭与变化，也不断重塑彼此的友谊。",
+  "end": "2026-11-28",
+  "price": 56,
+  "priceText": "A$56–86 · 常规成人票／动态定价",
+  "priceNote": "官网另列优惠票 A$39.50–66，须符合资格；票价随需求调整，实际费用与余票以官方结账页为准。",
+  "duration": "约 95 分钟，无中场",
+  "desc": "Jess 与 Billy 在 1987 年相识，很快成为无话不谈的挚友。此后四十年，爱情、失去、家庭与生活变化不断考验两人的关系。Jane Upton 的话剧追随这段长久的非浪漫亲密关系，讲述见证彼此人生的人如何帮助我们记住和重新认识自己。",
   "source": "https://www.oldfitztheatre.com.au/scenes-from-a-friendship",
   "booking": "https://www.oldfitztheatre.com.au/scenes-from-a-friendship",
   "bookingLabel": "查看官网场次与购票",
-  "sessions": [],
+  "sessions": [
+    [
+      "2026-11-26",
+      "19:00",
+      ""
+    ],
+    [
+      "2026-11-27",
+      "19:00",
+      ""
+    ],
+    [
+      "2026-11-28",
+      "14:00",
+      ""
+    ],
+    [
+      "2026-11-28",
+      "19:00",
+      ""
+    ]
+  ],
   "sessionsComplete": false,
-  "schedule": "官网已公布演期；逐场时间请到官方购票页查看。",
-  "access": "无障碍及观演提示请以官网为准。",
-  "verifiedAt": "2026-09-29",
+  "schedule": "官方已延长至 2026-11-28；今日公开票务确认：2026-11-26 19:00；2026-11-27 19:00；2026-11-28 14:00；2026-11-28 19:00。这里只列本次核实的未来场次，不代表全季总数。",
+  "access": "建议 18 岁以上；含成人主题与粗俗语言。无障碍安排请查官网。",
+  "verifiedAt": "2026-11-26",
   "evidenceUrls": [
     "https://www.oldfitztheatre.com.au/scenes-from-a-friendship"
-  ]
+  ],
+  "image": "https://system.spektrix.com/oldfitztheatre/files/7f2b3515-f8bc-4137-98b9-ca9f94b8c6f7.jpg",
+  "imageCredit": "官方宣传图 © Old Fitz Theatre / 制作方"
 },
 {
   "id": "a-number-oldfitz",
@@ -21904,25 +22106,38 @@ const SHOWS = [
   "venue": "oldfitz",
   "genre": "话剧",
   "scale": "独立制作",
-  "company": "",
+  "company": "Witches of Waterloo Productions",
   "start": "2026-11-17",
-  "end": "2026-11-22",
-  "price": 24.5,
-  "priceText": "A$24.5 起 · 官网票价",
-  "priceNote": "实际票价、优惠及手续费以官方购票页为准。",
-  "duration": "约 80 分钟",
-  "desc": "网红瑞特罗与童年机器人科梅特共同主持人机关系播客，一次背叛使两人的友谊陷入危机。",
+  "end": "2026-11-27",
+  "price": 29.5,
+  "priceText": "A$29.50 · 普通票",
+  "priceNote": "官网另列预演 A$24.50；本次未来场次按普通票价展示，实际费用与余票以官方结账页为准。",
+  "duration": "约 65 分钟，无中场",
+  "desc": "少女网红 Retro 与从小陪伴她的机器人 Comet 共同主持人机关系播客，一次隐秘的背叛却引爆公开丑闻。在人类与人工智能对立加深时，两位朋友必须面对友谊中的控制与依赖：如果一方决定另一方如何成长，彼此还能平等相处吗？",
   "source": "https://www.oldfitztheatre.com.au/comet-boombox",
   "booking": "https://www.oldfitztheatre.com.au/comet-boombox",
   "bookingLabel": "查看官网场次与购票",
-  "sessions": [],
+  "sessions": [
+    [
+      "2026-11-26",
+      "21:00",
+      ""
+    ],
+    [
+      "2026-11-27",
+      "21:00",
+      ""
+    ]
+  ],
   "sessionsComplete": false,
-  "schedule": "官网已公布演期；逐场时间请到官方购票页查看。",
-  "access": "无障碍及观演提示请以官网为准。",
-  "verifiedAt": "2026-09-29",
+  "schedule": "官方已延长至 2026-11-27；今日公开票务确认：2026-11-26 21:00；2026-11-27 21:00。这里只列本次核实的未来场次，不代表全季总数。",
+  "access": "含粗俗语言、成人主题与性暗示；会提及观众，但不要求观众参与。无障碍安排请查官网。",
+  "verifiedAt": "2026-11-26",
   "evidenceUrls": [
     "https://www.oldfitztheatre.com.au/comet-boombox"
-  ]
+  ],
+  "image": "https://system.spektrix.com/oldfitztheatre/files/b1afc216-7d9b-4806-b094-715109ea2cb7.jpg",
+  "imageCredit": "官方宣传图 © Old Fitz Theatre / 制作方"
 },
 {
   "id": "all-the-more-reason-oldfitz",
@@ -22927,4 +23142,75 @@ SHOWS.push({"id":"eggs-oldfitz","title":"Eggs","venue":"oldfitz","genre":"话剧
 // END VERIFIED OPERA HITS EXTENSION 2026-10-09
 
 // Official productions reviewed 23 October 2026.
-SHOWS.push({"id":"pal-joey-belvoir-2027","title":"Pal Joey","genre":"音乐剧","scale":"独立制作","venue":"belvoir","space":"Downstairs Theatre","company":"Neglected Musicals","start":"2027-02-03","end":"2027-02-05","price":65,"priceText":"A$65 · 标准票","priceNote":"官网标价可能随需求调整；实际票价及手续费以结账页为准。","duration":"约 2 小时 20 分钟，含 20 分钟中场","desc":"1930 年代末的芝加哥，机灵却机会主义的 Joey 在一家夜总会找到工作，又周旋于一位歌舞女郎与一位已婚的富有妇人之间。","source":"https://belvoir.com.au/productions/pal-joey/","booking":"https://my.belvoir.com.au/overview/15985","bookingLabel":"前往官方售票","schedule":"官网目前明确列出 4 场，日期与时间见下方；请向主办方核实余票及变更。","access":"内容提示及无障碍安排请查官方页面。","sessions":[["2027-02-03","14:00",""],["2027-02-03","19:30",""],["2027-02-04","19:30",""],["2027-02-05","19:30",""]],"sessionsComplete":false,"image":"https://belvoir.com.au/wp-content/uploads/2026/10/Web-Pal-Joey-Clean-no-text-1897-x-1067-px.png","imageCredit":"官方宣传图 © Belvoir St Theatre","verifiedAt":"2026-10-23","evidenceUrls":["https://belvoir.com.au/productions/pal-joey/"]},{"id":"mrs-doubtfire-capitol-2027","title":"Mrs. Doubtfire - The Musical","genre":"音乐剧","scale":"商业巡演","venue":"capitol","company":"Mrs. Doubtfire - The Musical","start":"2027-03-25","end":"2027-04-14","price":null,"priceText":"票价以官网为准","priceNote":"官网未提供统一起价；不同日期及席位请在官方售票页核对。","duration":"约 2 小时 30 分钟，含中场","desc":"失业演员 Daniel Hillard 离婚后失去孩子抚养权。为了继续陪伴孩子，他化身苏格兰保姆 Euphegenia Doubtfire，却在双重身份中重新认识家庭、爱与父亲的意义。","source":"https://www.capitoltheatre.com.au/mrs-doubtfire","booking":"https://www.capitoltheatre.com.au/mrs-doubtfire","bookingLabel":"查看官网场次与购票","schedule":"已录入官网当前明确列出的 24 场；页面可继续查看其他日期，因此不视为全季场次总数。","access":"官网建议 6 岁以上观看；16 岁以下须与陪同成人同坐。无障碍安排请查官方。","sessions":[["2027-03-25","13:00",""],["2027-03-25","19:00",""],["2027-03-27","14:00",""],["2027-03-27","19:30",""],["2027-03-28","13:00",""],["2027-03-28","18:30",""],["2027-03-30","19:00",""],["2027-03-31","19:00",""],["2027-04-01","19:00",""],["2027-04-02","19:30",""],["2027-04-03","14:00",""],["2027-04-03","19:30",""],["2027-04-04","13:00",""],["2027-04-04","18:30",""],["2027-04-07","13:00",""],["2027-04-07","19:00",""],["2027-04-08","19:00",""],["2027-04-09","19:30",""],["2027-04-10","14:00",""],["2027-04-10","19:30",""],["2027-04-11","13:00",""],["2027-04-11","18:30",""],["2027-04-14","13:00",""],["2027-04-14","19:00",""]],"sessionsComplete":false,"image":"https://foundation-prod.imgix.net/shows/headers/mdf018-capitol-theatre-thumbnail-2048x1364.jpg","imageCredit":"官方宣传图 © Capitol Theatre","verifiedAt":"2026-10-23","evidenceUrls":["https://www.capitoltheatre.com.au/mrs-doubtfire"]});
+SHOWS.push({
+  "id": "pal-joey-belvoir-2027",
+  "title": "Pal Joey",
+  "genre": "音乐剧",
+  "scale": "独立制作",
+  "venue": "belvoir",
+  "space": "Downstairs Theatre",
+  "company": "Neglected Musicals",
+  "start": "2027-02-03",
+  "end": "2027-02-07",
+  "price": 65,
+  "priceText": "A$65 · 标准票",
+  "priceNote": "官网标价可能随需求调整；实际票价及手续费以结账页为准。",
+  "duration": "约 2 小时 20 分钟，含 20 分钟中场",
+  "desc": "1930 年代末的芝加哥，机灵却机会主义的 Joey 在一家夜总会找到工作，又周旋于一位歌舞女郎与一位已婚的富有妇人之间。",
+  "source": "https://belvoir.com.au/productions/pal-joey/",
+  "booking": "https://my.belvoir.com.au/overview/15985",
+  "bookingLabel": "前往官方售票",
+  "schedule": "官网目前明确列出 7 场，演期至 2027 年 2 月 7 日；余票及变更以官方售票页为准。",
+  "access": "内容提示及无障碍安排请查官方页面。",
+  "sessions": [
+    [
+      "2027-02-03",
+      "14:00",
+      "Sold out"
+    ],
+    [
+      "2027-02-03",
+      "19:30",
+      ""
+    ],
+    [
+      "2027-02-04",
+      "19:30",
+      ""
+    ],
+    [
+      "2027-02-05",
+      "19:30",
+      ""
+    ],
+    [
+      "2027-02-06",
+      "14:00",
+      ""
+    ],
+    [
+      "2027-02-06",
+      "19:30",
+      ""
+    ],
+    [
+      "2027-02-07",
+      "13:00",
+      ""
+    ]
+  ],
+  "sessionsComplete": false,
+  "image": "https://belvoir.com.au/wp-content/uploads/2026/10/Web-Pal-Joey-Clean-no-text-1897-x-1067-px.png",
+  "imageCredit": "官方宣传图 © Belvoir St Theatre",
+  "verifiedAt": "2026-11-26",
+  "evidenceUrls": [
+    "https://belvoir.com.au/productions/pal-joey/"
+  ]
+},{"id":"mrs-doubtfire-capitol-2027","title":"Mrs. Doubtfire - The Musical","genre":"音乐剧","scale":"商业巡演","venue":"capitol","company":"Mrs. Doubtfire - The Musical","start":"2027-03-25","end":"2027-04-14","price":null,"priceText":"票价以官网为准","priceNote":"官网未提供统一起价；不同日期及席位请在官方售票页核对。","duration":"约 2 小时 30 分钟，含中场","desc":"失业演员 Daniel Hillard 离婚后失去孩子抚养权。为了继续陪伴孩子，他化身苏格兰保姆 Euphegenia Doubtfire，却在双重身份中重新认识家庭、爱与父亲的意义。","source":"https://www.capitoltheatre.com.au/mrs-doubtfire","booking":"https://www.capitoltheatre.com.au/mrs-doubtfire","bookingLabel":"查看官网场次与购票","schedule":"已录入官网当前明确列出的 24 场；页面可继续查看其他日期，因此不视为全季场次总数。","access":"官网建议 6 岁以上观看；16 岁以下须与陪同成人同坐。无障碍安排请查官方。","sessions":[["2027-03-25","13:00",""],["2027-03-25","19:00",""],["2027-03-27","14:00",""],["2027-03-27","19:30",""],["2027-03-28","13:00",""],["2027-03-28","18:30",""],["2027-03-30","19:00",""],["2027-03-31","19:00",""],["2027-04-01","19:00",""],["2027-04-02","19:30",""],["2027-04-03","14:00",""],["2027-04-03","19:30",""],["2027-04-04","13:00",""],["2027-04-04","18:30",""],["2027-04-07","13:00",""],["2027-04-07","19:00",""],["2027-04-08","19:00",""],["2027-04-09","19:30",""],["2027-04-10","14:00",""],["2027-04-10","19:30",""],["2027-04-11","13:00",""],["2027-04-11","18:30",""],["2027-04-14","13:00",""],["2027-04-14","19:00",""]],"sessionsComplete":false,"image":"https://foundation-prod.imgix.net/shows/headers/mdf018-capitol-theatre-thumbnail-2048x1364.jpg","imageCredit":"官方宣传图 © Capitol Theatre","verifiedAt":"2026-10-23","evidenceUrls":["https://www.capitoltheatre.com.au/mrs-doubtfire"]});
+
+// Official programme additions reviewed on 26 November 2026.
+VENUES.push({"id": "atyp", "name": "The Popsy — ATYP", "area": "Walsh Bay", "region": "市区与东区", "address": "Pier 2/3, Suite 2/13A Hickson Road, Walsh Bay NSW 2000", "url": "https://griffintheatre.com.au/whats-on/interior-exterior/", "programme": "https://griffintheatre.com.au/whats-on/", "note": "位于 Walsh Bay 的 ATYP 剧场空间；请按具体演出的官方页面确认入场安排。"});
+SHOWS.push({"id": "hayes-carols-by-cabaret-2026", "title": "Carols by Cabaret 2026", "genre": "卡巴莱", "scale": "专业制作", "venue": "hayes", "company": "LPD Productions / Hayes Theatre Co", "start": "2026-12-13", "end": "2026-12-13", "price": 99, "priceText": "A$99 · 全价", "priceNote": "官网列示票价；手续费以官方结账页为准。", "duration": "约 2 小时，含中场", "desc": "一晚圣诞卡巴莱音乐会，由剧场熟悉的演员和新面孔带来歌曲与节日喜剧。演出收益支持 Wayside Chapel 的社区慈善工作。", "source": "https://hayestheatre.com.au/event/carols-by-cabaret-2026/", "booking": "https://boxoffice.hayestheatre.com.au/WebPages/EntaWebGateway/gateway.aspx?E=N&QL=S262|RINT|VHTC|G~/WEBPAGES/EntaWebShow/ShowPerformance.aspx", "bookingLabel": "官方场次与购票", "schedule": "2026 年 12 月 13 日（周日）18:30，仅此一晚。", "access": "官网列有轮椅席；具体座位与入场安排请联系剧院。", "sessions": [["2026-12-13", "18:30", ""]], "sessionsComplete": true, "verifiedAt": "2026-11-26", "image": "https://hayestheatre.com.au/wp-content/uploads/2026/10/CbyC2026square0.jpg", "imageCredit": "官方宣传图 © Hayes Theatre Co", "evidenceUrls": ["https://hayestheatre.com.au/event/carols-by-cabaret-2026/"]},{"genre": "话剧", "scale": "独立制作", "venue": "atyp", "space": "The Popsy", "price": 45, "priceText": "A$45 起 · 官方一般发售票", "priceNote": "官网列起价；适用场次、资格与手续费以官方结账页为准。", "duration": "官方尚未公布", "bookingLabel": "官方场次与购票", "access": "具体无障碍安排和内容提示请查官方页面。", "sessions": [], "sessionsComplete": false, "verifiedAt": "2026-11-26", "imageCredit": "官方宣传图 © Griffin Theatre Company", "id": "interior-exterior", "title": "Interior Exterior", "company": "RaCreate / Griffin Theatre Company / ATYP", "start": "2027-04-15", "end": "2027-05-01", "source": "https://griffintheatre.com.au/whats-on/interior-exterior/", "booking": "https://welcome.griffintheatre.com.au/overview/5104", "desc": "演员 Reverie Ku 离开新加坡赴洛杉矶追求事业，在走红后却因一次着装引发的争议陷入危机。这个独角戏讲述她如何面对精心经营的公众形象、与母亲的关系，以及她试图逃离的家。", "schedule": "4 月 15–16 日预演，17 日开幕，19 日至 5 月 1 日正式演期；官网通常场次为周一至周六 19:30、周六 13:30。未据此推算逐场日历。", "image": "https://griffintheatre.com.au/wp-content/uploads/2026/11/GRT004_GriffinTheatre_2027MiniSeasonRollout_InteriorExterior_16-9.jpg", "evidenceUrls": ["https://griffintheatre.com.au/whats-on/interior-exterior/"]},{"genre": "音乐剧", "scale": "独立制作", "venue": "atyp", "space": "The Popsy", "price": 45, "priceText": "A$45 起 · 官方一般发售票", "priceNote": "官网列起价；适用场次、资格与手续费以官方结账页为准。", "duration": "官方尚未公布", "bookingLabel": "官方场次与购票", "access": "具体无障碍安排和内容提示请查官方页面。", "sessions": [], "sessionsComplete": false, "verifiedAt": "2026-11-26", "imageCredit": "官方宣传图 © Griffin Theatre Company", "id": "my-dad-never-saw-the-beatles", "title": "My Dad Never Saw The Beatles", "company": "Little Eggs Collective / Griffin Theatre Company / ATYP", "start": "2027-06-03", "end": "2027-06-18", "source": "https://griffintheatre.com.au/whats-on/my-dad-never-saw-the-beatles/", "booking": "https://welcome.griffintheatre.com.au/overview/5100", "desc": "1966 年，年轻的 Felix Orcullo 攒钱想看披头士在马尼拉的演出，却没能买到票。六十年后，女儿 Jules 用音乐、记忆与想象改写父亲的旅程，在家庭往事与菲律宾即将进入独裁的历史之间，探索另一个未来的可能。", "schedule": "6 月 3–4 日预演，5 日开幕，7–18 日正式演期；官网通常场次为周一至周六 19:30、周六 13:30。未据此推算逐场日历。", "image": "https://griffintheatre.com.au/wp-content/uploads/2026/11/GRT004_GriffinTheatre_2027MiniSeasonRollout_MyDadNeverSawTheBeatles_16-9.jpg", "evidenceUrls": ["https://griffintheatre.com.au/whats-on/my-dad-never-saw-the-beatles/"]});
+
+// Old Fitz public API and official show pages reviewed 26 November 2026.
+SHOWS.push({"id": "brief-candle-reading-oldfitz", "title": "Brief Candle by Simon Thomson", "venue": "oldfitz", "genre": "话剧", "scale": "独立制作", "company": "", "start": "2026-12-11", "end": "2026-12-11", "price": null, "priceText": "票价以官方售票页为准", "priceNote": "公开节目 API 未提供票价；本次未核实具体金额。", "duration": "约 88 分钟", "desc": "演员 Matt 长期没有像样的工作，只能不断出演糟糕的短片。当一个梦寐以求的角色突然送上门，他也被卷入浮士德式的交易：名望与成功触手可及，代价却可能是末日。这场剧本朗读追问艺术家的野心、命运与道德选择。", "source": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=6601", "booking": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=6601", "bookingLabel": "查看官方场次与购票", "sessions": [["2026-12-11", "13:00", ""]], "sessionsComplete": true, "schedule": "官方公开票务列出单场：2026-12-11 13:00（悉尼当地时间）。本场为剧本朗读。", "access": "无障碍、适龄与内容提示请向剧院确认。", "verifiedAt": "2026-11-26", "image": "https://system.spektrix.com/oldfitztheatre/files/19d59900-cc36-44aa-b08f-47d1ecbeffc4.jpg", "imageCredit": "官方宣传图 © Old Fitz Theatre / 制作方", "evidenceUrls": ["https://api.system.spektrix.com/oldfitztheatre/api/v3/events", "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=6601"]},{"id": "viola-and-sebastian-reading-oldfitz", "title": "Viola and Sebastian by Ames May Nunn", "venue": "oldfitz", "genre": "话剧", "scale": "独立制作", "company": "", "start": "2026-12-10", "end": "2026-12-10", "price": null, "priceText": "票价以官方售票页为准", "priceNote": "公开节目 API 未提供票价；本次未核实具体金额。", "duration": "约 90 分钟", "desc": "在《第十二夜》开场风暴之前，二十岁的双胞胎 Viola 与 Sebastian 眼看家乡灯塔所在的岛屿被海水吞噬。一位神秘船长提出带他们乘魔法船离开，两人踏上前往 Illyria 的旅程，也开始怀疑这位向导的承诺。带有音乐的剧本朗读，以酷儿成长故事回应年轻人在气候变化下继承的焦虑。", "source": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=7201", "booking": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=7201", "bookingLabel": "查看官方场次与购票", "sessions": [["2026-12-10", "13:30", ""]], "sessionsComplete": true, "schedule": "官方公开票务列出单场：2026-12-10 13:30（悉尼当地时间）。本场为剧本朗读。", "access": "无障碍、适龄与内容提示请向剧院确认。", "verifiedAt": "2026-11-26", "image": "https://system.spektrix.com/oldfitztheatre/files/328a06dd-5282-44a0-99b2-0dd1a02cae59.jpg", "imageCredit": "官方宣传图 © Old Fitz Theatre / 制作方", "evidenceUrls": ["https://api.system.spektrix.com/oldfitztheatre/api/v3/events", "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=7201"]},{"id": "scene-dating-oldfitz", "title": "Scene Dating", "venue": "oldfitz", "genre": "话剧", "scale": "独立制作", "company": "", "start": "2026-12-14", "end": "2026-12-14", "price": null, "priceText": "票价以官方售票页为准", "priceNote": "公开节目 API 未提供票价；本次未核实具体金额。", "duration": "约 80 分钟", "desc": "编剧、导演与演员在一天内相识、合作并排演全新的短剧，当晚就在 Old Fitz 向观众呈现。每个片段都在数小时内成形，组成一场风格各异的原创短剧展示，邀请观众见证创作与合作刚刚发生的时刻。", "source": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=6801", "booking": "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=6801", "bookingLabel": "查看官方场次与购票", "sessions": [["2026-12-14", "19:00", ""]], "sessionsComplete": true, "schedule": "官方公开票务列出单场：2026-12-14 19:00（悉尼当地时间）。", "access": "无障碍、适龄与内容提示请向剧院确认。", "verifiedAt": "2026-11-26", "image": "https://system.spektrix.com/oldfitztheatre/files/5bed6fc1-d02b-4228-99d4-6d6769509dfe.jpg", "imageCredit": "官方宣传图 © Old Fitz Theatre / 制作方", "evidenceUrls": ["https://api.system.spektrix.com/oldfitztheatre/api/v3/events", "https://purchase.oldfitztheatre.com.au/EventAvailability?EventId=6801"]});
