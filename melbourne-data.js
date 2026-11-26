@@ -22,7 +22,7 @@ const MELBOURNE_SHOWS=[
   ['beautiful-noise-mel','A Beautiful Noise','音乐剧','商业巡演','Princess Theatre','mel-princess','2026-08-05','2026-11-07','https://marrinergroup.com.au/shows/a-beautiful-noise','The Neil Diamond musical.'],
   ['sleeping-beauty-mel','The Sleeping Beauty','舞蹈','专业制作','The Australian Ballet','mel-regent','2026-10-09','2026-10-18','https://marrinergroup.com.au/shows/the-australian-ballet-the-sleeping-beauty','The Stuttgart Ballet production presented by The Australian Ballet.'],
   ['la-boheme-mel','La Bohème','歌剧','专业制作','Opera Australia','mel-regent','2026-11-07','2026-11-18','https://marrinergroup.com.au/shows/opera-australia-la-boheme','Puccini’s opera presented by Opera Australia.'],
-  ['mrs-doubtfire-mel','Mrs. Doubtfire – The Musical','音乐剧','商业巡演','Mrs. Doubtfire – The Musical','mel-princess','2026-11-25','2027-02-14','https://marrinergroup.com.au/shows/mrs-doubtfire-the-musical','A musical adaptation of the comedy film.'],
+  ['mrs-doubtfire-mel','Mrs. Doubtfire – The Musical','音乐剧','商业巡演','Mrs. Doubtfire – The Musical','mel-princess','2026-11-25','2027-02-14','https://marrinergroup.com.au/shows/mrs-doubtfire-the-musical','After his divorce, actor Daniel Hillard finds an unlikely role that lets him see his children again. Disguised as a Scottish nanny, he goes to work in his own family’s home.'],
   ['opera-up-late-mel','Opera Up Late','歌剧','专业制作','Opera Australia','mel-regent','2026-11-15','2026-11-15','https://marrinergroup.com.au/shows/opera-australia-opera-up-late','A late-night opera and musical theatre performance.'],
   ['trumpet-swan-mel','The Trumpet of the Swan','亲子剧','专业制作','Opera Australia','mel-regent','2026-11-20','2026-11-22','https://marrinergroup.com.au/shows/opera-australia-the-trumpet-of-the-swan','Actors and Orchestra Victoria bring E. B. White’s story to the stage.'],
   ['nutcracker-mel','The Nutcracker','舞蹈','专业制作','BIG Live','mel-regent','2026-12-04','2026-12-31','https://marrinergroup.com.au/shows/the-nutcracker','A festive ballet season at the Regent Theatre.'],
@@ -36,7 +36,7 @@ const MELBOURNE_SHOWS=[
   ['steel-magnolias-encore','Steel Magnolias','话剧','社区剧团','Encore Theatre','mel-clayton','2026-10-16','2026-10-25','https://encoretheatre.com.au/steel-magnolias/','Encore Theatre’s community production.'],
   ['switzerland-1812','Switzerland','话剧','社区剧团','1812 Theatre','mel-1812','2026-10-01','2026-10-24','https://www.1812theatre.com.au/2026-season/switzerland/','A play in 1812 Theatre’s bakery space.'],
   ['closer-1812','Closer','话剧','社区剧团','1812 Theatre','mel-1812','2026-10-28','2026-11-08','https://www.1812theatre.com.au/2026-season/closer/','A community production in bakery@1812.'],
-  ['murder-announced-1812','A Murder Is Announced','话剧','社区剧团','1812 Theatre','mel-1812','2026-11-12','2026-12-05','https://www.1812theatre.com.au/2026-season/murder-is-announced/','An Agatha Christie mystery at the Lowe Auditorium.'],
+  ['murder-announced-1812','A Murder Is Announced','话剧','社区剧团','1812 Theatre','mel-1812','2026-11-12','2026-12-05','https://www.1812theatre.com.au/2026-season/murder-is-announced/','A newspaper notice invites the village to witness a murder at Miss Blacklock’s house. When the victim turns out to be a stranger, Miss Marple has to work out who expected him there.'],
   ['cock-mordialloc','Cock','话剧','社区剧团','Mordialloc Theatre Company','mel-shirley-burke','2026-10-22','2026-10-31','https://mordialloctheatre.com.au/','A community theatre season at Shirley Burke Theatre.'],
   ['breaking-walls-mordialloc','Breaking Down All The Walls','话剧','社区剧团','Mordialloc Theatre Company','mel-shirley-burke','2026-12-03','2026-12-12','https://mordialloctheatre.com.au/','A community theatre season at Shirley Burke Theatre.'],
   ['dirty-rotten-malvern','Dirty Rotten Scoundrels','音乐剧','社区剧团','Malvern Theatre Company','mel-malvern','2026-10-23','2026-11-07','https://malverntheatre.com.au/whats-on/shows/','A community production of the musical comedy.']
@@ -61,7 +61,7 @@ const melDescriptionsZh={
   'beautiful-noise-mel':'以 Neil Diamond 的音乐与人生为主题的音乐剧。',
   'sleeping-beauty-mel':'斯图加特芭蕾舞团演出，澳大利亚芭蕾舞团呈现。',
   'la-boheme-mel':'澳大利亚歌剧团呈现的普契尼歌剧。',
-  'mrs-doubtfire-mel':'根据同名喜剧电影改编的音乐剧。',
+  'mrs-doubtfire-mel':'离婚后，演员丹尼尔·希拉德想出了一个能再见到孩子们的办法。他扮成苏格兰保姆道特菲尔太太，应聘到自己家里照顾孩子。',
   'opera-up-late-mel':'融合歌剧、音乐剧与流行音乐的夜间演出。',
   'trumpet-swan-mel':'演员与维州交响乐团共同演绎 E. B. White 的故事。',
   'nutcracker-mel':'Regent Theatre 的节日芭蕾演出。',
@@ -75,7 +75,7 @@ const melDescriptionsZh={
   'steel-magnolias-encore':'Encore Theatre 的社区话剧制作。',
   'switzerland-1812':'1812 Theatre 在小剧场呈现的心理惊悚话剧。',
   'closer-1812':'1812 Theatre 与 Avid Theatre 联合制作的话剧。',
-  'murder-announced-1812':'1812 Theatre 演出的阿加莎·克里斯蒂悬疑剧。',
+  'murder-announced-1812':'一则报纸启事预告，布莱克洛克小姐家即将发生谋杀。村民们应邀到场，死者却是个陌生人。马普尔小姐着手调查，究竟谁知道他会来？',
   'cock-mordialloc':'Mordialloc Theatre Company 的社区制作。',
   'breaking-walls-mordialloc':'在 Shirley Burke Theatre 上演的社区制作。',
   'dirty-rotten-malvern':'Malvern Theatre Company 制作的音乐喜剧。'
@@ -111,6 +111,15 @@ const melSessions={
   'steel-magnolias-encore':[['2026-10-16','20:00',''],['2026-10-17','20:00',''],['2026-10-18','14:00',''],['2026-10-22','20:00',''],['2026-10-23','20:00',''],['2026-10-24','14:00',''],['2026-10-24','20:00',''],['2026-10-25','14:00','']]
 };
 for(const show of MELBOURNE_SHOWS){if(melSessions[show.id]){show.sessions=melSessions[show.id];show.calendarCoverage='published';show.calendarCheckedAt='2026-09-26T12:00:00+10:00';show.calendarSource=show.source;}}
+Object.assign(MELBOURNE_SHOWS.find(show => show.id === 'mrs-doubtfire-mel'), {
+  sessions: [
+    ['2027-02-07', '18:30', 'Auslan interpreted', '澳大利亚手语传译场'],
+    ['2027-02-14', '18:30', 'Audio described', '口述影像场']
+  ],
+  calendarCoverage: 'partial',
+  calendarSource: 'https://mrsdoubtfiremusical.com.au/tickets/melbourne/',
+  calendarCheckedAt: '2026-11-26T07:15:32Z'
+});
 const MELBOURNE_SOURCES=[
   {name:'Marriner Group',url:'https://marrinergroup.com.au/whats-on',type:'Major venues',note:'Princess, Regent and Comedy Theatre programmes; official show pages.'},
   {name:"Her Majesty's Theatre",url:'https://hmt.com.au/',type:'Major venue',note:'Official theatre programme.'},
@@ -1673,11 +1682,16 @@ MELBOURNE_SHOWS.push(...[
     "source": "https://marrinergroup.com.au/shows/storytime-ballet-cinderella",
     "booking": "https://marrinergroup.com.au/shows/storytime-ballet-cinderella",
     "bookingLabel": "Official show / tickets",
-    "desc": "A narrated, interactive ballet for children aged three and up.",
-    "descZh": "适合三岁及以上儿童、带讲述与互动的芭蕾演出。",
-    "checkedAt": "2026-09-26",
-    "sessions": [],
-    "calendarCoverage": "unavailable",
+    "desc": "A narrator guides children aged three and up through Cinderella’s trip to the ball. As her fairy godmother conjures a gown and glass slippers, young audience members can dress up and dance along from their seats.",
+    "descZh": "这部芭蕾为三岁及以上儿童编排。小观众跟随讲述人的声音，看仙女教母为灰姑娘变出礼服和水晶鞋，送她去赴舞会。孩子们也可以盛装前来，在座位上跟着跳舞。",
+    "checkedAt": "2026-11-26",
+    "sessions": [
+      ["2027-01-22", "14:00", "Auslan interpreted", "澳大利亚手语传译场"],
+      ["2027-01-22", "16:00", "Auslan interpreted", "澳大利亚手语传译场"]
+    ],
+    "calendarCoverage": "partial",
+    "calendarSource": "https://marrinergroup.com.au/accessible-performances",
+    "calendarCheckedAt": "2026-11-26T07:15:32Z",
     "dateNeedsReview": false
   }
 ]);
