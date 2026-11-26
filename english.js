@@ -4664,10 +4664,16 @@ const SHOW_SYNOPSES = {
     "checkedAt": "2026-09-26"
   },
   "mrs-doubtfire-mel": {
-    "en": "After a divorce separates him from his children, actor Daniel Hillard disguises himself as a Scottish nanny to remain part of their lives. His elaborate deception forces him to rethink fatherhood and family.",
-    "zh": "离婚后失去孩子监护权的演员 Daniel Hillard，扮成苏格兰保姆留在孩子身边。这场精心设计的伪装，让他重新理解父亲的责任与家庭的意义。",
+    "en": "After his divorce, actor Daniel Hillard finds an unlikely role that lets him see his children again. Disguised as a Scottish nanny, he goes to work in his own family’s home.",
+    "zh": "离婚后，演员丹尼尔·希拉德想出了一个能再见到孩子们的办法。他扮成苏格兰保姆道特菲尔太太，应聘到自己家里照顾孩子。",
     "sourceUrl": "https://marrinergroup.com.au/shows/mrs-doubtfire-the-musical",
-    "checkedAt": "2026-09-26"
+    "checkedAt": "2026-11-26"
+  },
+  "murder-announced-1812": {
+    "en": "A newspaper notice invites the village to witness a murder at Miss Blacklock’s house. When the victim turns out to be a stranger, Miss Marple has to work out who expected him there.",
+    "zh": "一则报纸启事预告，布莱克洛克小姐家即将发生谋杀。村民们应邀到场，死者却是个陌生人。马普尔小姐着手调查，究竟谁知道他会来？",
+    "sourceUrl": "https://www.1812theatre.com.au/2026-season/murder-is-announced/",
+    "checkedAt": "2026-11-26"
   },
   "lord-flies-mel": {
     "en": "Boys stranded on an island after a plane crash try to build a fair society. Rivalries and mounting fear soon threaten their rules, exposing the fragile boundary between civilisation and brutality.",
@@ -5024,10 +5030,10 @@ const SHOW_SYNOPSES = {
     "checkedAt": "2026-09-26"
   },
   "storytime-ballet-tab-mel": {
-    "en": "Cinderella escapes her stepfamily’s demands with help from a fairy godmother, entering a world of magical transformation and true love.",
-    "zh": "Cinderella 在仙女教母的帮助下摆脱继母与继姐妹的使唤，走进魔法变身与真爱的童话世界。",
+    "en": "A narrator guides children aged three and up through Cinderella’s trip to the ball. As her fairy godmother conjures a gown and glass slippers, young audience members can dress up and dance along from their seats.",
+    "zh": "这部芭蕾为三岁及以上儿童编排。小观众跟随讲述人的声音，看仙女教母为灰姑娘变出礼服和水晶鞋，送她去赴舞会。孩子们也可以盛装前来，在座位上跟着跳舞。",
     "sourceUrl": "https://marrinergroup.com.au/shows/storytime-ballet-cinderella",
-    "checkedAt": "2026-09-26"
+    "checkedAt": "2026-11-26"
   },
   "engineer-snow-mel": {
     "en": "One woman’s imagination creates a fantastical quest to save Earth, confronting environmental destruction, inequality and capitalism’s grip on the possibility of renewal.",
