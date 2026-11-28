@@ -4988,16 +4988,16 @@ const SHOW_SYNOPSES = {
     "checkedAt": "2026-09-26"
   },
   "mayerling-tab-mel": {
-    "en": "Rudolf’s story reveals the political, social and personal pressures of royal life, spiralling into obsession and despair.",
-    "zh": "Rudolf 的故事揭示王室生活中的政治、社会与私人压力，以及由此滋长的执念与绝望。",
+    "en": "Crown Prince Rudolf faces intrigue at court as his private obsessions deepen. Kenneth MacMillan tells his story through duets with five partners, set to music by Franz Liszt.",
+    "zh": "王储鲁道夫身陷宫廷纷争，也越来越受内心执念支配。编舞家肯尼思·麦克米伦用鲁道夫与五位舞伴的双人舞讲述他的故事，配乐取自李斯特的作品。",
     "sourceUrl": "https://australianballet.com.au/performances/mayerling",
-    "checkedAt": "2026-09-26"
+    "checkedAt": "2026-11-28"
   },
   "cinderella-tab-mel": {
-    "en": "A kind young woman rises above her stepsisters’ cruelty and rewrites her destiny through magic and love.",
-    "zh": "一位善良的年轻女性摆脱继姐妹的残酷对待，在魔法与爱情中改写自己的命运。",
+    "en": "Frederick Ashton pairs the stepsisters’ comic antics with Cinderella and the Prince’s duets. Prokofiev’s score carries the story from the sisters’ cruelty to the magic of the ball.",
+    "zh": "在弗雷德里克·阿什顿的版本里，两位继姐妹的滑稽表演与灰姑娘和王子的双人舞相映成趣。普罗科菲耶夫的音乐伴随灰姑娘走出备受欺负的日常，步入魔法舞会。",
     "sourceUrl": "https://australianballet.com.au/performances/cinderella",
-    "checkedAt": "2026-09-26"
+    "checkedAt": "2026-11-28"
   },
   "kunstkamer-tab-mel": {
     "en": "Inspired by a cabinet of curiosities, recurring characters and images connect dance, song, film and spoken word in an exploration of artistic possibility.",

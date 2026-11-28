@@ -1580,11 +1580,69 @@ MELBOURNE_SHOWS.push(...[
     "desc": "The Australian Ballet’s Melbourne season of Swan Lake.",
     "descZh": "澳大利亚芭蕾舞团《天鹅湖》墨尔本演出季。",
     "checkedAt": "2026-09-26",
-    "sessions": [],
-    "calendarCoverage": "unavailable",
+    "sessions": [
+      [
+        "2027-03-16",
+        "19:30",
+        ""
+      ],
+      [
+        "2027-03-17",
+        "13:30",
+        ""
+      ],
+      [
+        "2027-03-17",
+        "19:30",
+        ""
+      ],
+      [
+        "2027-03-18",
+        "19:30",
+        ""
+      ],
+      [
+        "2027-03-19",
+        "19:30",
+        ""
+      ],
+      [
+        "2027-03-20",
+        "13:30",
+        ""
+      ],
+      [
+        "2027-03-20",
+        "19:30",
+        ""
+      ],
+      [
+        "2027-03-22",
+        "18:30",
+        ""
+      ],
+      [
+        "2027-03-23",
+        "19:30",
+        ""
+      ],
+      [
+        "2027-03-27",
+        "13:30",
+        ""
+      ],
+      [
+        "2027-03-27",
+        "19:30",
+        ""
+      ]
+    ],
+    "calendarCoverage": "partial",
     "dateNeedsReview": false,
-    "bookingNote": "Season packages available; individual tickets scheduled to open 11 November 2026. Checked 26 September 2026.",
-    "bookingNoteZh": "现阶段可购演出季套票；官网计划于 2026 年 11 月 11 日开放单场票。2026 年 9 月 26 日核对。"
+    "bookingNote": "The listed times are performances named in the Melbourne season packages. Check the official booking page for availability.",
+    "bookingNoteZh": "此处列出墨尔本演出季套票中明确公布的场次，余票以官方售票页为准。",
+    "calendarCheckedAt": "2026-11-28T14:02:02.643495+11:00",
+    "calendarSource": "https://australianballet.com.au/season-packages/melbourne"
   },
   {
     "id": "kunstkamer-tab-mel",
@@ -1601,11 +1659,69 @@ MELBOURNE_SHOWS.push(...[
     "desc": "The Australian Ballet presents Kunstkamer.",
     "descZh": "澳大利亚芭蕾舞团呈现《Kunstkamer》。",
     "checkedAt": "2026-09-26",
-    "sessions": [],
-    "calendarCoverage": "unavailable",
+    "sessions": [
+      [
+        "2027-06-11",
+        "19:30",
+        ""
+      ],
+      [
+        "2027-06-12",
+        "13:30",
+        ""
+      ],
+      [
+        "2027-06-12",
+        "19:30",
+        ""
+      ],
+      [
+        "2027-06-14",
+        "18:30",
+        ""
+      ],
+      [
+        "2027-06-15",
+        "19:30",
+        ""
+      ],
+      [
+        "2027-06-16",
+        "13:30",
+        ""
+      ],
+      [
+        "2027-06-16",
+        "19:30",
+        ""
+      ],
+      [
+        "2027-06-17",
+        "19:30",
+        ""
+      ],
+      [
+        "2027-06-18",
+        "19:30",
+        ""
+      ],
+      [
+        "2027-06-19",
+        "13:30",
+        ""
+      ],
+      [
+        "2027-06-19",
+        "19:30",
+        ""
+      ]
+    ],
+    "calendarCoverage": "partial",
     "dateNeedsReview": false,
-    "bookingNote": "Season packages available; individual tickets scheduled to open 11 November 2026. Checked 26 September 2026.",
-    "bookingNoteZh": "现阶段可购演出季套票；官网计划于 2026 年 11 月 11 日开放单场票。2026 年 9 月 26 日核对。"
+    "bookingNote": "The listed times are performances named in the Melbourne season packages. Check the official booking page for availability.",
+    "bookingNoteZh": "此处列出墨尔本演出季套票中明确公布的场次，余票以官方售票页为准。",
+    "calendarCheckedAt": "2026-11-28T14:02:02.643495+11:00",
+    "calendarSource": "https://australianballet.com.au/season-packages/melbourne"
   },
   {
     "id": "mayerling-tab-mel",
@@ -1619,14 +1735,72 @@ MELBOURNE_SHOWS.push(...[
     "source": "https://australianballet.com.au/performances/mayerling",
     "booking": "https://australianballet.com.au/performances/mayerling",
     "bookingLabel": "Official show / tickets",
-    "desc": "A dramatic ballet in a Melbourne-exclusive season.",
-    "descZh": "墨尔本独家演出季的戏剧性芭蕾作品。",
-    "checkedAt": "2026-09-26",
-    "sessions": [],
-    "calendarCoverage": "unavailable",
+    "desc": "Crown Prince Rudolf faces intrigue at court as his private obsessions deepen. Kenneth MacMillan tells his story through duets with five partners, set to music by Franz Liszt.",
+    "descZh": "王储鲁道夫身陷宫廷纷争，也越来越受内心执念支配。编舞家肯尼思·麦克米伦用鲁道夫与五位舞伴的双人舞讲述他的故事，配乐取自李斯特的作品。",
+    "checkedAt": "2026-11-28",
+    "sessions": [
+      [
+        "2027-06-30",
+        "19:30",
+        ""
+      ],
+      [
+        "2027-07-01",
+        "19:30",
+        ""
+      ],
+      [
+        "2027-07-02",
+        "19:30",
+        ""
+      ],
+      [
+        "2027-07-03",
+        "13:30",
+        ""
+      ],
+      [
+        "2027-07-03",
+        "19:30",
+        ""
+      ],
+      [
+        "2027-07-05",
+        "18:30",
+        ""
+      ],
+      [
+        "2027-07-06",
+        "19:30",
+        ""
+      ],
+      [
+        "2027-07-07",
+        "13:30",
+        ""
+      ],
+      [
+        "2027-07-07",
+        "19:30",
+        ""
+      ],
+      [
+        "2027-07-10",
+        "13:30",
+        ""
+      ],
+      [
+        "2027-07-10",
+        "19:30",
+        ""
+      ]
+    ],
+    "calendarCoverage": "partial",
     "dateNeedsReview": false,
-    "bookingNote": "Season packages available; individual tickets scheduled to open 11 November 2026. Checked 26 September 2026.",
-    "bookingNoteZh": "现阶段可购演出季套票；官网计划于 2026 年 11 月 11 日开放单场票。2026 年 9 月 26 日核对。"
+    "bookingNote": "The listed times are performances named in the Melbourne season packages. Check the official booking page for availability.",
+    "bookingNoteZh": "此处列出墨尔本演出季套票中明确公布的场次，余票以官方售票页为准。",
+    "calendarCheckedAt": "2026-11-28T14:02:02.643495+11:00",
+    "calendarSource": "https://australianballet.com.au/season-packages/melbourne"
   },
   {
     "id": "cinderella-tab-mel",
@@ -1640,14 +1814,72 @@ MELBOURNE_SHOWS.push(...[
     "source": "https://australianballet.com.au/performances/cinderella",
     "booking": "https://australianballet.com.au/performances/cinderella",
     "bookingLabel": "Official show / tickets",
-    "desc": "The Australian Ballet’s full-length fairytale ballet.",
-    "descZh": "澳大利亚芭蕾舞团的完整童话芭蕾舞剧。",
-    "checkedAt": "2026-09-26",
-    "sessions": [],
-    "calendarCoverage": "unavailable",
+    "desc": "Frederick Ashton pairs the stepsisters’ comic antics with Cinderella and the Prince’s duets. Prokofiev’s score carries the story from the sisters’ cruelty to the magic of the ball.",
+    "descZh": "在弗雷德里克·阿什顿的版本里，两位继姐妹的滑稽表演与灰姑娘和王子的双人舞相映成趣。普罗科菲耶夫的音乐伴随灰姑娘走出备受欺负的日常，步入魔法舞会。",
+    "checkedAt": "2026-11-28",
+    "sessions": [
+      [
+        "2027-09-25",
+        "19:30",
+        ""
+      ],
+      [
+        "2027-09-27",
+        "18:30",
+        ""
+      ],
+      [
+        "2027-09-28",
+        "19:30",
+        ""
+      ],
+      [
+        "2027-09-29",
+        "13:30",
+        ""
+      ],
+      [
+        "2027-09-29",
+        "19:30",
+        ""
+      ],
+      [
+        "2027-09-30",
+        "19:30",
+        ""
+      ],
+      [
+        "2027-10-01",
+        "19:30",
+        ""
+      ],
+      [
+        "2027-10-02",
+        "13:30",
+        ""
+      ],
+      [
+        "2027-10-02",
+        "19:30",
+        ""
+      ],
+      [
+        "2027-10-09",
+        "13:30",
+        ""
+      ],
+      [
+        "2027-10-09",
+        "19:30",
+        ""
+      ]
+    ],
+    "calendarCoverage": "partial",
     "dateNeedsReview": false,
-    "bookingNote": "Season packages available; individual tickets scheduled to open 11 November 2026. Checked 26 September 2026.",
-    "bookingNoteZh": "现阶段可购演出季套票；官网计划于 2026 年 11 月 11 日开放单场票。2026 年 9 月 26 日核对。"
+    "bookingNote": "The listed times are performances named in the Melbourne season packages. Check the official booking page for availability.",
+    "bookingNoteZh": "此处列出墨尔本演出季套票中明确公布的场次，余票以官方售票页为准。",
+    "calendarCheckedAt": "2026-11-28T14:02:02.643495+11:00",
+    "calendarSource": "https://australianballet.com.au/season-packages/melbourne"
   },
   {
     "id": "modern-masters-tab-mel",
@@ -1664,11 +1896,59 @@ MELBOURNE_SHOWS.push(...[
     "desc": "A programme celebrating masters of modern ballet.",
     "descZh": "呈现现代芭蕾大师作品的组合节目。",
     "checkedAt": "2026-09-26",
-    "sessions": [],
-    "calendarCoverage": "unavailable",
+    "sessions": [
+      [
+        "2027-10-16",
+        "19:30",
+        ""
+      ],
+      [
+        "2027-10-18",
+        "18:30",
+        ""
+      ],
+      [
+        "2027-10-19",
+        "19:30",
+        ""
+      ],
+      [
+        "2027-10-20",
+        "13:30",
+        ""
+      ],
+      [
+        "2027-10-20",
+        "19:30",
+        ""
+      ],
+      [
+        "2027-10-21",
+        "19:30",
+        ""
+      ],
+      [
+        "2027-10-22",
+        "19:30",
+        ""
+      ],
+      [
+        "2027-10-23",
+        "13:30",
+        ""
+      ],
+      [
+        "2027-10-23",
+        "19:30",
+        ""
+      ]
+    ],
+    "calendarCoverage": "partial",
     "dateNeedsReview": false,
-    "bookingNote": "Season packages available; individual tickets scheduled to open 11 November 2026. Checked 26 September 2026.",
-    "bookingNoteZh": "现阶段可购演出季套票；官网计划于 2026 年 11 月 11 日开放单场票。2026 年 9 月 26 日核对。"
+    "bookingNote": "The listed times are performances named in the Melbourne season packages. Check the official booking page for availability.",
+    "bookingNoteZh": "此处列出墨尔本演出季套票中明确公布的场次，余票以官方售票页为准。",
+    "calendarCheckedAt": "2026-11-28T14:02:02.643495+11:00",
+    "calendarSource": "https://australianballet.com.au/season-packages/melbourne"
   },
   {
     "id": "storytime-ballet-tab-mel",
